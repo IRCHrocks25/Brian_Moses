@@ -30,13 +30,14 @@ export default function QuoteSection() {
             <blockquote className="text-2xl md:text-3xl lg:text-4xl font-semibold leading-tight mb-3">
               Success isn&apos;t just about what
               <br />
-              you earn. It&apos;s about what you
-              <br />
-              <span className="text-[#168EE4]">
+              you earn.{" "}
+              <span className="bg-gradient-to-r from-[#1568F7] to-[#2aa7ff] bg-clip-text text-transparent">
+                It&apos;s about what you
+                <br />
                 get to experience because of
+                <br />
+                what you earn.
               </span>
-              <br />
-              what you earn.
             </blockquote>
 
             {/* Attribution */}
@@ -50,7 +51,7 @@ export default function QuoteSection() {
             </p>
 
             {/* CTA Button */}
-            <button className="bg-white text-black px-8 py-4 rounded-lg text-base md:text-lg font-medium hover:bg-white/90 transition-colors">
+            <button className="rounded-full bg-white text-black px-8 py-4 text-base md:text-lg font-medium hover:bg-white/90 transition-colors">
               Book a Free Discovery Call
             </button>
           </div>

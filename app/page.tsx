@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Navbar from "@/components/Navbar";
 import FreeTrainingSection from "@/components/FreeTrainingSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import WorkWithBrianSection from "@/components/WorkWithBrianSection";
@@ -13,96 +14,55 @@ import Footer from "@/components/Footer";
 export default function Home() {
   return (
     <>
+      {/* Navbar */}
+      <Navbar />
+
       {/* HERO SECTION */}
-      <section className="relative min-h-[92vh] bg-[#0a0a0a] overflow-hidden">
-        {/* Background Image (edge-to-edge) */}
-        <div className="absolute inset-0">
-          <Image
-            src="/images/Frame 8.png"
-            alt="Hero background"
-            fill
-            priority
-            className="object-cover object-center"
-          />
-        </div>
+      <section className="relative bg-[#0a0a0a] py-8 md:py-12">
+        <div className="mx-auto w-full px-6 lg:px-12">
+          {/* Background Image Section with Rounded Corners */}
+          <div className="relative min-h-[92vh] rounded-3xl overflow-hidden">
+            <Image
+              src="/images/Frame 8.png"
+              alt="Hero background"
+              fill
+              priority
+              className="object-cover object-center"
+            />
 
-        {/* Top Nav Overlay */}
-        <header className="absolute top-0 left-0 right-0 z-20">
-          <div className="mx-auto w-full max-w-7xl px-6 lg:px-8">
-            <div className="flex items-center justify-between py-6">
-              {/* Logo */}
-              <div className="relative">
-                <Image
-                  src="/images/white_logo.png"
-                  alt="Brian Moses"
-                  width={150}
-                  height={40}
-                  className="h-8 md:h-10 w-auto object-contain"
-                  priority
-                />
-              </div>
+            {/* Content Overlay */}
+            <div className="relative z-10 h-full mx-auto w-full px-6 lg:px-12">
+              <div className="grid min-h-[92vh] items-center gap-10 lg:grid-cols-2 pt-24 pb-14">
+                {/* Left Content */}
+                <div>
+                  <h1 className="text-white font-normal leading-[1.05] text-4xl md:text-5xl lg:text-6xl xl:text-7xl whitespace-nowrap">
+                    Attract, don&apos;t chase!
+                  </h1>
 
-              {/* Links */}
-              <nav className="hidden md:flex items-center gap-8 text-base md:text-lg text-white/80">
-                <a href="#home" className="hover:text-white transition-colors">
-                  Home
-                </a>
-                <a href="#services" className="hover:text-white transition-colors">
-                  Services
-                </a>
-                <a href="#about" className="hover:text-white transition-colors">
-                  About
-                </a>
-                <a href="#coaching" className="hover:text-white transition-colors">
-                  Coaching
-                </a>
-              </nav>
+                  <div className="mt-8 space-y-6">
+                    <p className="text-white/85 text-lg md:text-xl lg:text-2xl leading-relaxed">
+                      If you want to build a real estate business that generates for you revenue, time and freedom, stop chasing leads, become a market leader.
+                    </p>
 
-              {/* CTA */}
-              <a
-                href="#start"
-                className="rounded-full bg-white px-6 py-2.5 text-base md:text-lg font-medium text-black hover:bg-white/90 transition"
-              >
-                Start now
-              </a>
-            </div>
-          </div>
-        </header>
+                    <p
+                      className="text-lg md:text-xl lg:text-2xl leading-relaxed"
+                      style={{ color: "#AADBFF" }}
+                    >
+                      Brian Moses went from $18K to $3M a year and now teaches real estate agents how to attract clients on demand to build a business that serves their life.
+                    </p>
+                  </div>
 
-        {/* Content */}
-        <div className="relative z-10 mx-auto w-full max-w-7xl px-6 lg:px-8">
-          <div className="grid min-h-[92vh] items-center gap-10 lg:grid-cols-2 pt-24 pb-14">
-            {/* Left Content */}
-            <div className="max-w-xl">
-              <h1 className="text-white font-bold leading-[1.05] text-4xl md:text-5xl lg:text-6xl xl:text-7xl whitespace-nowrap">
-                Attract, don&apos;t chase!
-              </h1>
+                  <div className="mt-10">
+                    <button className="rounded-full bg-white text-black px-8 py-4 text-base md:text-lg lg:text-xl font-medium hover:bg-gray-100 transition-colors">
+                      Get the Free &quot;Get Listings Fast&quot; Training
+                    </button>
+                  </div>
+                </div>
 
-              <div className="mt-8 space-y-6">
-                <p className="text-white/85 text-lg md:text-xl lg:text-2xl leading-relaxed">
-                  If you want to build a real estate business that generates for you
-                  revenue, time and freedom, stop chasing leads, become a market leader.
-                </p>
-
-                <p
-                  className="text-lg md:text-xl lg:text-2xl leading-relaxed"
-                  style={{ color: "#AADBFF" }}
-                >
-                  Brian Moses went from $18K to $3M a year and now teaches real estate
-                  agents how to attract clients on demand to build a business that serves
-                  their life.
-                </p>
-              </div>
-
-              <div className="mt-10">
-                <button className="bg-white text-black px-8 py-4 rounded-lg text-base md:text-lg lg:text-xl font-medium hover:bg-gray-100 transition-colors">
-                  Get the Free &quot;Get Listings Fast&quot; Training
-                </button>
+                {/* Right "space" column to match screenshot composition */}
+                <div className="hidden lg:block" />
               </div>
             </div>
-
-            {/* Right “space” column to match screenshot composition */}
-            <div className="hidden lg:block" />
           </div>
         </div>
       </section>
@@ -111,7 +71,7 @@ export default function Home() {
       <section className="relative bg-[#0a0a0a] py-16 md:py-20">
         <div className="mx-auto w-full max-w-7xl px-6 lg:px-8">
           {/* Main Heading */}
-          <h2 className="text-center uppercase text-white font-bold tracking-wide text-base md:text-lg lg:text-xl xl:text-2xl">
+          <h2 className="text-center uppercase text-white font-light tracking-wide text-base md:text-lg lg:text-xl xl:text-2xl">
             BRIAN HAS INSPIRED MORE THAN 10,000 REAL ESTATE AGENTS AND INDUSTRY
             PROFESSIONALS ACROSS NORTH AMERICA
           </h2>

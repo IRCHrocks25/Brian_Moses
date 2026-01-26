@@ -27,12 +27,12 @@ export default function WhatYouWillLearnSection() {
           {/* Left Column */}
           <div>
             {/* Section Heading */}
-            <div className="text-[#168EE4] font-semibold text-sm md:text-base uppercase tracking-wider mb-4">
+            <div className="text-[#1568F7] font-semibold text-sm md:text-base uppercase tracking-wider mb-4">
               WHAT YOU WILL LEARN
             </div>
 
             {/* Main Title */}
-            <h2 className="text-black font-bold text-3xl md:text-4xl lg:text-5xl leading-tight mb-6">
+            <h2 className="text-black font-medium text-3xl md:text-4xl lg:text-5xl leading-tight mb-6">
               Acquire the Mindset and Skills for Success in Real Estate and Life
             </h2>
 
@@ -45,7 +45,7 @@ export default function WhatYouWillLearnSection() {
             </p>
 
             {/* CTA Button */}
-            <button className="bg-black text-white px-8 py-4 rounded-lg text-base md:text-lg font-medium hover:bg-black/90 transition-colors">
+            <button className="rounded-full bg-black text-white px-8 py-4 text-base md:text-lg font-medium hover:bg-black/90 transition-colors">
               Book a Free Discovery Call
             </button>
           </div>
@@ -60,7 +60,7 @@ export default function WhatYouWillLearnSection() {
                 }`}
               >
                 {/* Blue Circle Icon */}
-                <div className="flex-shrink-0 w-6 h-6 rounded-full bg-[#168EE4] mt-1" />
+                <div className="flex-shrink-0 w-6 h-6 rounded-full bg-[#1568F7] mt-1" />
 
                 {/* Content */}
                 <div className="flex-1">
@@ -75,7 +75,7 @@ export default function WhatYouWillLearnSection() {
                 {/* Arrow Icon */}
                 <div className="flex-shrink-0 w-8 h-8 rounded-full bg-gray-200 flex items-center justify-center">
                   <svg
-                    className="w-4 h-4 text-[#168EE4]"
+                    className="w-4 h-4 text-[#1568F7]"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"

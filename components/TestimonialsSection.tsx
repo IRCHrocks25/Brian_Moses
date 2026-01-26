@@ -38,7 +38,7 @@ export default function TestimonialsSection() {
     <section className="relative bg-white py-16 md:py-24">
       <div className="mx-auto w-full max-w-7xl px-6 lg:px-8 mb-12">
         {/* Main Heading */}
-        <h2 className="text-center text-black font-bold text-2xl md:text-3xl lg:text-4xl mb-4">
+        <h2 className="text-center text-black font-normal text-2xl md:text-3xl lg:text-4xl mb-4">
           These real estate agents didn&apos;t just hire Brian, they transformed their businesses and lives.
         </h2>
       </div>
@@ -111,7 +111,7 @@ export default function TestimonialsSection() {
 
       {/* CTA Button */}
       <div className="mt-12 text-center">
-        <button className="bg-black text-white px-8 py-4 rounded-lg text-base md:text-lg font-medium hover:bg-gray-900 transition-colors">
+        <button className="rounded-full bg-black text-white px-8 py-4 text-base md:text-lg font-medium hover:bg-gray-900 transition-colors">
           Start Your Success Story
         </button>
       </div>

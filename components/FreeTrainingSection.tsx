@@ -33,7 +33,7 @@ export default function FreeTrainingSection() {
               Want to attract listings without chasing, cold calling, or wasting money on branding? Download the free training that reveals the strategy Brian used to close over 3,500 deals.
             </p>
 
-            <button className="bg-[#F5E6D3] text-black px-8 py-4 rounded-lg text-base md:text-lg font-medium hover:bg-[#F5E6D3]/90 transition-colors">
+            <button className="rounded-full bg-[#F5E6D3] text-black px-8 py-4 text-base md:text-lg font-medium hover:bg-[#F5E6D3]/90 transition-colors">
               Download the Free Training
             </button>
           </div>

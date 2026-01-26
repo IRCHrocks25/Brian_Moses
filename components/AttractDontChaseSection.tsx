@@ -17,13 +17,13 @@ export default function AttractDontChaseSection() {
               />
             </div>
             <div className="flex-1">
-              <h3 className="text-[#2aa7ff] font-bold text-xl md:text-2xl mb-4">
+              <h3 className="font-bold text-xl md:text-2xl mb-4" style={{ color: '#1568F7' }}>
                 Free Resources & Downloads
               </h3>
               <p className="text-black text-base md:text-lg mb-6 leading-relaxed">
                 Download &apos;Swipe & Deploy Files&apos; and &apos;How To Attract, Not Chase&apos; strategies to implement immediately.
               </p>
-              <button className="bg-white text-black px-6 py-3 rounded-lg text-sm md:text-base font-medium border-2 border-black hover:bg-gray-50 transition-colors">
+              <button className="rounded-full bg-white text-black px-6 py-3 text-sm md:text-base font-medium border-2 border-black hover:bg-gray-50 transition-colors">
                 Download Free Resources
               </button>
             </div>
@@ -40,13 +40,13 @@ export default function AttractDontChaseSection() {
               />
             </div>
             <div className="flex-1">
-              <h3 className="text-[#2aa7ff] font-bold text-xl md:text-2xl mb-4">
+              <h3 className="font-bold text-xl md:text-2xl mb-4" style={{ color: '#1568F7' }}>
                 Join Our Community
               </h3>
               <p className="text-black text-base md:text-lg mb-6 leading-relaxed">
                 Connect with top agents and access free training in the Real Estate Training Breakthroughs & Customized Coaching Community on Facebook.
               </p>
-              <button className="bg-white text-black px-6 py-3 rounded-lg text-sm md:text-base font-medium border-2 border-black hover:bg-gray-50 transition-colors">
+              <button className="rounded-full bg-white text-black px-6 py-3 text-sm md:text-base font-medium border-2 border-black hover:bg-gray-50 transition-colors">
                 Join Our Community
               </button>
             </div>
@@ -55,7 +55,7 @@ export default function AttractDontChaseSection() {
 
         {/* Why "Attract, Don't Chase" Wins Section */}
         <div className="text-center mb-16">
-          <h2 className="text-black font-bold text-3xl md:text-4xl lg:text-5xl mb-6">
+          <h2 className="text-black font-medium text-3xl md:text-4xl lg:text-5xl mb-6">
             Why &quot;Attract, Don&apos;t Chase&quot; Wins
           </h2>
           <p className="text-black text-lg md:text-xl lg:text-2xl max-w-4xl mx-auto mb-4 leading-relaxed">
@@ -69,63 +69,57 @@ export default function AttractDontChaseSection() {
         {/* Proof/Benefits Section */}
         <div className="grid md:grid-cols-2 gap-8 mb-16">
           {/* Left Box: Spend Less, Earn More */}
-          <div className="bg-[#E8F4FD] rounded-lg p-8 md:p-10">
-            <div className="flex items-start gap-4 mb-6">
-              <div className="w-12 h-12 bg-[#2aa7ff] rounded-full flex items-center justify-center flex-shrink-0">
-                <svg
-                  className="w-6 h-6 text-white"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M12 4v16m8-8H4"
+          <div className="relative rounded-lg p-8 md:p-10 overflow-hidden">
+            {/* Gradient Background */}
+            <div className="absolute inset-0 bg-gradient-to-b from-blue-100 via-blue-50 to-white"></div>
+            <div className="relative z-10">
+              <div className="flex items-start gap-4 mb-6">
+                <div className="relative w-12 h-12 flex-shrink-0">
+                  <Image
+                    src="/images/plus_icon.png"
+                    alt="Plus icon"
+                    fill
+                    className="object-contain"
                   />
-                </svg>
+                </div>
+                <h3 className="font-bold text-xl md:text-2xl" style={{ color: '#1568F7' }}>
+                  Spend Less, Earn More
+                </h3>
               </div>
-              <h3 className="text-[#2aa7ff] font-bold text-xl md:text-2xl">
-                Spend Less, Earn More
-              </h3>
-            </div>
             <p className="text-black font-bold text-lg md:text-xl mb-4">
               Inbound leads cost 61% less than outbound ones.
             </p>
-            <p className="text-black text-base md:text-lg leading-relaxed">
-              That means more ROI and less wasted spend on branding, ads, and outreach that doesn&apos;t convert. The &quot;Attract, Don&apos;t Chase&quot; model isn&apos;t just easier, it&apos;s way more profitable.
-            </p>
+              <p className="text-black text-base md:text-lg leading-relaxed">
+                That means more ROI and less wasted spend on branding, ads, and outreach that doesn&apos;t convert. The &quot;Attract, Don&apos;t Chase&quot; model isn&apos;t just easier, it&apos;s way more profitable.
+              </p>
+            </div>
           </div>
 
           {/* Right Box: Work With People Who Are Ready to Act */}
-          <div className="bg-[#E8F4FD] rounded-lg p-8 md:p-10">
-            <div className="flex items-start gap-4 mb-6">
-              <div className="w-12 h-12 bg-[#2aa7ff] rounded-full flex items-center justify-center flex-shrink-0">
-                <svg
-                  className="w-6 h-6 text-white"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"
+          <div className="relative rounded-lg p-8 md:p-10 overflow-hidden">
+            {/* Gradient Background */}
+            <div className="absolute inset-0 bg-gradient-to-b from-blue-100 via-blue-50 to-white"></div>
+            <div className="relative z-10">
+              <div className="flex items-start gap-4 mb-6">
+                <div className="relative w-12 h-12 flex-shrink-0">
+                  <Image
+                    src="/images/people_icon.png"
+                    alt="People icon"
+                    fill
+                    className="object-contain"
                   />
-                </svg>
+                </div>
+                <h3 className="font-bold text-xl md:text-2xl" style={{ color: '#1568F7' }}>
+                  Work With People Who Are Ready to Act
+                </h3>
               </div>
-              <h3 className="text-[#2aa7ff] font-bold text-xl md:text-2xl">
-                Work With People Who Are Ready to Act
-              </h3>
-            </div>
             <p className="text-black font-bold text-lg md:text-xl mb-4">
               Attracted leads convert 54% higher than chased leads.
             </p>
-            <p className="text-black text-base md:text-lg leading-relaxed">
-              They come to you pre-sold, pre-qualified, and already positioned to say yes. No more exhausting follow-up with &quot;just curious&quot; prospects. Work with clients who already see you as the expert.
-            </p>
+              <p className="text-black text-base md:text-lg leading-relaxed">
+                They come to you pre-sold, pre-qualified, and already positioned to say yes. No more exhausting follow-up with &quot;just curious&quot; prospects. Work with clients who already see you as the expert.
+              </p>
+            </div>
           </div>
         </div>
 
@@ -137,7 +131,7 @@ export default function AttractDontChaseSection() {
           <p className="text-black font-bold text-xl md:text-2xl mb-8">
             Ready to ditch the chase?
           </p>
-          <button className="bg-black text-white px-8 py-4 rounded-lg text-base md:text-lg font-medium hover:bg-gray-900 transition-colors">
+          <button className="rounded-full bg-black text-white px-8 py-4 text-base md:text-lg font-medium hover:bg-gray-900 transition-colors">
             Book a Free Discovery Call
           </button>
         </div>

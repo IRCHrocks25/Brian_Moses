@@ -15,7 +15,7 @@ export default function WorkLessEarnMoreSection() {
 
       {/* Content Overlay */}
       <div className="relative z-10 mx-auto w-full max-w-7xl px-6 lg:px-8">
-        <div className="text-center text-white max-w-3xl mx-auto">
+        <div className="text-center text-white max-w-6xl mx-auto">
           {/* Main Headline */}
           <h2 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold mb-6 whitespace-nowrap">
             Work less. Earn more.
@@ -23,13 +23,11 @@ export default function WorkLessEarnMoreSection() {
 
           {/* Descriptive Paragraph */}
           <p className="text-lg md:text-xl lg:text-2xl leading-relaxed mb-8">
-            You don&apos;t need to work harder to live a fullfilled life. You need a better system.
-            If you&apos;re ready for more clarity, more income, and more freedom, your journey starts
-            here.
+            You don&apos;t need to work harder to live a fullfilled life. You need a better system. If you&apos;re ready for more clarity, more income, and more freedom, your journey starts here.
           </p>
 
           {/* CTA Button */}
-          <button className="bg-white text-black px-8 py-4 rounded-lg text-base md:text-lg lg:text-xl font-medium hover:bg-white/90 transition-colors">
+          <button className="rounded-full bg-white text-black px-8 py-4 text-base md:text-lg lg:text-xl font-medium hover:bg-white/90 transition-colors">
             Book a Free Discovery Call
           </button>
         </div>

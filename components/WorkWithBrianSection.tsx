@@ -29,15 +29,13 @@ export default function WorkWithBrianSection() {
     <section className="relative overflow-hidden">
       {/* Background (edge-to-edge) */}
       <div className="absolute inset-0 bg-[#070a18]" />
-      <div className="absolute inset-0 bg-[radial-gradient(1200px_600px_at_50%_-20%,rgba(34,112,255,0.45),transparent_60%)]" />
-      <div className="absolute inset-0 bg-[radial-gradient(900px_500px_at_20%_10%,rgba(0,180,255,0.18),transparent_55%)]" />
-      <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black/35" />
+      <div className="absolute inset-0 bg-gradient-to-br from-blue-900/40 via-blue-800/30 to-transparent" />
+      <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" />
 
       <div className="relative mx-auto w-full max-w-7xl px-6 lg:px-8 py-16 md:py-24">
         {/* Heading */}
-        <h2 className="text-center text-white font-semibold text-2xl md:text-3xl lg:text-4xl leading-tight max-w-4xl mx-auto">
-          Work with Brian to learn the exact playbook that took him from $18K/year to
-          $3M+/year with over 3,500 homes sold.
+        <h2 className="text-center text-white font-light text-2xl md:text-3xl lg:text-4xl leading-tight max-w-5xl mx-auto">
+          Work with Brian to learn the exact playbook that took him from $18K/year to $3M+/year with over 3,500 homes sold.
         </h2>
 
         {/* Cards */}

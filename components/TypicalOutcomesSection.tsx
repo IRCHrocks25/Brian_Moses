@@ -86,14 +86,15 @@ export default function TypicalOutcomesSection() {
         </div>
 
         {/* TYPICAL OUTCOMES Heading */}
-        <div className="flex items-center justify-center gap-4 mb-8">
-          <div className="h-px w-12 bg-[#2aa7ff]"></div>
-          <div className="w-2 h-2 bg-[#2aa7ff] rounded-full"></div>
-          <h3 className="text-white text-sm md:text-base uppercase tracking-wider font-medium">
+        <div className="flex items-center justify-center gap-3 mb-8">
+          {/* Two overlapping circles */}
+          <div className="relative flex items-center">
+            <div className="w-3 h-3 bg-blue-300 rounded-full absolute left-0"></div>
+            <div className="w-3 h-3 bg-[#2aa7ff] rounded-full relative left-1.5"></div>
+          </div>
+          <h3 className="text-[#2aa7ff] text-sm md:text-base uppercase tracking-wider font-medium">
             TYPICAL OUTCOMES
           </h3>
-          <div className="w-2 h-2 bg-[#2aa7ff] rounded-full"></div>
-          <div className="h-px w-12 bg-[#2aa7ff]"></div>
         </div>
 
         {/* Main Heading */}
@@ -134,7 +135,7 @@ export default function TypicalOutcomesSection() {
 
         {/* CTA Button */}
         <div className="text-center">
-          <button className="bg-white text-black px-8 py-4 rounded-lg text-base md:text-lg font-medium border-2 border-black hover:bg-gray-100 transition-colors">
+          <button className="rounded-full bg-white text-black px-8 py-4 text-base md:text-lg font-medium border-2 border-black hover:bg-gray-100 transition-colors">
             Get the Free &quot;Get Listings Fast&quot; Training
           </button>
         </div>
