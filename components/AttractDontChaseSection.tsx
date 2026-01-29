@@ -8,7 +8,7 @@ export default function AttractDontChaseSection() {
         <div className="grid md:grid-cols-2 gap-8 md:gap-12 mb-20">
           {/* Left Offer: Free Resources */}
           <div className="flex flex-col md:flex-row items-center gap-6">
-            <div className="relative w-48 h-64 md:w-56 md:h-72 flex-shrink-0">
+            <div className="relative w-64 h-80 md:w-80 md:h-96 lg:w-96 lg:h-[28rem] flex-shrink-0">
               <Image
                 src="/images/free_resource/3a61270e-38a9-4a9b-aef9-b7e0c275c19b 1.png"
                 alt="Free Resources"
@@ -17,12 +17,14 @@ export default function AttractDontChaseSection() {
               />
             </div>
             <div className="flex-1">
-              <h3 className="font-bold text-xl md:text-2xl mb-4" style={{ color: '#1568F7' }}>
-                Free Resources & Downloads
-              </h3>
-              <p className="text-black text-base md:text-lg mb-6 leading-relaxed">
-                Download &apos;Swipe & Deploy Files&apos; and &apos;How To Attract, Not Chase&apos; strategies to implement immediately.
-              </p>
+              <div className="mb-6">
+                <h3 className="font-bold text-xl md:text-2xl mb-2" style={{ color: '#1568F7' }}>
+                  Free Resources & Downloads
+                </h3>
+                <p className="text-black text-base md:text-lg leading-relaxed">
+                  Download &apos;Swipe & Deploy Files&apos; and &apos;How To Attract, Not Chase&apos; strategies to implement immediately.
+                </p>
+              </div>
               <button className="rounded-full bg-white text-black px-6 py-3 text-sm md:text-base font-medium border-2 border-black hover:bg-gray-50 transition-colors">
                 Download Free Resources
               </button>
@@ -31,7 +33,7 @@ export default function AttractDontChaseSection() {
 
           {/* Right Offer: Join Community */}
           <div className="flex flex-col md:flex-row items-center gap-6">
-            <div className="relative w-48 h-64 md:w-56 md:h-72 flex-shrink-0">
+            <div className="relative w-64 h-80 md:w-80 md:h-96 lg:w-96 lg:h-[28rem] flex-shrink-0">
               <Image
                 src="/images/free_resource/3a61270e-38a9-4a9b-aef9-b7e0c275c19b 1 (1).png"
                 alt="Join Community"
@@ -40,12 +42,14 @@ export default function AttractDontChaseSection() {
               />
             </div>
             <div className="flex-1">
-              <h3 className="font-bold text-xl md:text-2xl mb-4" style={{ color: '#1568F7' }}>
-                Join Our Community
-              </h3>
-              <p className="text-black text-base md:text-lg mb-6 leading-relaxed">
-                Connect with top agents and access free training in the Real Estate Training Breakthroughs & Customized Coaching Community on Facebook.
-              </p>
+              <div className="mb-6">
+                <h3 className="font-bold text-xl md:text-2xl mb-2" style={{ color: '#1568F7' }}>
+                  Join Our Community
+                </h3>
+                <p className="text-black text-base md:text-lg leading-relaxed">
+                  Connect with top agents and access free training in the Real Estate Training Breakthroughs & Customized Coaching Community on Facebook.
+                </p>
+              </div>
               <button className="rounded-full bg-white text-black px-6 py-3 text-sm md:text-base font-medium border-2 border-black hover:bg-gray-50 transition-colors">
                 Join Our Community
               </button>
@@ -55,7 +59,7 @@ export default function AttractDontChaseSection() {
 
         {/* Why "Attract, Don't Chase" Wins Section */}
         <div className="text-center mb-16">
-          <h2 className="text-black font-medium text-3xl md:text-4xl lg:text-5xl mb-6">
+          <h2 className="text-black font-medium text-4xl md:text-5xl lg:text-6xl mb-6">
             Why &quot;Attract, Don&apos;t Chase&quot; Wins
           </h2>
           <p className="text-black text-lg md:text-xl lg:text-2xl max-w-4xl mx-auto mb-4 leading-relaxed">

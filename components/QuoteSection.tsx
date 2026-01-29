@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function QuoteSection() {
   return (
-    <section className="relative bg-[#0a0a0a] py-16 md:py-24 overflow-hidden min-h-[600px] md:min-h-[700px]">
+    <section className="relative bg-[#0a0a0a] py-16 md:py-24 overflow-hidden min-h-[400px] md:min-h-[500px]">
       {/* Background Image */}
       <div className="absolute inset-0">
         <Image
@@ -15,17 +15,12 @@ export default function QuoteSection() {
 
       {/* Content Overlay */}
       <div className="relative z-10 mx-auto w-full max-w-7xl px-6 lg:px-8">
-        <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center min-h-[600px] md:min-h-[700px]">
+        <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center min-h-[400px] md:min-h-[500px]">
           {/* Left: Empty space for image visibility */}
           <div className="hidden lg:block"></div>
 
           {/* Right: Quote and Text */}
           <div className="text-white">
-            {/* Quotation Marks */}
-            <div className="text-7xl md:text-8xl lg:text-9xl xl:text-[180px] font-serif text-white/20">
-              &ldquo;
-            </div>
-
             {/* Quote */}
             <blockquote className="text-2xl md:text-3xl lg:text-4xl font-semibold leading-tight mb-3">
               Success isn&apos;t just about what

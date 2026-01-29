@@ -28,11 +28,14 @@ export default function WorkWithBrianSection() {
   return (
     <section className="relative overflow-hidden">
       {/* Background (edge-to-edge) */}
-      <div className="absolute inset-0 bg-[#070a18]" />
-      <div className="absolute inset-0 bg-gradient-to-br from-blue-900/40 via-blue-800/30 to-transparent" />
-      <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" />
+      <div className="absolute inset-0 bg-[#000614]" />
+      <div 
+        className="absolute inset-0" 
+        style={{ background: 'linear-gradient(to bottom, #1568F7 0%, #000614 100%)' }}
+      />
+      <div className="absolute inset-0 bg-gradient-to-r from-[#000614] via-transparent to-[#000614]" />
 
-      <div className="relative mx-auto w-full max-w-7xl px-6 lg:px-8 py-16 md:py-24">
+      <div className="relative mx-auto w-full max-w-7xl py-16 md:py-24">
         {/* Heading */}
         <h2 className="text-center text-white font-light text-2xl md:text-3xl lg:text-4xl leading-tight max-w-5xl mx-auto">
           Work with Brian to learn the exact playbook that took him from $18K/year to $3M+/year with over 3,500 homes sold.
@@ -43,10 +46,17 @@ export default function WorkWithBrianSection() {
           {programs.map((p, idx) => (
             <div
               key={idx}
-              className="rounded-xl overflow-hidden bg-white/5 border border-white/10 shadow-[0_20px_60px_rgba(0,0,0,0.45)] backdrop-blur-sm"
+              className="relative rounded-xl overflow-hidden border border-white/10 shadow-[0_20px_60px_rgba(0,0,0,0.45)] backdrop-blur-sm"
             >
+              {/* Card gradient background */}
+              <div className="absolute inset-0 bg-[#000614]" />
+              <div 
+                className="absolute inset-0" 
+                style={{ background: 'linear-gradient(to bottom, #1568F7 0%, #000614 100%)' }}
+              />
+              <div className="absolute inset-0 bg-gradient-to-r from-[#000614] via-transparent to-[#000614]" />
               {/* Image */}
-              <div className="relative h-44 md:h-48">
+              <div className="relative z-10 h-44 md:h-48">
                 <Image
                   src={p.image}
                   alt={p.title}
@@ -59,7 +69,7 @@ export default function WorkWithBrianSection() {
               </div>
 
               {/* Content */}
-              <div className="px-6 py-6 md:px-7">
+              <div className="relative z-10 px-6 py-6 md:px-7">
                 {/* Program label */}
                 {p.program ? (
                   <div className="text-[11px] tracking-[0.22em] uppercase text-white/55">

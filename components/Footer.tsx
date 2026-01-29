@@ -9,7 +9,7 @@ export default function Footer() {
           <div>
             {/* Logo */}
             <div className="mb-6">
-              <div className="relative h-8 md:h-10 w-auto">
+              <div className="relative h-6 md:h-7 w-auto">
                 <Image
                   src="/images/blac_logo.png"
                   alt="Brian Moses"

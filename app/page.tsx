@@ -34,7 +34,7 @@ export default function Home() {
             <div className="relative z-10 h-full mx-auto w-full px-6 lg:px-12">
               <div className="grid min-h-[92vh] items-center gap-10 lg:grid-cols-2 pt-24 pb-14">
                 {/* Left Content */}
-                <div>
+                <div className="pl-8 md:pl-12 lg:pl-16">
                   <h1 className="text-white font-normal leading-[1.05] text-4xl md:text-5xl lg:text-6xl xl:text-7xl whitespace-nowrap">
                     Attract, don&apos;t chase!
                   </h1>
@@ -68,7 +68,10 @@ export default function Home() {
       </section>
 
       {/* ACHIEVEMENTS & SOCIAL PROOF */}
-      <section className="relative bg-[#0a0a0a] py-16 md:py-20">
+      <section className="relative py-16 md:py-20">
+        <div className="absolute inset-0 bg-gradient-to-b from-[#1a1f3a] to-[#0a0a0a]"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-[#0a0a0a] via-transparent to-[#0a0a0a]"></div>
+        <div className="relative z-10">
         <div className="mx-auto w-full max-w-7xl px-6 lg:px-8">
           {/* Main Heading */}
           <h2 className="text-center uppercase text-white font-light tracking-wide text-base md:text-lg lg:text-xl xl:text-2xl">
@@ -143,7 +146,7 @@ export default function Home() {
           </div>
 
           {/* Trusted By Heading */}
-          <h3 className="mt-12 text-center uppercase text-white font-bold tracking-wide text-base md:text-lg lg:text-xl">
+          <h3 className="mt-12 text-center uppercase text-white font-light tracking-wide text-base md:text-lg lg:text-xl">
             TRUSTED BY THE BEST
           </h3>
         </div>
@@ -179,6 +182,7 @@ export default function Home() {
                 ))
               )}
           </div>
+        </div>
         </div>
       </section>
 
