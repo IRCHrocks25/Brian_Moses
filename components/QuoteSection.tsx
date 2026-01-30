@@ -23,10 +23,12 @@ export default function QuoteSection() {
           <div className="text-white">
             {/* Quote */}
             <blockquote className="text-2xl md:text-3xl lg:text-4xl font-semibold leading-tight mb-3">
-              Success isn&apos;t just about what
-              <br />
-              you earn.{" "}
               <span className="bg-gradient-to-r from-[#1568F7] to-[#2aa7ff] bg-clip-text text-transparent">
+                Success isn&apos;t just about what
+                <br />
+                you earn.{" "}
+              </span>
+              <span className="text-white">
                 It&apos;s about what you
                 <br />
                 get to experience because of

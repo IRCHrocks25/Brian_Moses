@@ -3,11 +3,11 @@ import Image from "next/image";
 export default function AttractDontChaseSection() {
   return (
     <section className="relative bg-white py-16 md:py-24">
-      <div className="mx-auto w-full max-w-7xl px-6 lg:px-8">
+      <div className="w-full mx-auto max-w-[92%] px-[3px] lg:px-[2px]">
         {/* Top Offers Section */}
-        <div className="grid md:grid-cols-2 gap-8 md:gap-12 mb-20">
+        <div className="grid md:grid-cols-2 gap-4 md:gap-6 mb-20">
           {/* Left Offer: Free Resources */}
-          <div className="flex flex-col md:flex-row items-center gap-6">
+          <div className="flex flex-col md:flex-row items-start gap-6">
             <div className="relative w-64 h-80 md:w-80 md:h-96 lg:w-96 lg:h-[28rem] flex-shrink-0">
               <Image
                 src="/images/free_resource/3a61270e-38a9-4a9b-aef9-b7e0c275c19b 1.png"
@@ -16,7 +16,7 @@ export default function AttractDontChaseSection() {
                 className="object-contain"
               />
             </div>
-            <div className="flex-1">
+            <div className="flex-1 flex flex-col h-full">
               <div className="mb-6">
                 <h3 className="font-bold text-xl md:text-2xl mb-2" style={{ color: '#1568F7' }}>
                   Free Resources & Downloads
@@ -25,14 +25,16 @@ export default function AttractDontChaseSection() {
                   Download &apos;Swipe & Deploy Files&apos; and &apos;How To Attract, Not Chase&apos; strategies to implement immediately.
                 </p>
               </div>
-              <button className="rounded-full bg-white text-black px-6 py-3 text-sm md:text-base font-medium border-2 border-black hover:bg-gray-50 transition-colors">
-                Download Free Resources
-              </button>
+              <div className="mt-auto">
+                <button className="rounded-full bg-white text-black px-6 py-3 text-sm md:text-base font-medium border-2 border-black hover:bg-gray-50 transition-colors">
+                  Download Free Resources
+                </button>
+              </div>
             </div>
           </div>
 
           {/* Right Offer: Join Community */}
-          <div className="flex flex-col md:flex-row items-center gap-6">
+          <div className="flex flex-col md:flex-row items-start gap-6">
             <div className="relative w-64 h-80 md:w-80 md:h-96 lg:w-96 lg:h-[28rem] flex-shrink-0">
               <Image
                 src="/images/free_resource/3a61270e-38a9-4a9b-aef9-b7e0c275c19b 1 (1).png"
@@ -41,7 +43,7 @@ export default function AttractDontChaseSection() {
                 className="object-contain"
               />
             </div>
-            <div className="flex-1">
+            <div className="flex-1 flex flex-col h-full">
               <div className="mb-6">
                 <h3 className="font-bold text-xl md:text-2xl mb-2" style={{ color: '#1568F7' }}>
                   Join Our Community
@@ -50,9 +52,11 @@ export default function AttractDontChaseSection() {
                   Connect with top agents and access free training in the Real Estate Training Breakthroughs & Customized Coaching Community on Facebook.
                 </p>
               </div>
-              <button className="rounded-full bg-white text-black px-6 py-3 text-sm md:text-base font-medium border-2 border-black hover:bg-gray-50 transition-colors">
-                Join Our Community
-              </button>
+              <div className="mt-auto">
+                <button className="rounded-full bg-white text-black px-6 py-3 text-sm md:text-base font-medium border-2 border-black hover:bg-gray-50 transition-colors">
+                  Join Our Community
+                </button>
+              </div>
             </div>
           </div>
         </div>
@@ -60,12 +64,12 @@ export default function AttractDontChaseSection() {
         {/* Why "Attract, Don't Chase" Wins Section */}
         <div className="text-center mb-16">
           <h2 className="text-black font-medium text-4xl md:text-5xl lg:text-6xl mb-6">
-            Why &quot;Attract, Don&apos;t Chase&quot; Wins
+            <span className="font-light">Why</span> <span className="font-bold">Attract, Don&apos;t Chase</span> <span className="font-light">Wins</span>
           </h2>
           <p className="text-black text-lg md:text-xl lg:text-2xl max-w-4xl mx-auto mb-4 leading-relaxed">
             You&apos;ve been told the path to success is cold calls, door knocking, and relentless hustle. But what if the real power move is doing less of what burns you out, and more of what brings results?
           </p>
-          <p className="text-black text-base md:text-lg font-medium">
+          <p className="text-black text-lg md:text-xl lg:text-2xl font-medium">
             Here&apos;s the proof:
           </p>
         </div>

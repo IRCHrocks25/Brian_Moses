@@ -1,4 +1,7 @@
+"use client";
+
 import Image from "next/image";
+import { useState } from "react";
 
 const outcomes = [
   {
@@ -34,6 +37,8 @@ const outcomes = [
 ];
 
 export default function TypicalOutcomesSection() {
+  const [hoveredIndex, setHoveredIndex] = useState<number | null>(0);
+
   return (
     <section className="relative py-16 md:py-24 overflow-hidden">
       {/* Background Image */}
@@ -48,7 +53,7 @@ export default function TypicalOutcomesSection() {
         <div className="absolute inset-0 bg-black/40"></div>
       </div>
 
-      <div className="relative z-10 mx-auto w-full max-w-7xl px-6 lg:px-8">
+      <div className="relative z-10 mx-auto w-full max-w-[95%] px-6 lg:px-8">
         {/* Top Images */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 mb-12">
           <div className="relative aspect-[4/3] rounded-lg overflow-hidden">
@@ -99,7 +104,7 @@ export default function TypicalOutcomesSection() {
 
         {/* Main Heading */}
         <h2 className="text-center text-white font-bold text-3xl md:text-4xl lg:text-5xl mb-8">
-          Why Brian&apos;s &quot;Attract, Don&apos;t Chase&quot; is so powerful
+          <span className="font-light">Why Brian&apos;s</span> <span className="font-bold">Attract, Don&apos;t Chase</span> <span className="font-light">is so powerful</span>
         </h2>
 
         {/* Description */}
@@ -108,25 +113,30 @@ export default function TypicalOutcomesSection() {
         </p>
 
         {/* Outcomes Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-6 md:gap-8 mb-12">
+        <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-8 md:gap-10 lg:gap-12 mb-12 items-stretch">
           {outcomes.map((outcome, index) => (
-            <div key={index} className="flex flex-col items-start">
-              {/* Icon */}
-              <div className="mb-4">
-                {outcome.icon === "filled" ? (
-                  <div className="w-8 h-8 bg-[#2aa7ff] rounded-full"></div>
-                ) : (
-                  <div className="w-8 h-8 border-2 border-[#2aa7ff] rounded-full"></div>
-                )}
+            <div 
+              key={index} 
+              className="flex flex-col h-full"
+              onMouseEnter={() => setHoveredIndex(index)}
+              onMouseLeave={() => setHoveredIndex(0)}
+            >
+              {/* Icon and Title */}
+              <div className="flex items-start gap-3 mb-3 flex-shrink-0">
+                <div className="h-6 flex-shrink-0 mt-1">
+                  {hoveredIndex === index ? (
+                    <div className="w-6 h-6 bg-[#2aa7ff] rounded-full"></div>
+                  ) : (
+                    <div className="w-6 h-6 border-2 border-[#2aa7ff] rounded-full"></div>
+                  )}
+                </div>
+                <h3 className="text-white font-bold text-lg md:text-xl flex-1">
+                  {outcome.title}
+                </h3>
               </div>
 
-              {/* Title */}
-              <h3 className="text-white font-bold text-lg md:text-xl mb-3">
-                {outcome.title}
-              </h3>
-
               {/* Description */}
-              <p className="text-white/90 text-sm md:text-base leading-relaxed">
+              <p className="text-white/90 text-sm md:text-base leading-[1.6] flex-grow">
                 {outcome.description}
               </p>
             </div>

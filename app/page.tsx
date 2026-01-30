@@ -35,7 +35,7 @@ export default function Home() {
               <div className="grid min-h-[92vh] items-center gap-10 lg:grid-cols-2 pt-24 pb-14">
                 {/* Left Content */}
                 <div className="pl-8 md:pl-12 lg:pl-16">
-                  <h1 className="text-white font-normal leading-[1.05] text-4xl md:text-5xl lg:text-6xl xl:text-7xl whitespace-nowrap">
+                  <h1 className="text-white font-bold leading-[1.05] text-4xl md:text-5xl lg:text-6xl xl:text-7xl whitespace-nowrap">
                     Attract, don&apos;t chase!
                   </h1>
 
@@ -91,7 +91,7 @@ export default function Home() {
             ].map((t, i) => (
               <div key={i} className="flex gap-3">
                 <span className="mt-2 h-2.5 w-2.5 flex-none bg-[#AADBFF]" />
-                <p className="text-white/85 text-base md:text-lg leading-relaxed">{t}</p>
+                <p className="text-white/85 text-sm md:text-base leading-snug">{t}</p>
               </div>
             ))}
           </div>

@@ -1,25 +1,32 @@
+"use client";
+
+import { useState } from "react";
+
 const learnItems = [
   {
     title: "Strategic Thinking Over Brute Force",
     description:
       'Instead of asking "self-motivated" probing questions too early and decreasing rapport, Brian teaches you to "strategize... in advance" with messages that genuinely interest prospects, such as offering access to bank foreclosures, short sales, or recent price reductions.',
-    highlighted: true,
   },
   {
     title: "Embrace Change, Don't Resist It",
-    description: "",
+    description:
+      "Every market shift creates winners and losers. Brian shows you how to adjust your strategy, messaging, and offers in real time so you don't just survive change, you capitalize on it while others fall behind.",
   },
   {
     title: "Relax Your Ego, Add Value",
-    description: "",
+    description:
+      "The fastest way to lose trust is to make it about you. Brian teaches you how to shift from proving yourself to serving your market—so clients feel understood, supported, and confident choosing you without pressure or persuasion.",
   },
   {
     title: "Learn from Proven Success",
-    description: "",
+    description:
+      "Every strategy Brian teaches has been pressure-tested in competitive markets. You'll learn exactly what works, why it works, and how to apply it immediately. without wasting time on tactics that don't move the needle.",
   },
 ];
 
 export default function WhatYouWillLearnSection() {
+  const [expandedIndex, setExpandedIndex] = useState(0);
   return (
     <section className="bg-white py-16 md:py-24">
       <div className="mx-auto w-full max-w-7xl px-6 lg:px-8">
@@ -52,44 +59,56 @@ export default function WhatYouWillLearnSection() {
 
           {/* Right Column */}
           <div className="space-y-4">
-            {learnItems.map((item, index) => (
-              <div
-                key={index}
-                className={`p-6 rounded-lg flex items-start gap-4 ${
-                  item.highlighted ? "bg-gray-100" : "bg-white border border-gray-200"
-                }`}
-              >
-                {/* Blue Circle Icon */}
-                <div className="flex-shrink-0 w-6 h-6 rounded-full bg-[#1568F7] mt-1" />
+            {learnItems.map((item, index) => {
+              const isExpanded = expandedIndex === index;
+              return (
+                <div
+                  key={index}
+                  className={`p-6 rounded-lg border border-gray-200 transition-all cursor-pointer ${
+                    isExpanded ? "bg-gray-100" : "bg-white hover:bg-gray-50"
+                  }`}
+                  onClick={() => setExpandedIndex(isExpanded ? -1 : index)}
+                >
+                  <div className="flex items-start gap-4">
+                    {/* Blue Circle Icon */}
+                    <div className="flex-shrink-0 w-6 h-6 rounded-full bg-[#1568F7] mt-1" />
 
-                {/* Content */}
-                <div className="flex-1">
-                  <h3 className="text-black font-bold text-lg md:text-xl mb-2">{item.title}</h3>
-                  {item.description && (
-                    <p className="text-black/80 text-sm md:text-base leading-relaxed">
-                      {item.description}
-                    </p>
-                  )}
-                </div>
+                    {/* Content */}
+                    <div className="flex-1">
+                      <h3 className="text-black font-bold text-lg md:text-xl mb-2">{item.title}</h3>
+                      <div
+                        className={`overflow-hidden transition-all duration-300 ${
+                          isExpanded ? "max-h-[500px] opacity-100" : "max-h-0 opacity-0"
+                        }`}
+                      >
+                        <p className="text-black/80 text-sm md:text-base leading-relaxed pt-2">
+                          {item.description}
+                        </p>
+                      </div>
+                    </div>
 
-                {/* Arrow Icon */}
-                <div className="flex-shrink-0 w-8 h-8 rounded-full bg-gray-200 flex items-center justify-center">
-                  <svg
-                    className="w-4 h-4 text-[#1568F7]"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M7 17L17 7M7 7h10v10"
-                    />
-                  </svg>
+                    {/* Arrow Icon */}
+                    <div className="flex-shrink-0 w-8 h-8 rounded-full bg-gray-200 flex items-center justify-center">
+                      <svg
+                        className={`w-4 h-4 text-[#1568F7] transition-transform duration-300 ${
+                          isExpanded ? "rotate-180" : ""
+                        }`}
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2}
+                          d="M19 9l-7 7-7-7"
+                        />
+                      </svg>
+                    </div>
+                  </div>
                 </div>
-              </div>
-            ))}
+              );
+            })}
           </div>
         </div>
       </div>
