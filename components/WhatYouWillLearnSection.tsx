@@ -29,7 +29,7 @@ export default function WhatYouWillLearnSection() {
   const [expandedIndex, setExpandedIndex] = useState(0);
   return (
     <section className="bg-white py-16 md:py-24">
-      <div className="mx-auto w-full max-w-7xl px-6 lg:px-8">
+      <div className="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16">
           {/* Left Column */}
           <div>

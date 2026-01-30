@@ -21,7 +21,7 @@ export default function Home() {
       <section className="relative bg-[#0a0a0a] py-8 md:py-12">
         <div className="mx-auto w-full px-6 lg:px-12">
           {/* Background Image Section with Rounded Corners */}
-          <div className="relative min-h-[92vh] rounded-3xl overflow-hidden">
+          <div className="relative min-h-[70vh] sm:min-h-[80vh] md:min-h-[92vh] rounded-lg md:rounded-3xl overflow-hidden">
             <Image
               src="/images/Frame 8.png"
               alt="Hero background"
@@ -32,10 +32,10 @@ export default function Home() {
 
             {/* Content Overlay */}
             <div className="relative z-10 h-full mx-auto w-full px-6 lg:px-12">
-              <div className="grid min-h-[92vh] items-center gap-10 lg:grid-cols-2 pt-24 pb-14">
+              <div className="grid min-h-[70vh] sm:min-h-[80vh] md:min-h-[92vh] items-center gap-6 md:gap-10 lg:grid-cols-2 pt-16 sm:pt-20 md:pt-24 pb-8 sm:pb-10 md:pb-14">
                 {/* Left Content */}
-                <div className="pl-8 md:pl-12 lg:pl-16">
-                  <h1 className="text-white font-bold leading-[1.05] text-4xl md:text-5xl lg:text-6xl xl:text-7xl whitespace-nowrap">
+                <div className="pl-4 sm:pl-6 md:pl-12 lg:pl-16">
+                  <h1 className="text-white font-bold leading-[1.05] text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">
                     Attract, don&apos;t chase!
                   </h1>
 
@@ -100,7 +100,7 @@ export default function Home() {
           <div className="my-12 h-px w-full bg-white/15" />
 
           {/* Media Logos */}
-          <div className="flex justify-center items-center gap-6 md:gap-8 lg:gap-10 xl:gap-12 w-full">
+          <div className="flex flex-wrap justify-center items-center gap-4 sm:gap-6 md:gap-8 lg:gap-10 xl:gap-12 w-full">
             <Image
               src="/images/logos/Frame 1000003716.png"
               alt="Partner logo"

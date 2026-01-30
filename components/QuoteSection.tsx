@@ -14,13 +14,13 @@ export default function QuoteSection() {
       </div>
 
       {/* Content Overlay */}
-      <div className="relative z-10 mx-auto w-full max-w-7xl px-6 lg:px-8">
+      <div className="relative z-10 mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center min-h-[400px] md:min-h-[500px]">
           {/* Left: Empty space for image visibility */}
           <div className="hidden lg:block"></div>
 
           {/* Right: Quote and Text */}
-          <div className="text-white">
+          <div className="text-white pl-12 md:pl-0">
             {/* Quote */}
             <blockquote className="text-2xl md:text-3xl lg:text-4xl font-semibold leading-tight mb-3">
               <span className="bg-gradient-to-r from-[#1568F7] to-[#2aa7ff] bg-clip-text text-transparent">

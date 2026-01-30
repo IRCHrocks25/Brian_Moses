@@ -35,7 +35,7 @@ export default function WorkWithBrianSection() {
       />
       <div className="absolute inset-0 bg-gradient-to-r from-[#000614] via-transparent to-[#000614]" />
 
-      <div className="relative mx-auto w-full max-w-7xl py-16 md:py-24">
+      <div className="relative mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8 py-12 sm:py-16 md:py-24">
         {/* Heading */}
         <h2 className="text-center text-white font-light text-2xl md:text-3xl lg:text-4xl leading-tight max-w-5xl mx-auto">
           Work with Brian to learn the exact playbook that took him from $18K/year to $3M+/year with over 3,500 homes sold.

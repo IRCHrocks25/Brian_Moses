@@ -5,10 +5,10 @@ export default function AttractDontChaseSection() {
     <section className="relative bg-white py-16 md:py-24">
       <div className="w-full mx-auto max-w-[92%] px-[3px] lg:px-[2px]">
         {/* Top Offers Section */}
-        <div className="grid md:grid-cols-2 gap-4 md:gap-6 mb-20">
+        <div className="grid md:grid-cols-2 gap-8 md:gap-6 mb-20">
           {/* Left Offer: Free Resources */}
-          <div className="flex flex-col md:flex-row items-start gap-6">
-            <div className="relative w-64 h-80 md:w-80 md:h-96 lg:w-96 lg:h-[28rem] flex-shrink-0">
+          <div className="flex flex-col md:flex-row items-center md:items-start gap-6">
+            <div className="relative w-40 h-52 sm:w-48 sm:h-64 md:w-80 md:h-96 lg:w-96 lg:h-[28rem] flex-shrink-0 mx-auto md:mx-0">
               <Image
                 src="/images/free_resource/3a61270e-38a9-4a9b-aef9-b7e0c275c19b 1.png"
                 alt="Free Resources"
@@ -16,17 +16,17 @@ export default function AttractDontChaseSection() {
                 className="object-contain"
               />
             </div>
-            <div className="flex-1 flex flex-col h-full">
+            <div className="flex-1 flex flex-col h-full text-center md:text-left w-full">
               <div className="mb-6">
-                <h3 className="font-bold text-xl md:text-2xl mb-2" style={{ color: '#1568F7' }}>
+                <h3 className="font-bold text-lg sm:text-xl md:text-2xl mb-3 md:mb-2" style={{ color: '#1568F7' }}>
                   Free Resources & Downloads
                 </h3>
-                <p className="text-black text-base md:text-lg leading-relaxed">
+                <p className="text-black text-sm sm:text-base md:text-lg leading-relaxed">
                   Download &apos;Swipe & Deploy Files&apos; and &apos;How To Attract, Not Chase&apos; strategies to implement immediately.
                 </p>
               </div>
-              <div className="mt-auto">
-                <button className="rounded-full bg-white text-black px-6 py-3 text-sm md:text-base font-medium border-2 border-black hover:bg-gray-50 transition-colors">
+              <div className="mt-auto md:mt-auto">
+                <button className="w-full md:w-auto rounded-full bg-white text-black px-6 py-3 text-sm md:text-base font-medium border-2 border-black hover:bg-gray-50 transition-colors">
                   Download Free Resources
                 </button>
               </div>
@@ -34,8 +34,8 @@ export default function AttractDontChaseSection() {
           </div>
 
           {/* Right Offer: Join Community */}
-          <div className="flex flex-col md:flex-row items-start gap-6">
-            <div className="relative w-64 h-80 md:w-80 md:h-96 lg:w-96 lg:h-[28rem] flex-shrink-0">
+          <div className="flex flex-col md:flex-row items-center md:items-start gap-6">
+            <div className="relative w-40 h-52 sm:w-48 sm:h-64 md:w-80 md:h-96 lg:w-96 lg:h-[28rem] flex-shrink-0 mx-auto md:mx-0">
               <Image
                 src="/images/free_resource/3a61270e-38a9-4a9b-aef9-b7e0c275c19b 1 (1).png"
                 alt="Join Community"
@@ -43,17 +43,17 @@ export default function AttractDontChaseSection() {
                 className="object-contain"
               />
             </div>
-            <div className="flex-1 flex flex-col h-full">
+            <div className="flex-1 flex flex-col h-full text-center md:text-left w-full">
               <div className="mb-6">
-                <h3 className="font-bold text-xl md:text-2xl mb-2" style={{ color: '#1568F7' }}>
+                <h3 className="font-bold text-lg sm:text-xl md:text-2xl mb-3 md:mb-2" style={{ color: '#1568F7' }}>
                   Join Our Community
                 </h3>
-                <p className="text-black text-base md:text-lg leading-relaxed">
+                <p className="text-black text-sm sm:text-base md:text-lg leading-relaxed">
                   Connect with top agents and access free training in the Real Estate Training Breakthroughs & Customized Coaching Community on Facebook.
                 </p>
               </div>
-              <div className="mt-auto">
-                <button className="rounded-full bg-white text-black px-6 py-3 text-sm md:text-base font-medium border-2 border-black hover:bg-gray-50 transition-colors">
+              <div className="mt-auto md:mt-auto">
+                <button className="w-full md:w-auto rounded-full bg-white text-black px-6 py-3 text-sm md:text-base font-medium border-2 border-black hover:bg-gray-50 transition-colors">
                   Join Our Community
                 </button>
               </div>

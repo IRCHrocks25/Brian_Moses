@@ -2,33 +2,51 @@ import Image from "next/image";
 
 const testimonials = [
   {
-    quote: "Brian isn't just a coach. He's a force. He helped me go from stuck to scaling my business in a few months.",
-    author: "Tracy Cousineau",
-    title: "Brokerage Owner & TV Host",
+    quote: "Brian, Great call with our team yesterday! You were right -- everyone was engaged. Guillermo told me that the call yesterday was the best hour of real estate training that he has ever received! He is a 15 year veteran in the business and was with KW for the last 9 years (who is known for their agent training) -- plus he holds nothing back, so I know that he meant it sincerely. Thanks again for a great call!",
+    author: "Jared & Victoria Erfle",
+    title: "Palmdale CA",
     rating: 5.0,
   },
   {
-    quote: "Every time I talk to Brian, I walk away with clarity, a plan, and a fire in my belly.",
-    author: "Matt Hennessy",
-    title: "Certified Mortgage Advisor",
+    quote: "I am so excited! Had a coaching call with Brian Moses and implemented 1 strategy to attract sellers.... 12 leads in 24 hours and 8 appointments booked!",
+    author: "Andy Richardson",
+    title: "Wilmington, DE",
     rating: 5.0,
   },
   {
-    quote: "I sold 77 homes my first year working with Brian.",
-    author: "Lynn Montero",
-    title: "Real Estate Agent & Coaching Client",
+    quote: "I've had many coaches and not one of them has ever come close to making such an impact in my business and my life like Brian has! I thank you from the bottom of my heart!",
+    author: "Jeremy Mellick",
+    title: "Seattle, WA",
     rating: 5.0,
   },
   {
-    quote: "If you're serious about leveling up—this is the guy.",
-    author: "Jared Erfle",
-    title: "Broker & Relocation Specialist",
+    quote: "Brian Moses is The Master and so genuine! One of the people you meet in life and later look back at that moment as the turning point!",
+    author: "Jay Kinder",
+    title: "Laughton, OK",
     rating: 5.0,
   },
   {
-    quote: "He turned 20 years of chaos into a predictable, profitable system.",
-    author: "Lynn Montero",
-    title: "Top Producing Agent",
+    quote: "Brian Has been an invaluable source of experience and wisdom to our industry. He's helped thousands change the trajectory of their careers. Sharing your process is truly a gift to current and future real estate professionals. Thank you!",
+    author: "Amy Stoehr",
+    title: "CEO Star Power",
+    rating: 5.0,
+  },
+  {
+    quote: "I met Brian in the early 90's and have been impressed with his accomplishments and rise to the top! We've hired him multiple times to share his insights with our team and love how he provides a different and refreshing perspective on all things!",
+    author: "Lillian Montalto",
+    title: "Featured on Lottery Dream Home",
+    rating: 5.0,
+  },
+  {
+    quote: "Brian Moses was a huge inspiration to me when I started in real estate. He's one of the best when it comes to crafting super influential presentations, handling objections and why we worked and collaborated together for the last 15 years!",
+    author: "Anthony Lamacchia",
+    title: "Offices in MA, NH, CT, ME, RI & FL - Over 2 Billion in Annual Sales Volume",
+    rating: 5.0,
+  },
+  {
+    quote: "Brian has worked with our company for a long time, I've personally worked with Brian 1 on 1, I've seen him speak multiple times over the last 15 years, he's worked with our team, worked with a lot of our clients, he's terrific, one of the best real estate coaches in the entire Industry!",
+    author: "Shant Banosian",
+    title: "President RATE Mortgage",
     rating: 5.0,
   },
 ];
@@ -50,7 +68,7 @@ export default function TestimonialsSection() {
             testimonials.map((testimonial, i) => (
               <div
                 key={`${loop}-${i}`}
-                className="flex-shrink-0 w-[400px] md:w-[450px] lg:w-[500px]"
+                className="flex-shrink-0 w-[300px] sm:w-[350px] md:w-[450px] lg:w-[500px]"
               >
                 <div className="bg-white p-6 md:p-8 rounded-lg border border-gray-200 h-full">
                   {/* Quote */}

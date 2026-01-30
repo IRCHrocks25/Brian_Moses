@@ -113,7 +113,7 @@ export default function TypicalOutcomesSection() {
         </p>
 
         {/* Outcomes Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-8 md:gap-10 lg:gap-12 mb-12 items-stretch">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6 sm:gap-8 md:gap-10 lg:gap-12 mb-12 items-stretch">
           {outcomes.map((outcome, index) => (
             <div 
               key={index} 

@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function WorkLessEarnMoreSection() {
   return (
-    <section className="relative bg-[#0a0a0a] py-16 md:py-24 overflow-hidden min-h-[600px] md:min-h-[700px] flex items-center">
+    <section className="relative bg-[#0a0a0a] py-12 sm:py-16 md:py-24 overflow-hidden min-h-[400px] sm:min-h-[500px] md:min-h-[700px] flex items-center">
       {/* Background Image */}
       <div className="absolute inset-0">
         <Image
@@ -17,7 +17,7 @@ export default function WorkLessEarnMoreSection() {
       <div className="relative z-10 mx-auto w-full max-w-7xl px-6 lg:px-8">
         <div className="text-center text-white max-w-6xl mx-auto">
           {/* Main Headline */}
-          <h2 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold mb-6 whitespace-nowrap">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold mb-6">
             Work less. Earn more.
           </h2>
 

@@ -39,7 +39,7 @@ export default function BrianStorySection() {
     <>
       {/* TOP: White page + centered dark card with full-bleed background image */}
       <section className="bg-white py-12 md:py-16">
-        <div className="mx-auto w-full px-12 lg:px-24">
+        <div className="mx-auto w-full px-4 sm:px-6 md:px-8 lg:px-24">
           <div className="relative overflow-hidden rounded-2xl border border-black/10 shadow-[0_20px_60px_rgba(0,0,0,0.18)]">
             {/* Background image */}
             <div className="absolute inset-0">
@@ -55,7 +55,7 @@ export default function BrianStorySection() {
             {/* Content layout (match proportions in screenshot) */}
             <div className="relative grid min-h-[800px] md:min-h-[900px] lg:min-h-[950px] grid-cols-1 lg:grid-cols-[1.5fr_0.5fr]">
               {/* Left text block */}
-              <div className="pl-16 pr-10 py-12 md:pl-20 md:pr-14 md:py-16 lg:py-20 text-white">
+              <div className="pl-4 pr-4 py-8 sm:pl-8 sm:pr-6 md:pl-20 md:pr-14 md:py-16 lg:py-20 text-white">
                 <h2 className="text-3xl md:text-4xl lg:text-5xl font-semibold leading-tight max-w-[1000px]">
                   From $18k p.a. to ranked #2 in the world,
                   <br />
@@ -98,7 +98,7 @@ export default function BrianStorySection() {
 
       {/* BOTTOM: Principles (match screenshot layout + sizing) */}
       <section className="bg-white pb-20 md:pb-24">
-        <div className="mx-auto w-full px-24 lg:px-48">
+        <div className="mx-auto w-full px-4 sm:px-6 md:px-12 lg:px-48">
           <p className="text-center text-black/60 text-base md:text-lg max-w-4xl mx-auto">
             He&apos;s giving you the exact playbook he built from the ground up, so you don&apos;t have to learn the hard way.
           </p>
