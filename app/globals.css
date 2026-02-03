@@ -33,6 +33,15 @@ body {
   animation: marquee 28s linear infinite;
 }
 
+.marquee-testimonials {
+  width: max-content;
+  animation: marquee 60s linear infinite;
+}
+
+.marquee-testimonials.paused {
+  animation-play-state: paused;
+}
+
 @media (prefers-reduced-motion: reduce) {
   .marquee {
     animation: none;

@@ -1,4 +1,7 @@
+"use client";
+
 import Image from "next/image";
+import { useState } from "react";
 
 const testimonials = [
   {
@@ -52,18 +55,27 @@ const testimonials = [
 ];
 
 export default function TestimonialsSection() {
+  const [isPaused, setIsPaused] = useState(false);
+
   return (
     <section className="relative bg-white py-16 md:py-24">
       <div className="mx-auto w-full max-w-7xl px-6 lg:px-8 mb-12">
         {/* Main Heading */}
-        <h2 className="text-center text-black font-normal text-2xl md:text-3xl lg:text-4xl mb-4">
-          These real estate agents didn&apos;t just hire Brian, they transformed their businesses and lives.
+        <h2 className="text-center text-black font-bold text-2xl md:text-3xl lg:text-4xl mb-4">
+          Real Agents. Real Results.
         </h2>
+        <p className="text-center text-black font-normal text-lg md:text-xl lg:text-2xl">
+          See how Brian&apos;s system transformed their business - and their lives.
+        </p>
       </div>
 
       {/* Testimonials Marquee (Edge to Edge) */}
       <div className="overflow-hidden w-full -mx-6 lg:-mx-8">
-        <div className="marquee flex items-start gap-8">
+        <div 
+          className={`marquee-testimonials flex items-start gap-8 ${isPaused ? 'paused' : ''}`}
+          onMouseEnter={() => setIsPaused(true)}
+          onMouseLeave={() => setIsPaused(false)}
+        >
           {[...Array(2)].flatMap((_, loop) =>
             testimonials.map((testimonial, i) => (
               <div

@@ -5,14 +5,16 @@ const programs = [
     program: "PROGRAM1",
     title: "Inner Circle Group Coaching",
     desc: "Weekly breakthroughs. Tactical training. A tribe of producers who don't play small.",
-    bullet: "Ideal for agents ready to scale fast in a powerful community.",
+    bullet: "Ideal for agents producing 0-15 sales annually or income is <$200,000 and they want more",
+    buttonText: "Inner Circle Group Coaching",
     image: "/work_with_brian/Frame 1000007719.png",
   },
   {
     program: "PROGRAM2",
-    title: "1-on-1 Coaching with Brian",
+    title: "1 on 1 Personalized & Customized Coaching",
     desc: "Private access. Custom blueprints. Fast-track your goals.",
-    bullet: "For the agent or team leader who wants full acceleration.",
+    bullet: "Ideal for agents doing more than $15 deals annually and making >$200,000 a year. Apply for your free business evaluation call and secure your spot today.",
+    buttonText: "Apply Now",
     image: "/work_with_brian/Frame 1000007719 (1).png",
   },
   {
@@ -20,6 +22,7 @@ const programs = [
     title: "Keynote Speaking for Real Estate\n& Corporate Events",
     desc: "Motivational. Tactical. Unforgettable.",
     bullet: "For companies, brokerages, or conferences ready to spark lasting change.",
+    buttonText: "Learn More",
     image: "/work_with_brian/Ekran Resmi 2025-09-30 12.51.10 1.png",
   },
 ];
@@ -38,7 +41,7 @@ export default function WorkWithBrianSection() {
       <div className="relative mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8 py-12 sm:py-16 md:py-24">
         {/* Heading */}
         <h2 className="text-center text-white font-light text-2xl md:text-3xl lg:text-4xl leading-tight max-w-5xl mx-auto">
-          Work with Brian to learn the exact playbook that took him from $18K/year to $3M+/year with over 3,500 homes sold.
+          Let Brian Show You How to Stand Out in Your Market, Close More Deals and Enjoy a Balanced Life.
         </h2>
 
         {/* Cards */}
@@ -98,7 +101,7 @@ export default function WorkWithBrianSection() {
                 {/* Button */}
                 <div className="mt-7">
                   <button className="inline-flex items-center justify-center rounded-full border border-white/35 px-5 py-2.5 text-sm text-white/90 hover:text-white hover:border-white/60 transition">
-                    Learn More
+                    {p.buttonText || "Learn More"}
                   </button>
                 </div>
               </div>
