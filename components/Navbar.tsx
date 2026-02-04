@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Navbar() {
   return (
@@ -31,6 +32,9 @@ export default function Navbar() {
             <a href="#coaching" className="hover:text-white transition-colors">
               Coaching
             </a>
+            <Link href="/keynote" className="hover:text-white transition-colors">
+              Speaker
+            </Link>
           </nav>
 
           {/* CTA */}
