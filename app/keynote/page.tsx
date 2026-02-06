@@ -3,9 +3,11 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import KeynoteHeroSection from "@/components/keynote/KeynoteHeroSection";
+import KeynoteInspirationSection from "@/components/keynote/KeynoteInspirationSection";
 import KeynoteTransformationSection from "@/components/keynote/KeynoteTransformationSection";
 import KeynoteKeynotesWorkshopsSection from "@/components/keynote/KeynoteKeynotesWorkshopsSection";
 import KeynoteEventPlannersSection from "@/components/keynote/KeynoteEventPlannersSection";
+import KeynoteTrustSection from "@/components/keynote/KeynoteTrustSection";
 import KeynoteWhatSetsApartSection from "@/components/keynote/KeynoteWhatSetsApartSection";
 import KeynoteAudienceExperienceSection from "@/components/keynote/KeynoteAudienceExperienceSection";
 import KeynoteCredentialsSection from "@/components/keynote/KeynoteCredentialsSection";
@@ -21,6 +23,9 @@ export default function KeynotePage() {
       {/* HERO SECTION */}
       <KeynoteHeroSection />
 
+      {/* Inspiration Section */}
+      <KeynoteInspirationSection />
+
       {/* A Story of Radical Transformation Section */}
       <KeynoteTransformationSection />
 
@@ -29,6 +34,9 @@ export default function KeynotePage() {
 
       {/* Why Event Planners Choose Brian Moses Section */}
       <KeynoteEventPlannersSection />
+
+      {/* Trust Section */}
+      <KeynoteTrustSection />
 
       {/* What Sets Brian Apart Section */}
       <KeynoteWhatSetsApartSection />

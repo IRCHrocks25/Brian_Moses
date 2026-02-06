@@ -1,7 +1,15 @@
 export default function KeynoteKeynotesWorkshopsSection() {
   return (
-    <section className="relative bg-[#0a0a0a] py-16 md:py-24">
-      <div className="mx-auto w-full max-w-7xl px-6 lg:px-12">
+    <section className="relative overflow-hidden py-16 md:py-24">
+      {/* Background gradient */}
+      <div className="absolute inset-0 bg-[#000614]" />
+      <div 
+        className="absolute inset-0" 
+        style={{ background: 'linear-gradient(to bottom, #1568F7 0%, #000614 100%)' }}
+      />
+      <div className="absolute inset-0 bg-gradient-to-r from-[#000614] via-transparent to-[#000614]" />
+      
+      <div className="relative z-10 mx-auto w-full max-w-7xl px-6 lg:px-12">
         {/* Section Header */}
         <div className="text-center mb-12 md:mb-16">
           <h2 className="text-white font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl mb-4">
@@ -15,7 +23,15 @@ export default function KeynoteKeynotesWorkshopsSection() {
         {/* Keynotes and Workshops Grid */}
         <div className="grid gap-8 md:gap-10 lg:grid-cols-2">
           {/* KEYNOTE: Never Say Can't */}
-          <div className="relative rounded-xl overflow-hidden border border-white/10 bg-[#0a0a0a] p-6 md:p-8 hover:border-white/20 transition-colors">
+          <div className="relative rounded-xl overflow-hidden border border-white/10 shadow-[0_20px_60px_rgba(0,0,0,0.45)] backdrop-blur-sm p-6 md:p-8 hover:border-white/20 transition-colors">
+            {/* Card gradient background */}
+            <div className="absolute inset-0 bg-[#000614]" />
+            <div 
+              className="absolute inset-0" 
+              style={{ background: 'linear-gradient(to bottom, #1568F7 0%, #000614 100%)' }}
+            />
+            <div className="absolute inset-0 bg-gradient-to-r from-[#000614] via-transparent to-[#000614]" />
+            <div className="relative z-10">
             <div className="mb-4">
               <span className="text-[#AADBFF] text-xs md:text-sm font-semibold uppercase tracking-wider">
                 KEYNOTE
@@ -32,10 +48,19 @@ export default function KeynoteKeynotesWorkshopsSection() {
                 <span className="font-semibold text-white/80">Ideal for:</span> General audiences, leadership events, sales teams, annual conferences
               </p>
             </div>
+            </div>
           </div>
 
           {/* KEYNOTE: The Comfort Zone */}
-          <div className="relative rounded-xl overflow-hidden border border-white/10 bg-[#0a0a0a] p-6 md:p-8 hover:border-white/20 transition-colors">
+          <div className="relative rounded-xl overflow-hidden border border-white/10 shadow-[0_20px_60px_rgba(0,0,0,0.45)] backdrop-blur-sm p-6 md:p-8 hover:border-white/20 transition-colors">
+            {/* Card gradient background */}
+            <div className="absolute inset-0 bg-[#000614]" />
+            <div 
+              className="absolute inset-0" 
+              style={{ background: 'linear-gradient(to bottom, #1568F7 0%, #000614 100%)' }}
+            />
+            <div className="absolute inset-0 bg-gradient-to-r from-[#000614] via-transparent to-[#000614]" />
+            <div className="relative z-10">
             <div className="mb-4">
               <span className="text-[#AADBFF] text-xs md:text-sm font-semibold uppercase tracking-wider">
                 KEYNOTE
@@ -52,10 +77,19 @@ export default function KeynoteKeynotesWorkshopsSection() {
                 <span className="font-semibold text-white/80">Ideal for:</span> High performers, executive retreats, personal development events
               </p>
             </div>
+            </div>
           </div>
 
           {/* WORKSHOP: Attract, Don't Chase */}
-          <div className="relative rounded-xl overflow-hidden border border-white/10 bg-[#0a0a0a] p-6 md:p-8 hover:border-white/20 transition-colors">
+          <div className="relative rounded-xl overflow-hidden border border-white/10 shadow-[0_20px_60px_rgba(0,0,0,0.45)] backdrop-blur-sm p-6 md:p-8 hover:border-white/20 transition-colors">
+            {/* Card gradient background */}
+            <div className="absolute inset-0 bg-[#000614]" />
+            <div 
+              className="absolute inset-0" 
+              style={{ background: 'linear-gradient(to bottom, #1568F7 0%, #000614 100%)' }}
+            />
+            <div className="absolute inset-0 bg-gradient-to-r from-[#000614] via-transparent to-[#000614]" />
+            <div className="relative z-10">
             <div className="mb-4">
               <span className="text-[#AADBFF] text-xs md:text-sm font-semibold uppercase tracking-wider">
                 WORKSHOP
@@ -72,10 +106,19 @@ export default function KeynoteKeynotesWorkshopsSection() {
                 <span className="font-semibold text-white/80">Ideal for:</span> Sales professionals, entrepreneurs, marketing teams, service-based businesses
               </p>
             </div>
+            </div>
           </div>
 
           {/* WORKSHOP: Optimize Before You Add */}
-          <div className="relative rounded-xl overflow-hidden border border-white/10 bg-[#0a0a0a] p-6 md:p-8 hover:border-white/20 transition-colors">
+          <div className="relative rounded-xl overflow-hidden border border-white/10 shadow-[0_20px_60px_rgba(0,0,0,0.45)] backdrop-blur-sm p-6 md:p-8 hover:border-white/20 transition-colors">
+            {/* Card gradient background */}
+            <div className="absolute inset-0 bg-[#000614]" />
+            <div 
+              className="absolute inset-0" 
+              style={{ background: 'linear-gradient(to bottom, #1568F7 0%, #000614 100%)' }}
+            />
+            <div className="absolute inset-0 bg-gradient-to-r from-[#000614] via-transparent to-[#000614]" />
+            <div className="relative z-10">
             <div className="mb-4">
               <span className="text-[#AADBFF] text-xs md:text-sm font-semibold uppercase tracking-wider">
                 WORKSHOP
@@ -92,10 +135,19 @@ export default function KeynoteKeynotesWorkshopsSection() {
                 <span className="font-semibold text-white/80">Ideal for:</span> Business owners, operations leaders, revenue teams
               </p>
             </div>
+            </div>
           </div>
 
           {/* WORKSHOP: Unlocking Your Sales Team's True Potential */}
-          <div className="relative rounded-xl overflow-hidden border border-white/10 bg-[#0a0a0a] p-6 md:p-8 hover:border-white/20 transition-colors">
+          <div className="relative rounded-xl overflow-hidden border border-white/10 shadow-[0_20px_60px_rgba(0,0,0,0.45)] backdrop-blur-sm p-6 md:p-8 hover:border-white/20 transition-colors">
+            {/* Card gradient background */}
+            <div className="absolute inset-0 bg-[#000614]" />
+            <div 
+              className="absolute inset-0" 
+              style={{ background: 'linear-gradient(to bottom, #1568F7 0%, #000614 100%)' }}
+            />
+            <div className="absolute inset-0 bg-gradient-to-r from-[#000614] via-transparent to-[#000614]" />
+            <div className="relative z-10">
             <div className="mb-4">
               <span className="text-[#AADBFF] text-xs md:text-sm font-semibold uppercase tracking-wider">
                 WORKSHOP
@@ -112,10 +164,19 @@ export default function KeynoteKeynotesWorkshopsSection() {
                 <span className="font-semibold text-white/80">Ideal for:</span> Sales teams, sales leadership, revenue organizations
               </p>
             </div>
+            </div>
           </div>
 
           {/* WORKSHOP: Mindset Mastery */}
-          <div className="relative rounded-xl overflow-hidden border border-white/10 bg-[#0a0a0a] p-6 md:p-8 hover:border-white/20 transition-colors">
+          <div className="relative rounded-xl overflow-hidden border border-white/10 shadow-[0_20px_60px_rgba(0,0,0,0.45)] backdrop-blur-sm p-6 md:p-8 hover:border-white/20 transition-colors">
+            {/* Card gradient background */}
+            <div className="absolute inset-0 bg-[#000614]" />
+            <div 
+              className="absolute inset-0" 
+              style={{ background: 'linear-gradient(to bottom, #1568F7 0%, #000614 100%)' }}
+            />
+            <div className="absolute inset-0 bg-gradient-to-r from-[#000614] via-transparent to-[#000614]" />
+            <div className="relative z-10">
             <div className="mb-4">
               <span className="text-[#AADBFF] text-xs md:text-sm font-semibold uppercase tracking-wider">
                 WORKSHOP
@@ -131,6 +192,7 @@ export default function KeynoteKeynotesWorkshopsSection() {
               <p className="text-white/60 text-sm md:text-base">
                 <span className="font-semibold text-white/80">Ideal for:</span> Corporate audiences, sales kickoffs, culture transformation initiatives
               </p>
+            </div>
             </div>
           </div>
         </div>
