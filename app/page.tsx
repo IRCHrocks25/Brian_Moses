@@ -90,7 +90,7 @@ export default function Home() {
             {[
               "Named one of the 125 Most Influential People in Real Estate (Success Magazine)",
               "Ranked #2 Worldwide in a major real estate franchise, 7 years in the Top 10",
-              "Brian Moses coaches and trains some of N. America's most successful agents. These agents average over $1 Million Dollars in Annual Income and you can too.",
+              "Brian Moses coaches and trains North America's most successful agents. These agents average over $1 Million Dollars in Annual Income and you can too.",
             ].map((t, i) => (
               <div key={i} className="flex gap-3">
                 <span className="mt-2 h-2.5 w-2.5 flex-none bg-[#AADBFF]" />
