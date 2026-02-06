@@ -38,6 +38,9 @@ export default function KeynotePage() {
       {/* Trust Section */}
       <KeynoteTrustSection />
 
+      {/* What People Are Saying Section */}
+      <KeynoteTestimonialsSection />
+
       {/* What Sets Brian Apart Section */}
       <KeynoteWhatSetsApartSection />
 
@@ -46,9 +49,6 @@ export default function KeynotePage() {
 
       {/* Credentials & Recognition Section */}
       <KeynoteCredentialsSection />
-
-      {/* What People Are Saying Section */}
-      <KeynoteTestimonialsSection />
 
       {/* Book Brian Moses Section */}
       <KeynoteBookSection />
