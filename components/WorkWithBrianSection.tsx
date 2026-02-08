@@ -13,7 +13,7 @@ const programs = [
     program: "PROGRAM2",
     title: "1 on 1 Personalized & Customized Coaching",
     desc: "Private access. Custom blueprints. Fast-track your goals.",
-    bullet: "Ideal for agents doing more than $15 deals annually and making >$200,000 a year. Apply for your free business evaluation call and secure your spot today.",
+    bullet: "Ideal for agents doing more than 15 deals annually and making >$200,000 a year. Apply for your free business evaluation call and secure your spot today.",
     buttonText: "Apply Now",
     image: "/work_with_brian/Frame 1000007719 (1).png",
   },

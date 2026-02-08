@@ -1,11 +1,9 @@
 import Image from "next/image";
 
 const imageStrip = [
-  "/images/five_images/GeorgeWBush.png",
   "/images/five_images/Hardy3.png",
   "/images/five_images/Keynote-1.png",
   "/images/five_images/Keynote.png",
-  "/images/five_images/TonyRobbinsBrianCelts.png",
 ];
 
 export default function KeynoteInspirationSection() {
@@ -13,7 +11,7 @@ export default function KeynoteInspirationSection() {
     <section className="relative bg-[#0a0a0a] overflow-hidden">
       {/* 8-image horizontal strip - Edge to Edge */}
       <div className="relative w-full">
-        <div className="grid grid-cols-2 sm:grid-cols-5 gap-[30px]">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-[30px]">
           {imageStrip.map((src) => (
             <div
               key={src}

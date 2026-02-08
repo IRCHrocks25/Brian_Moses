@@ -79,9 +79,9 @@ export default function TypicalOutcomesSection() {
         </h3>
 
         {/* Opening Statement - Card Style */}
-        <div className="max-w-4xl mx-auto mb-12">
+        <div className="max-w-5xl mx-auto mb-12">
           <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 md:p-8 border border-white/20">
-            <p className="text-white text-lg md:text-xl lg:text-2xl text-center leading-relaxed font-medium">
+            <p className="text-white text-lg md:text-xl lg:text-2xl text-left leading-relaxed font-medium">
               Just like there&apos;s no shortage of real estate agents, there&apos;s no shortage of self proclaimed coaches... <span className="text-[#2aa7ff] font-bold">The difference comes down to experience.</span>
             </p>
           </div>

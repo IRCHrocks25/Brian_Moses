@@ -105,7 +105,7 @@ function TestimonialsMarquee() {
   );
 }
 
-export default function KeynoteTestimonialsSection() {
+export default function TestimonialsSection() {
   return (
     <section className="relative bg-white py-16 md:py-24 overflow-hidden">
       <div className="relative z-10 mx-auto w-full max-w-7xl px-6 lg:px-12 mb-12">

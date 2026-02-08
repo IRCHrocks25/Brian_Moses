@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Navbar from "@/components/Navbar";
-import FreeTrainingSection from "@/components/FreeTrainingSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import WorkWithBrianSection from "@/components/WorkWithBrianSection";
 import AttractDontChaseSection from "@/components/AttractDontChaseSection";
@@ -35,7 +34,7 @@ export default function Home() {
               <div className="grid min-h-[70vh] sm:min-h-[80vh] md:min-h-[92vh] items-center gap-6 md:gap-10 lg:grid-cols-2 pt-16 sm:pt-20 md:pt-24 pb-8 sm:pb-10 md:pb-14">
                 {/* Left Content */}
                 <div className="pl-4 sm:pl-6 md:pl-12 lg:pl-16">
-                  <h1 className="text-white font-bold leading-[1.05] text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">
+                  <h1 className="text-white font-bold leading-[1.05] text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl">
                     There&apos;s a Better Way!
                   </h1>
 
@@ -90,7 +89,7 @@ export default function Home() {
             {[
               "Named one of the 125 Most Influential People in Real Estate (Success Magazine)",
               "Ranked #2 Worldwide in a major real estate franchise, 7 years in the Top 10",
-              "Brian Moses coaches and trains North America's most successful agents. These agents average over $1 Million Dollars in Annual Income and you can too.",
+              "Brian Moses coaches and trains some of N. America's most successful agents. These agents average over $1 Million Dollars in Annual Income and you can too.",
             ].map((t, i) => (
               <div key={i} className="flex gap-3">
                 <span className="mt-2 h-2.5 w-2.5 flex-none bg-[#AADBFF]" />
@@ -102,50 +101,53 @@ export default function Home() {
           {/* Divider */}
           <div className="my-12 h-px w-full bg-white/15" />
 
-          {/* Media Logos - Keep existing logos visible, ready to replace with new company logos when available */}
+          {/* Media Logos */}
           <div className="flex flex-nowrap justify-center items-center gap-3 sm:gap-4 md:gap-6 lg:gap-8 w-full overflow-x-auto">
-            {/* Existing logos - keep these until new logos are added:
-                New company logos to add: Reel Geeks, Commissions Inc, Prime Seller Leads, 
-                Listings to Leads, Sierra Interactive, Y-Lopo, Tiger Leads
-            */}
             <Image
-              src="/images/logos/Frame 1000003716.png"
-              alt="Partner logo"
+              src="/images/logos/reel-geeks.png"
+              alt="Reel Geeks"
               width={140}
               height={64}
               className="h-12 sm:h-14 md:h-16 w-auto flex-shrink-0 object-contain opacity-80 hover:opacity-100 transition-opacity"
             />
             <Image
-              src="/images/logos/Frame 1000003717.png"
-              alt="Partner logo"
+              src="/images/logos/commissions-inc.png"
+              alt="Commissions Inc"
               width={140}
               height={64}
               className="h-12 sm:h-14 md:h-16 w-auto flex-shrink-0 object-contain opacity-80 hover:opacity-100 transition-opacity"
             />
             <Image
-              src="/images/logos/Frame 1000003718.png"
-              alt="Partner logo"
+              src="/images/logos/prime-seller-leads.png"
+              alt="Prime Seller Leads"
               width={140}
               height={64}
               className="h-12 sm:h-14 md:h-16 w-auto flex-shrink-0 object-contain opacity-80 hover:opacity-100 transition-opacity"
             />
             <Image
-              src="/images/logos/Frame 1000003719.png"
-              alt="Partner logo"
+              src="/images/logos/listings-to-leads.png"
+              alt="Listings to Leads"
               width={140}
               height={64}
               className="h-12 sm:h-14 md:h-16 w-auto flex-shrink-0 object-contain opacity-80 hover:opacity-100 transition-opacity"
             />
             <Image
-              src="/images/logos/Frame 1000003720.png"
-              alt="Partner logo"
+              src="/images/logos/sierra-interactive.png"
+              alt="Sierra Interactive"
               width={140}
               height={64}
               className="h-12 sm:h-14 md:h-16 w-auto flex-shrink-0 object-contain opacity-80 hover:opacity-100 transition-opacity"
             />
             <Image
-              src="/images/logos/Frame 1000003721.png"
-              alt="Partner logo"
+              src="/images/logos/y-lopo.png"
+              alt="Y-Lopo"
+              width={140}
+              height={64}
+              className="h-12 sm:h-14 md:h-16 w-auto flex-shrink-0 object-contain opacity-80 hover:opacity-100 transition-opacity"
+            />
+            <Image
+              src="/images/logos/tiger-leads.png"
+              alt="Tiger Leads"
               width={140}
               height={64}
               className="h-12 sm:h-14 md:h-16 w-auto flex-shrink-0 object-contain opacity-80 hover:opacity-100 transition-opacity"
@@ -177,9 +179,14 @@ export default function Home() {
                   "/images/trusted_by/Frame 1000007712.png",
                   "/images/trusted_by/Frame 1000007713.png",
                   "/images/trusted_by/Frame 1000007714.png",
-                  // Note: When ready to add new real estate brand logos, add the image files to /public/images/trusted_by/:
-                  // exp.png, compass.png, home-smart.png, lpt-realty.png, real-brokerage.png, 
-                  // howard-hannah.png, lamacchia-real-estate.png, miranda-real-estate-group.png
+                  "/images/trusted_by/exp.png",
+                  "/images/trusted_by/compass.png",
+                  "/images/trusted_by/home-smart.png",
+                  "/images/trusted_by/lpt-realty.png",
+                  "/images/trusted_by/real-brokerage.png",
+                  "/images/trusted_by/howard-hannah.png",
+                  "/images/trusted_by/lamacchia-real-estate.png",
+                  "/images/trusted_by/miranda-real-estate-group.png"
                 ].map((src) => (
                   <Image
                     key={`${loop}-${src}`}
@@ -195,9 +202,6 @@ export default function Home() {
         </div>
         </div>
       </section>
-
-      {/* Free Training Section */}
-      <FreeTrainingSection />
 
       {/* Testimonials Section */}
       <TestimonialsSection />
