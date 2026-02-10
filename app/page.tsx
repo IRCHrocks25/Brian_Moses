@@ -101,57 +101,25 @@ export default function Home() {
           {/* Divider */}
           <div className="my-12 h-px w-full bg-white/15" />
 
-          {/* Media Logos */}
+          {/* Media Logos - top row (first 6 logos) */}
           <div className="flex flex-nowrap justify-center items-center gap-3 sm:gap-4 md:gap-6 lg:gap-8 w-full overflow-x-auto">
-            <Image
-              src="/images/logos/reel-geeks.png"
-              alt="Reel Geeks"
-              width={140}
-              height={64}
-              className="h-12 sm:h-14 md:h-16 w-auto flex-shrink-0 object-contain opacity-80 hover:opacity-100 transition-opacity"
-            />
-            <Image
-              src="/images/logos/commissions-inc.png"
-              alt="Commissions Inc"
-              width={140}
-              height={64}
-              className="h-12 sm:h-14 md:h-16 w-auto flex-shrink-0 object-contain opacity-80 hover:opacity-100 transition-opacity"
-            />
-            <Image
-              src="/images/logos/prime-seller-leads.png"
-              alt="Prime Seller Leads"
-              width={140}
-              height={64}
-              className="h-12 sm:h-14 md:h-16 w-auto flex-shrink-0 object-contain opacity-80 hover:opacity-100 transition-opacity"
-            />
-            <Image
-              src="/images/logos/listings-to-leads.png"
-              alt="Listings to Leads"
-              width={140}
-              height={64}
-              className="h-12 sm:h-14 md:h-16 w-auto flex-shrink-0 object-contain opacity-80 hover:opacity-100 transition-opacity"
-            />
-            <Image
-              src="/images/logos/sierra-interactive.png"
-              alt="Sierra Interactive"
-              width={140}
-              height={64}
-              className="h-12 sm:h-14 md:h-16 w-auto flex-shrink-0 object-contain opacity-80 hover:opacity-100 transition-opacity"
-            />
-            <Image
-              src="/images/logos/y-lopo.png"
-              alt="Y-Lopo"
-              width={140}
-              height={64}
-              className="h-12 sm:h-14 md:h-16 w-auto flex-shrink-0 object-contain opacity-80 hover:opacity-100 transition-opacity"
-            />
-            <Image
-              src="/images/logos/tiger-leads.png"
-              alt="Tiger Leads"
-              width={140}
-              height={64}
-              className="h-12 sm:h-14 md:h-16 w-auto flex-shrink-0 object-contain opacity-80 hover:opacity-100 transition-opacity"
-            />
+            {[
+              "/images/logos/Frame 1707482088.png",
+              "/images/logos/Frame 1707482089.png",
+              "/images/logos/Frame 1707482090.png",
+              "/images/logos/Frame 1707482091.png",
+              "/images/logos/Frame 1707482092.png",
+              "/images/logos/Frame 1707482093 (1).png",
+            ].map((src, index) => (
+              <Image
+                key={index}
+                src={src}
+                alt="Partner logo"
+                width={140}
+                height={64}
+                className="h-12 sm:h-14 md:h-16 w-auto flex-shrink-0 object-contain opacity-80 hover:opacity-100 transition-opacity"
+              />
+            ))}
           </div>
 
           {/* Trusted By Heading */}
@@ -160,33 +128,17 @@ export default function Home() {
           </h3>
         </div>
 
-        {/* Trusted By Logos - Marquee (Edge to Edge) - All existing logos displayed */}
+        {/* Trusted By Logos - Marquee (Edge to Edge, remaining 6 logos) */}
         <div className="mt-8 overflow-hidden w-full -mx-6 lg:-mx-8">
           <div className="marquee flex items-center gap-14">
               {[...Array(2)].flatMap((_, loop) =>
                 [
-                  "/images/trusted_by/Frame 1000007701.png",
-                  "/images/trusted_by/Frame 1000007702.png",
-                  "/images/trusted_by/Frame 1000007703.png",
-                  "/images/trusted_by/Frame 1000007704.png",
-                  "/images/trusted_by/Frame 1000007705.png",
-                  "/images/trusted_by/Frame 1000007706.png",
-                  "/images/trusted_by/Frame 1000007707.png",
-                  "/images/trusted_by/Frame 1000007708.png",
-                  "/images/trusted_by/Frame 1000007709.png",
-                  "/images/trusted_by/Frame 1000007710.png",
-                  "/images/trusted_by/Frame 1000007711.png",
-                  "/images/trusted_by/Frame 1000007712.png",
-                  "/images/trusted_by/Frame 1000007713.png",
-                  "/images/trusted_by/Frame 1000007714.png",
-                  "/images/trusted_by/exp.png",
-                  "/images/trusted_by/compass.png",
-                  "/images/trusted_by/home-smart.png",
-                  "/images/trusted_by/lpt-realty.png",
-                  "/images/trusted_by/real-brokerage.png",
-                  "/images/trusted_by/howard-hannah.png",
-                  "/images/trusted_by/lamacchia-real-estate.png",
-                  "/images/trusted_by/miranda-real-estate-group.png"
+                  "/images/logos/Frame 1000003721.png",
+                  "/images/logos/gradient-blue-logo 1.png",
+                  "/images/logos/13103 1.png",
+                  "/images/logos/163035_normal 1.png",
+                  "/images/logos/HomeSmart-Logo_Full_WHT 1.png",
+                  "/images/logos/Real-Logo-Outline-Black 1.png",
                 ].map((src) => (
                   <Image
                     key={`${loop}-${src}`}

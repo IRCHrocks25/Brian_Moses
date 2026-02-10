@@ -4,17 +4,17 @@ const principles = [
   {
     title: "Strategic Action, Not a Numbers Game",
     description:
-      'He rejects outdated advice like "just talk to more people." Instead, he’ll show you how to craft offers so compelling that high-quality prospects call you, allowing you to build a business that works even when you take time off.',
+      'Brian rejects outdated advice like "just talk to more people." He insists there is a better way and will show you how to craft offers so compelling that high-quality buyers and sellers seek you out, allowing you to build a business that works even when you’re not. Never worry about where your next deal is coming from, ever again.',
   },
   {
     title: "Life Beyond the Hustle",
     description:
-      "Brian believes your business should fund your life, not consume it. He helps you install the systems and mindset to achieve true freedom, giving you back time for what matters most: your family, your health, and your passions.",
+      "Your business should serve your life, not consume it. Say goodbye to 24/7/365 always on call and tap into a system and process to achieve true freedom, giving you back time for what matters most: your family, your health, and your passions.",
   },
   {
     title: 'A "Never Say Can\'t" Mindset',
     description:
-      "Brian's greatest win wasn't in business. After 10 failed IVF attempts and being told fatherhood was impossible, he and his wife refused to give up. Today, they are proud parents, a story now being developed into a major motion picture.",
+      "Brian's greatest win wasn't the real estate successes he’s had. He’d tell you it was the adversities he overcame, the life he provided for his family and the thousands he has helped and impacted over the years. His life story is now being developed into a major motion picture to inspire the world the same way his work has inspired so many.",
   },
 ];
 
@@ -56,32 +56,35 @@ export default function BrianStorySection() {
             <div className="relative grid min-h-[800px] md:min-h-[900px] lg:min-h-[950px] grid-cols-1 lg:grid-cols-[1.5fr_0.5fr]">
               {/* Left text block */}
               <div className="pl-4 pr-4 py-8 sm:pl-8 sm:pr-6 md:pl-20 md:pr-14 md:py-16 lg:py-20 text-white">
-                <h2 className="text-3xl md:text-4xl lg:text-5xl font-semibold leading-tight max-w-[1000px]">
-                  From $18k p.a. to ranked #2 in the world,
+                <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold leading-tight max-w-[1000px]">
+                  From just $18,000 a year in Income,
                   <br />
-                  Brian&apos;s struggle is your shortcut.
+                  deep in debt & at Rock Bottom to #2 in the World!
+                  <br />
+                  Brian&apos;s Struggle is Your Shortcut
                 </h2>
 
                 <p className="mt-6 text-white/75 text-lg md:text-xl leading-relaxed max-w-[600px]">
                   Before Brian Moses became one of the world&apos;s top real estate coaches, he was on the verge of quitting.
-                  Earning just $18,000 his first year and struggling for five more, he hit the same walls you have. He knew
+                  Earning just $18,000 his first year and struggling for five more, he hit the same walls you have. He experienced
                   the hustle, the doubt, and the burnout.
                 </p>
 
-                <p className="mt-6 font-semibold text-lg md:text-xl max-w-[600px]" style={{ color: "#168EE4" }}>
+                <p className="mt-6 font-semibold text-xl md:text-2xl lg:text-3xl max-w-[600px]" style={{ color: "#168EE4" }}>
                   Then, everything changed.
                 </p>
 
                 <p className="mt-4 text-white/75 text-lg md:text-xl leading-relaxed max-w-[600px]">
-                  He stopped chasing leads and started building a system. Guided by mentors like Tony Robbins and Craig Proctor,
-                  he transformed his mindset and his business, scaling to $3M+ per year in commissions and selling over 3,500 homes.
+                  He stopped chasing leads and started building a system. Guided by mentors like Tony Robbins, Bob Proctor and the most successful agents across North America, he transformed his mindset and his business, scaling to $3M+ per year in commissions and selling over 3,500 homes.
                 </p>
 
                 {/* Quote */}
                 <p className="mt-4 text-2xl md:text-3xl lg:text-4xl font-semibold leading-snug">
-                  Don&apos;t just be the
+                  Prospecting Sucks!
                   <br />
-                  hunter, become the hunted.
+                  Don&apos;t hunt & chase business,
+                  <br />
+                  become the one your market can&apos;t ignore.
                 </p>
               </div>
 
@@ -100,7 +103,7 @@ export default function BrianStorySection() {
       <section className="bg-white pb-20 md:pb-24">
         <div className="mx-auto w-full px-4 sm:px-6 md:px-12 lg:px-48">
           <p className="text-center text-black/60 text-base md:text-lg max-w-4xl mx-auto">
-            He&apos;s giving you the exact playbook he built from the ground up, so you don&apos;t have to learn the hard way.
+            He&apos;s offering you the exact playbook he built from the ground up, so you don&apos;t have to learn the hard way.
           </p>
 
           <p className="mt-4 text-center text-lg md:text-xl font-semibold" style={{ color: '#1568F7' }}>
@@ -124,11 +127,6 @@ export default function BrianStorySection() {
             ))}
           </div>
 
-          <div className="mt-12 flex justify-center">
-            <button className="rounded-full bg-black text-white px-8 py-4 text-base md:text-lg font-medium hover:bg-black/90 transition">
-              Download the Free Training
-            </button>
-          </div>
         </div>
       </section>
     </>

@@ -6,22 +6,22 @@ const learnItems = [
   {
     title: "Strategic Thinking Over Brute Force",
     description:
-      'Instead of asking "self-motivated" probing questions too early and decreasing rapport, Brian teaches you to "strategize... in advance" with messages that genuinely interest prospects, such as offering access to bank foreclosures, short sales, or recent price reductions.',
+      "Transition from sales person to order taker. No one likes a sales person. No one likes to be pitched. STOP the old school pitching, closing techniques and learn the skills to stating your value propositions that are unique, compelling, different and irresistible. You don't need to close clients, they will choose you.",
   },
   {
     title: "Embrace Change, Don't Resist It",
     description:
-      "Every market shift creates winners and losers. Brian shows you how to adjust your strategy, messaging, and offers in real time so you don't just survive change, you capitalize on it while others fall behind.",
+      "Every market shift creates winners and losers. Brian shows you how to adjust your strategy, messaging, and offers that will stand the test of time and when the market dips, you actually do better because you have a proven process and system that is recession proof.",
   },
   {
     title: "Relax Your Ego, Add Value",
     description:
-      "The fastest way to lose trust is to make it about you. Brian teaches you how to shift from proving yourself to serving your market—so clients feel understood, supported, and confident choosing you without pressure or persuasion.",
+      "The fastest way to lose trust is to make it about you. Brian teaches you how to shift from proving yourself to serving your market—so clients feel understood, supported, and confident choosing you without feeling pressure, pitched or sold.",
   },
   {
     title: "Learn from Proven Success",
     description:
-      "Every strategy Brian teaches has been pressure-tested in competitive markets. You'll learn exactly what works, why it works, and how to apply it immediately. without wasting time on tactics that don't move the needle.",
+      "Every strategy Brian teaches has been pressure-tested in competitive markets and all with proven results and success stories. You'll learn exactly what works, why it works, and how to apply it immediately without wasting time on tactics that don't move the needle.",
   },
 ];
 
@@ -35,7 +35,7 @@ export default function WhatYouWillLearnSection() {
           <div>
             {/* Section Heading */}
             <div className="text-[#1568F7] font-semibold text-sm md:text-base uppercase tracking-wider mb-4">
-              WHAT YOU WILL LEARN
+              Your Personal Transformation
             </div>
 
             {/* Main Title */}
@@ -45,10 +45,7 @@ export default function WhatYouWillLearnSection() {
 
             {/* Descriptive Paragraph */}
             <p className="text-black text-base md:text-lg leading-relaxed mb-8">
-              Brian Moses&apos; coaching is built on a powerful axis of mindset and skills that
-              transcends real estate, impacting every facet of your life. He teaches that
-              &quot;skills can be learned&quot;, and by adopting the right approach, you can achieve
-              anything.
+              Brian Moses&apos; coaching programs are built on a powerful foundation of mindset and skill development - principles that go far beyond real estate and elevate every area of your life. Skills can be learned and by adopting the right approach, you can achieve anything you desire.
             </p>
 
             {/* CTA Button */}

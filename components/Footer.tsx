@@ -9,9 +9,9 @@ export default function Footer() {
           <div>
             {/* Logo */}
             <div className="mb-6">
-              <div className="relative h-6 md:h-7 w-auto">
+              <div className="relative h-8 md:h-10 w-40 md:w-48">
                 <Image
-                  src="/images/blac_logo.png"
+                  src="/images/new_logo_brian_moses.png"
                   alt="Brian Moses"
                   fill
                   className="object-contain object-left"

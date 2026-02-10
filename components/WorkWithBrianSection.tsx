@@ -4,26 +4,26 @@ const programs = [
   {
     program: "PROGRAM1",
     title: "Inner Circle Group Coaching",
-    desc: "Weekly breakthroughs. Tactical training. A tribe of producers who don't play small.",
-    bullet: "Ideal for agents producing 0-15 sales annually or income is <$200,000 and they want more",
+    desc: "Accelerate Your Results! For the agent producing 0-15 sales annually, income is under $200,000 and they want a system and process that's predictable, reliable and duplicatable to produce more FAST!",
+    bullet: "",
     buttonText: "Inner Circle Group Coaching",
-    image: "/work_with_brian/Frame 1000007719.png",
+    image: "/three_images/Ekran Resmi 2026-02-10 15.20.04 1.png",
   },
   {
     program: "PROGRAM2",
     title: "1 on 1 Personalized & Customized Coaching",
-    desc: "Private access. Custom blueprints. Fast-track your goals.",
-    bullet: "Ideal for agents doing more than 15 deals annually and making >$200,000 a year. Apply for your free business evaluation call and secure your spot today.",
+    desc: "For the serious Top Producer and/or Team Leader doing $200,000+ a year, wants more but without giving up their life. This is a 1 on 1 experience that will transform your business and life at scale. Apply for your free business evaluation call and secure your spot today.",
+    bullet: "",
     buttonText: "Apply Now",
-    image: "/work_with_brian/Frame 1000007719 (1).png",
+    image: "/three_images/Ekran Resmi 2026-02-10 15.20.24 1.png",
   },
   {
     program: "",
-    title: "Keynote Speaking for Real Estate\n& Corporate Events",
-    desc: "Motivational. Tactical. Unforgettable.",
-    bullet: "For companies, brokerages, or conferences ready to spark lasting change.",
+    title: "In Person Keynotes and Live Training",
+    desc: "Motivational. Inspiring. Unforgettable. For Companies, Brokerages, or Conferences ready to spark lasting change.",
+    bullet: "",
     buttonText: "Learn More",
-    image: "/work_with_brian/Ekran Resmi 2025-09-30 12.51.10 1.png",
+    image: "/three_images/Ekran Resmi 2026-02-10 15.21.03 1.png",
   },
 ];
 
@@ -49,7 +49,7 @@ export default function WorkWithBrianSection() {
           {programs.map((p, idx) => (
             <div
               key={idx}
-              className="relative rounded-xl overflow-hidden border border-white/10 shadow-[0_20px_60px_rgba(0,0,0,0.45)] backdrop-blur-sm"
+              className="relative flex flex-col rounded-xl overflow-hidden border border-white/10 shadow-[0_20px_60px_rgba(0,0,0,0.45)] backdrop-blur-sm"
             >
               {/* Card gradient background */}
               <div className="absolute inset-0 bg-[#000614]" />
@@ -59,7 +59,7 @@ export default function WorkWithBrianSection() {
               />
               <div className="absolute inset-0 bg-gradient-to-r from-[#000614] via-transparent to-[#000614]" />
               {/* Image */}
-              <div className="relative z-10 h-44 md:h-48">
+              <div className="relative z-10 h-44 md:h-48 flex-none">
                 <Image
                   src={p.image}
                   alt={p.title}
@@ -72,7 +72,7 @@ export default function WorkWithBrianSection() {
               </div>
 
               {/* Content */}
-              <div className="relative z-10 px-6 py-6 md:px-7">
+              <div className="relative z-10 flex flex-col flex-1 px-6 py-6 md:px-7">
                 {/* Program label */}
                 {p.program ? (
                   <div className="text-[11px] tracking-[0.22em] uppercase text-white/55">
@@ -82,24 +82,31 @@ export default function WorkWithBrianSection() {
                   <div className="h-[16px]" />
                 )}
 
-                {/* Title */}
-                <h3 className="mt-2 text-white font-semibold text-lg md:text-xl leading-snug whitespace-pre-line">
-                  {p.title}
-                </h3>
+                {/* Title and Description Container */}
+                <div className="flex-1 min-h-[140px] md:min-h-[120px]">
+                  {/* Title */}
+                  <h3 className="mt-2 text-white font-semibold text-lg md:text-xl leading-snug whitespace-pre-line">
+                    {p.title}
+                  </h3>
 
-                {/* Description */}
-                <p className="mt-3 text-white/72 text-sm md:text-[15px] leading-relaxed">
-                  {p.desc}
-                </p>
-
-                {/* Bullet */}
-                <div className="mt-5 flex gap-3">
-                  <span className="mt-2 h-1.5 w-1.5 rounded-full bg-[#9bd7ff] flex-none" />
-                  <p className="text-white/70 text-sm leading-relaxed">{p.bullet}</p>
+                  {/* Description */}
+                  <p className="mt-3 text-white/72 text-sm md:text-[15px] leading-relaxed">
+                    {p.desc}
+                  </p>
                 </div>
 
+                {/* Bullet */}
+                {p.bullet && (
+                  <div className="mt-5 grid grid-cols-[auto,1fr] gap-3 items-start">
+                    <span className="mt-1 h-1.5 w-1.5 rounded-full bg-[#9bd7ff]" />
+                    <p className="text-white/70 text-sm leading-relaxed">
+                      {p.bullet}
+                    </p>
+                  </div>
+                )}
+
                 {/* Button */}
-                <div className="mt-7">
+                <div className="mt-auto pt-7">
                   <button className="inline-flex items-center justify-center rounded-full border border-white/35 px-5 py-2.5 text-sm text-white/90 hover:text-white hover:border-white/60 transition">
                     {p.buttonText || "Learn More"}
                   </button>

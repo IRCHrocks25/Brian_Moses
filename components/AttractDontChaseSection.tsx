@@ -4,63 +4,6 @@ export default function AttractDontChaseSection() {
   return (
     <section className="relative bg-white py-16 md:py-24">
       <div className="w-full mx-auto max-w-[92%] px-[3px] lg:px-[2px]">
-        {/* Top Offers Section */}
-        <div className="grid md:grid-cols-2 gap-8 md:gap-6 mb-20">
-          {/* Left Offer: Free Resources */}
-          <div className="flex flex-col md:flex-row items-center md:items-start gap-6">
-            <div className="relative w-40 h-52 sm:w-48 sm:h-64 md:w-80 md:h-96 lg:w-96 lg:h-[28rem] flex-shrink-0 mx-auto md:mx-0">
-              <Image
-                src="/images/free_resource/3a61270e-38a9-4a9b-aef9-b7e0c275c19b 1.png"
-                alt="Free Resources"
-                fill
-                className="object-contain"
-              />
-            </div>
-            <div className="flex-1 flex flex-col h-full text-center md:text-left w-full">
-              <div className="mb-6">
-                <h3 className="font-bold text-lg sm:text-xl md:text-2xl mb-3 md:mb-2" style={{ color: '#1568F7' }}>
-                  Free Resources & Downloads
-                </h3>
-                <p className="text-black text-sm sm:text-base md:text-lg leading-relaxed">
-                  Download &apos;Swipe & Deploy Files&apos; and &apos;How To Attract, Not Chase&apos; strategies to implement immediately.
-                </p>
-              </div>
-              <div className="mt-auto md:mt-auto">
-                <button className="w-full md:w-auto rounded-full bg-white text-black px-6 py-3 text-sm md:text-base font-medium border-2 border-black hover:bg-gray-50 transition-colors">
-                  Download Free Resources
-                </button>
-              </div>
-            </div>
-          </div>
-
-          {/* Right Offer: Join Community */}
-          <div className="flex flex-col md:flex-row items-center md:items-start gap-6">
-            <div className="relative w-40 h-52 sm:w-48 sm:h-64 md:w-80 md:h-96 lg:w-96 lg:h-[28rem] flex-shrink-0 mx-auto md:mx-0">
-              <Image
-                src="/images/free_resource/3a61270e-38a9-4a9b-aef9-b7e0c275c19b 1 (1).png"
-                alt="Join Community"
-                fill
-                className="object-contain"
-              />
-            </div>
-            <div className="flex-1 flex flex-col h-full text-center md:text-left w-full">
-              <div className="mb-6">
-                <h3 className="font-bold text-lg sm:text-xl md:text-2xl mb-3 md:mb-2" style={{ color: '#1568F7' }}>
-                  Join Our Community
-                </h3>
-                <p className="text-black text-sm sm:text-base md:text-lg leading-relaxed">
-                  Connect with top agents and access free training in the Real Estate Training Breakthroughs & Customized Coaching Community on Facebook.
-                </p>
-              </div>
-              <div className="mt-auto md:mt-auto">
-                <button className="w-full md:w-auto rounded-full bg-white text-black px-6 py-3 text-sm md:text-base font-medium border-2 border-black hover:bg-gray-50 transition-colors">
-                  Join Our Community
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-
         {/* Why "Attract, Don't Chase" Wins Section */}
         <div className="text-center mb-16">
           <h2 className="text-black font-medium text-4xl md:text-5xl lg:text-6xl mb-6">
@@ -138,7 +81,7 @@ export default function AttractDontChaseSection() {
             <div className="bg-gray-50 rounded-2xl p-6 md:p-8 border border-gray-200 shadow-sm hover:shadow-md transition-shadow flex flex-col">
               <div className="flex-grow">
                 <p className="text-black text-sm md:text-base leading-relaxed">
-                  Ideal for agents producing 0-15 sales annually or income is &lt;$200,000 and they want more
+                For the agent producing 0-15 sales annually,  income is under $200,000 and they want a system and process that's predictable, reliable and duplicatable to produce more FAST!  
                 </p>
               </div>
               <div className="mt-auto pt-6">
@@ -152,7 +95,7 @@ export default function AttractDontChaseSection() {
             <div className="bg-gray-50 rounded-2xl p-6 md:p-8 border border-gray-200 shadow-sm hover:shadow-md transition-shadow flex flex-col">
               <div className="flex-grow">
                 <p className="text-black text-sm md:text-base leading-relaxed">
-                  Ideal for agents doing more than 15 deals annually and making &gt;$200,000 a year. Apply for your free business evaluation call and secure your spot today.
+                For the serious Top Producer and/or Team Leader doing $200,000+ a year, wants more but without giving up their life.  This is a 1 on 1 experience that will transform your business and life at scale.  Apply for your free business evaluation call and secure your spot today.
                 </p>
               </div>
               <div className="mt-auto pt-6">

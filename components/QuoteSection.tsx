@@ -6,7 +6,7 @@ export default function QuoteSection() {
       {/* Background Image */}
       <div className="absolute inset-0">
         <Image
-          src="/images/Frame 1000007664.png"
+          src="/Section 1000007793.png"
           alt="Brian Moses speaking on stage"
           fill
           className="object-cover object-center"

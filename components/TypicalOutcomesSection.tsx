@@ -111,7 +111,9 @@ export default function TypicalOutcomesSection() {
             <div className="text-center">
               <div className="text-4xl md:text-5xl font-bold text-[#2aa7ff] mb-2">30+</div>
               <div className="text-white text-sm md:text-base font-medium">Years Experience</div>
-              <div className="text-white/80 text-xs mt-1">With Tony Robbins</div>
+              <div className="text-white/80 text-xs mt-1">
+                Named one of the 125 Most Influential People in Real Estate &mdash; Success Magazine
+              </div>
             </div>
           </div>
         </div>
@@ -208,7 +210,7 @@ export default function TypicalOutcomesSection() {
             <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 md:p-8 border border-white/20 shadow-lg hover:shadow-xl transition-shadow flex flex-col">
               <div className="flex-grow">
                 <p className="text-white text-sm md:text-base leading-relaxed mb-4">
-                  Ideal for agents producing 0-15 sales annually or income is &lt;$200,000 and they want more
+                For the agent producing 0-15 sales annually,  income is under $200,000 and they want a system and process that's predictable, reliable and duplicatable to produce more FAST!  
                 </p>
               </div>
               <div className="mt-auto pt-6">
@@ -222,7 +224,7 @@ export default function TypicalOutcomesSection() {
             <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 md:p-8 border border-white/20 shadow-lg hover:shadow-xl transition-shadow flex flex-col">
               <div className="flex-grow">
                 <p className="text-white text-sm md:text-base leading-relaxed mb-4">
-                  Ideal for agents doing more than 15 deals annually and making &gt;$200,000 a year. Apply for your free business evaluation call and secure your spot today.
+                For the serious Top Producer and/or Team Leader doing $200,000+ a year, wants more but without giving up their life.  This is a 1 on 1 experience that will transform your business and life at scale.  Apply for your free business evaluation call and secure your spot today.
                 </p>
               </div>
               <div className="mt-auto pt-6">
