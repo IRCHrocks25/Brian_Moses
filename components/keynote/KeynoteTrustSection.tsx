@@ -41,16 +41,23 @@ export default function KeynoteTrustSection() {
               "/images/logos/Frame 1707482091.png",
               "/images/logos/Frame 1707482092.png",
               "/images/logos/Frame 1707482093 (1).png",
-            ].map((src, index) => (
-              <Image
-                key={index}
-                src={src}
-                alt="Partner logo"
-                width={140}
-                height={64}
-                className="h-12 sm:h-14 md:h-16 w-auto flex-shrink-0 object-contain opacity-80 hover:opacity-100 transition-opacity"
-              />
-            ))}
+            ].map((src, index) => {
+              // Encode the path to handle spaces and special characters
+              const encodedSrc = src.split('/').map((part, i) => 
+                i === 0 ? part : encodeURIComponent(part)
+              ).join('/');
+              return (
+                <Image
+                  key={index}
+                  src={encodedSrc}
+                  alt="Partner logo"
+                  width={140}
+                  height={64}
+                  className="h-12 sm:h-14 md:h-16 w-auto flex-shrink-0 object-contain opacity-80 hover:opacity-100 transition-opacity"
+                  unoptimized
+                />
+              );
+            })}
           </div>
 
           {/* Trusted By Heading */}
@@ -70,16 +77,23 @@ export default function KeynoteTrustSection() {
                   "/images/logos/163035_normal 1.png",
                   "/images/logos/HomeSmart-Logo_Full_WHT 1.png",
                   "/images/logos/Real-Logo-Outline-Black 1.png",
-                ].map((src) => (
-                  <Image
-                    key={`${loop}-${src}`}
-                    src={src}
-                    alt="Trusted by logo"
-                    width={140}
-                    height={64}
-                    className="h-12 md:h-14 w-auto object-contain opacity-80"
-                  />
-                ))
+                ].map((src) => {
+                  // Encode the path to handle spaces and special characters
+                  const encodedSrc = src.split('/').map((part, i) => 
+                    i === 0 ? part : encodeURIComponent(part)
+                  ).join('/');
+                  return (
+                    <Image
+                      key={`${loop}-${src}`}
+                      src={encodedSrc}
+                      alt="Trusted by logo"
+                      width={140}
+                      height={64}
+                      className="h-12 md:h-14 w-auto object-contain opacity-80"
+                      unoptimized
+                    />
+                  );
+                })
               )}
           </div>
         </div>

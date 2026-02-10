@@ -81,7 +81,7 @@ export default function AttractDontChaseSection() {
             <div className="bg-gray-50 rounded-2xl p-6 md:p-8 border border-gray-200 shadow-sm hover:shadow-md transition-shadow flex flex-col">
               <div className="flex-grow">
                 <p className="text-black text-sm md:text-base leading-relaxed">
-                For the agent producing 0-15 sales annually,  income is under $200,000 and they want a system and process that's predictable, reliable and duplicatable to produce more FAST!  
+                For the agent producing 0-15 sales annually,  income is under $200,000 and they want a system and process that&apos;s predictable, reliable and duplicatable to produce more FAST!  
                 </p>
               </div>
               <div className="mt-auto pt-6">

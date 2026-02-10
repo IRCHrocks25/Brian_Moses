@@ -210,7 +210,7 @@ export default function TypicalOutcomesSection() {
             <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 md:p-8 border border-white/20 shadow-lg hover:shadow-xl transition-shadow flex flex-col">
               <div className="flex-grow">
                 <p className="text-white text-sm md:text-base leading-relaxed mb-4">
-                For the agent producing 0-15 sales annually,  income is under $200,000 and they want a system and process that's predictable, reliable and duplicatable to produce more FAST!  
+                For the agent producing 0-15 sales annually,  income is under $200,000 and they want a system and process that&apos;s predictable, reliable and duplicatable to produce more FAST!  
                 </p>
               </div>
               <div className="mt-auto pt-6">
