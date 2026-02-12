@@ -25,7 +25,8 @@ export default function KeynotePage() {
       {/* Inspiration Section */}
       <KeynoteInspirationSection />
 
-    
+      {/* A Story of Radical Transformation Section */}
+      <KeynoteTransformationSection />
 
       {/* Signature Keynotes & Workshops Section */}
       <KeynoteKeynotesWorkshopsSection />

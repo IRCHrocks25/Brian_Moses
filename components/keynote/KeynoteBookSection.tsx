@@ -81,7 +81,7 @@ export default function KeynoteBookSection() {
                     </p>
 
                     {/* Heading */}
-                    <h3 className="text-white font-bold text-xl sm:text-2xl md:text-3xl leading-tight mb-8">
+                    <h3 className="text-white font-bold text-lg sm:text-xl md:text-2xl leading-tight mb-8">
                       Ready to Ignite Your Audience?
                     </h3>
 

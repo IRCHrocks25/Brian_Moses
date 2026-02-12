@@ -9,11 +9,11 @@ export default function Navbar() {
           {/* Logo */}
           <Link href="/" className="relative block">
             <Image
-              src="/images/white_logo.png"
+              src="/images/light.png"
               alt="Brian Moses"
-              width={75}
-              height={20}
-              className="h-4 md:h-5 w-auto object-contain"
+              width={200}
+              height={60}
+              className="h-8 md:h-10 lg:h-12 w-auto object-contain"
               priority
             />
           </Link>

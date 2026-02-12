@@ -5,60 +5,39 @@ import { useState } from "react";
 
 const testimonials = [
   {
-    header: "Brian, Great call with our team yesterday! You were right everyone was engaged.",
-    body: "I've been a student of Brian's for over 10 years and he's helped me grow my business and my team exponentially. I'm forever grateful for his guidance.",
-    author: "Jared & Victoria Erfle",
-    title: "Palmdale CA",
-    image: "/images/testimonials/Jared_Victoria_Erfle.png",
+    header: "Everyone experiences adversities in Life...",
+    body: "I loved this performance as it demonstrates that perhaps your adversities only feel like adversities but are part of your life's plan and how this family embraced theirs is beyond inspiring, never quitting, never giving up and never saying can't!",
+    author: "Ray Davis",
+    title: "",
+    image: "/new_testimonials/Ray.png",
   },
   {
-    header: "We generated 100 leads in 24 hours and 8 appointments booked!",
-    body: "This is amazing! All of our team is so excited. We can't wait to see what else we can do with your help!",
-    author: "Andy Richardson",
-    title: "Wilmington, DE",
-    image: "/images/testimonials/Andy_Richardson.png",
+    header: "What an amazing show!",
+    body: "A great story that blew me away to see how every crazy adventure stitched together formed this mosaic! There is a common theme through every experience you have brought to life! Seeing how your children applied it to achieve their own dreams, elevating your vision to an even higher level was invaluable to witness! They will reach far beyond their wildest dreams because they know they can and that's what you instill in all of us who come in contact with you!",
+    author: "Rob Parsons",
+    title: "Nashua, NH",
+    image: "/new_testimonials/Rob.png",
   },
   {
-    header: "Thank you from the bottom of my heart!",
-    body: "I've been a student of Brian's for over 10 years and he's helped me grow my business and my team exponentially. I'm forever grateful for his guidance.",
-    author: "Jeremy Mellick",
-    title: "Seattle, WA",
-    image: "/images/testimonials/Jeremy_Mellick.png",
+    header: "I have seen a lot of presentations in my lifetime... This one grabbed me right from the start and captivated me the whole time!",
+    body: "So many powerful lessons distilled from life that have inspired me to live a better life right now.",
+    author: "Brian Proctor",
+    title: "Best Selling Author of \"My Father Knew the Secret\"",
+    image: "/new_testimonials/Brian.png",
   },
   {
-    header: "Brian Moses is The Master and Original!",
-    body: "One of the people that inspired me to get into the business of coaching and I'm forever grateful for his mentorship.",
-    author: "Jay Kinder",
-    title: "Laughton, OK",
-    image: "/images/testimonials/Jay_Kinder.png",
+    header: "I've attended seminars by Tony Robbins and Zig Ziglar. Brian Moses is up there with the best of them.",
+    body: "His message is unforgettable, inspiring, and transformational.",
+    author: "Matt Hennessy",
+    title: "Branch Manager, Bradshaw Mortgage",
+    image: "/new_testimonials/Matt.jpg",
   },
   {
-    header: "Brian has been an invaluable source of experience and wisdom in our industry!",
-    body: "He's helped me to navigate challenging markets and has always been a guiding light. I'm so grateful for his insights and advice.",
-    author: "Amy Stoehr",
-    title: "CEO Star Power",
-    image: "/images/testimonials/Ame_Stoehr.png",
-  },
-  {
-    header: "I met Brian in the early 90's and have been impressed with his accomplishments ever since!",
-    body: "He is a true inspiration to the real estate industry and has always been a mentor to me. I'm grateful for his friendship and guidance.",
-    author: "Lillian Montalto",
-    title: "Featured on Lottery Dream Home",
-    image: "/images/testimonials/Lillian_Montalto.png",
-  },
-  {
-    header: "Brian Moses was a huge inspiration to me when I started in real estate.",
-    body: "I was one of the first to join his coaching program and it helped me grow my business, doubling my production in my first year and then tripling it the second. I'm forever grateful for his guidance.",
-    author: "Anthony Lamacchia",
-    title: "Offices in MA, NH, CT, ME, RI & FL - Over 2 Billion in Annual Sales Volume",
-    image: "/images/testimonials/Anthony_Lamachhia.png",
-  },
-  {
-    header: "One of the best real estate coaches in the entire Industry!",
-    body: "Brian has worked with our company for a long time, I've personally worked with Brian 1 on 1, I've seen him speak multiple times over the last 15 years, he's worked with our team, worked with a lot of our clients, he's terrific.",
-    author: "Shant Banosian",
-    title: "President RATE Mortgage",
-    image: "/images/testimonials/Shant_Banosian.png",
+    header: "One of the best, most energetic motivational speakers I've had the privilege to listen to.",
+    body: "Want to move your company forward? Call Brian.",
+    author: "Bill Monahan",
+    title: "Real Estate Sales, Berkshire Hathaway Home Services",
+    image: "/new_testimonials/Bill.jpg",
   },
 ];
 
@@ -90,10 +69,10 @@ function TestimonialsMarquee() {
 
               {/* Right Section - Quote */}
               <div className="flex-1 bg-white p-6 md:p-8 flex flex-col justify-center min-w-0 space-y-4">
-                <p className="text-black font-bold text-lg sm:text-xl md:text-2xl lg:text-3xl leading-tight">
+                <p className="text-black font-bold text-base sm:text-lg md:text-xl lg:text-2xl leading-tight">
                   &quot;{testimonial.header}&quot;
                 </p>
-                <p className="text-black font-normal text-base sm:text-lg md:text-xl leading-relaxed">
+                <p className="text-black font-normal text-sm sm:text-base md:text-lg leading-relaxed">
                   {testimonial.body}
                 </p>
               </div>

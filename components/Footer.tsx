@@ -9,12 +9,13 @@ export default function Footer() {
           <div>
             {/* Logo */}
             <div className="mb-6">
-              <div className="relative h-8 md:h-10 w-40 md:w-48">
+              <div className="relative h-8 md:h-10 lg:h-12 w-auto">
                 <Image
-                  src="/images/new_logo_brian_moses.png"
+                  src="/images/brian_moses_footer_logo.png"
                   alt="Brian Moses"
-                  fill
-                  className="object-contain object-left"
+                  width={200}
+                  height={60}
+                  className="h-8 md:h-10 lg:h-12 w-auto object-contain object-left"
                 />
               </div>
             </div>

@@ -1,104 +1,102 @@
 import Image from "next/image";
 
-export default function KeynoteTrustSection() {
+export default function KeynoteTransformationSection() {
   return (
-    <section className="relative py-16 md:py-20">
-      <div className="absolute inset-0 bg-gradient-to-b from-[#1a1f3a] to-[#0a0a0a]"></div>
-      <div className="absolute inset-0 bg-gradient-to-r from-[#0a0a0a] via-transparent to-[#0a0a0a]"></div>
-      <div className="relative z-10">
-        <div className="mx-auto w-full max-w-7xl px-6 lg:px-8">
-          {/* Main Heading */}
-          <h2 className="text-center text-white font-light tracking-wide text-base md:text-lg lg:text-xl xl:text-2xl mb-4">
-            Here&apos;s Why Agents Trust Brian&apos;s System
-          </h2>
-          <p className="text-center text-white font-light tracking-wide text-lg md:text-xl lg:text-2xl xl:text-3xl max-w-5xl mx-auto leading-relaxed">
-            Brian Has Inspired More Than 20,000 Real Estate Agents & Industry Professionals Across North America
-          </p>
+    <section className="relative bg-[#0a0a0a] py-16 md:py-24 overflow-hidden">
+      <div className="mx-auto w-full px-6 lg:px-12">
+        {/* Background Image Section with Rounded Corners */}
+        <div className="relative min-h-[80vh] md:min-h-[90vh] rounded-lg md:rounded-3xl overflow-hidden">
+          <Image
+            src="/images/Frame 1000007768.png"
+            alt="Brian Moses transformation story"
+            fill
+            className="object-cover object-center"
+          />
+          
+          {/* Dark overlay for better text readability */}
+          <div className="absolute inset-0 bg-black/40" />
 
-          {/* Achievements Grid (Keep first 2, optionally add 3rd) */}
-          <div className="mt-12 grid gap-8 md:grid-cols-3">
-            {[
-              "Named one of the 125 Most Influential People in Real Estate (Success Magazine)",
-              "Ranked #2 Worldwide in a major real estate franchise, 7 years in the Top 10",
-              "Brian Moses coaches and trains North America's most successful agents. These agents average over $1 Million Dollars in Annual Income and you can too.",
-            ].map((t, i) => (
-              <div key={i} className="flex gap-3">
-                <span className="mt-2 h-2.5 w-2.5 flex-none bg-[#AADBFF]" />
-                <p className="text-white/85 text-sm md:text-base leading-snug">{t}</p>
+          {/* Content Overlay */}
+          <div className="relative z-10 h-full mx-auto w-full px-6 lg:px-12">
+            <div className="grid min-h-[80vh] md:min-h-[90vh] items-center gap-6 md:gap-10 lg:grid-cols-2 pt-16 sm:pt-20 md:pt-24 pb-8 sm:pb-10 md:pb-14">
+              
+              {/* Left Content */}
+              <div className="pl-4 sm:pl-6 md:pl-12 lg:pl-16">
+                
+                <h2 className="text-white font-bold leading-[1.05] text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">
+                  A Story of Radical Transformation
+                </h2>
+                
+                <p className="mt-4 text-white/85 text-lg sm:text-xl md:text-2xl font-semibold">
+                  From Rock Bottom to Remarkable
+                </p>
+
+                <div className="mt-6 sm:mt-8 space-y-4 sm:space-y-6">
+                  
+                  <p className="text-white/85 text-sm sm:text-base md:text-lg leading-relaxed">
+                    Abandoned by his biological father at three years old. Raised by a poverty-stricken German immigrant mother who barely spoke English. Welfare. Inner-city housing projects. Every statistic predicted struggle.
+                  </p>
+
+                  <p className="text-white/85 text-sm sm:text-base md:text-lg leading-relaxed">
+                    By twenty-eight, Brian was buried in IRS debt. His wages levied. His bank accounts seized. Depression closing in. Thoughts of suicide growing louder.  
+                    He stood at a crossroads: <strong>Give up — or figure it out.</strong>
+                  </p>
+
+                  {/* Benefit Statement - Premium Glassmorphism */}
+                  <div className="mt-8 p-8 md:p-10 lg:p-12 rounded-2xl border border-[#AADBFF]/40 backdrop-blur-xl shadow-[0_20px_60px_rgba(0,0,0,0.5),0_0_0_1px_rgba(170,219,255,0.2),inset_0_1px_0_rgba(255,255,255,0.1)] relative overflow-hidden">
+                    <div className="absolute inset-0 bg-gradient-to-br from-[#AADBFF]/15 via-[#AADBFF]/10 to-transparent" />
+                    <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,rgba(170,219,255,0.2),transparent_60%)]" />
+                    <div className="absolute inset-0 ring-1 ring-inset ring-white/10" />
+                    
+                    <div className="relative z-10 space-y-6">
+                      <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl leading-tight font-bold text-white">
+                        You may lack resources.  
+                        You may have a million reasons to quit.
+                      </p>
+                      <p
+                        className="text-lg sm:text-xl md:text-2xl lg:text-3xl leading-tight font-bold"
+                        style={{ color: "#AADBFF" }}
+                      >
+                        Or you can reframe the narrative.  
+                        Change your story. Change your life.
+                      </p>
+                    </div>
+                  </div>
+
+                  <p className="text-white/85 text-sm sm:text-base md:text-lg leading-relaxed">
+                    Brian chose to rewrite his story. Today, he is a multi-millionaire entrepreneur, accomplished businessman, devoted husband, and father. Recognized by Success Magazine as one of the 125 Most Influential People in the Real Estate Industry, he represents grit, discipline, and the power of strategic belief.
+                  </p>
+
+                  <p className="text-white/85 text-sm sm:text-base md:text-lg leading-relaxed">
+                    But his resilience wasn’t tested only financially. When Brian and his wife decided to start a family, a Harvard physician told them they were infertile. Ten fertility treatments. Three miscarriages. Nearly $200,000 in uncovered medical costs. On the verge of giving up — they tried once more.
+                  </p>
+
+                  <p className="text-white/85 text-sm sm:text-base md:text-lg leading-relaxed">
+                    Their son was born.
+                  </p>
+
+                  <p
+                    className="text-xl sm:text-2xl md:text-3xl lg:text-4xl leading-tight font-bold italic"
+                    style={{ color: "#AADBFF" }}
+                  >
+                    &quot;Perhaps you are closer than you think.  
+                    You can never quit.  
+                    You can never give up.&quot;
+                  </p>
+
+                  <p className="text-white/85 text-sm sm:text-base md:text-lg leading-relaxed">
+                    Brian turned his mess into his message. His signature keynote, &quot;Never Say Can&apos;t,&quot; is more than inspiration — it is a blueprint for resilience, belief, and execution. A message that now moves audiences in boardrooms, conferences, and arenas around the world.
+                  </p>
+
+                </div>
               </div>
-            ))}
-          </div>
 
-          {/* Divider */}
-          <div className="my-12 h-px w-full bg-white/15" />
-
-          {/* Media Logos - top row (first 6 logos) */}
-          <div className="flex flex-nowrap justify-center items-center gap-3 sm:gap-4 md:gap-6 lg:gap-8 w-full overflow-x-auto">
-            {[
-              "/images/logos/Frame 1707482088.png",
-              "/images/logos/Frame 1707482089.png",
-              "/images/logos/Frame 1707482090.png",
-              "/images/logos/Frame 1707482091.png",
-              "/images/logos/Frame 1707482092.png",
-              "/images/logos/Frame 1707482093 (1).png",
-            ].map((src, index) => {
-              // Encode the path to handle spaces and special characters
-              const encodedSrc = src.split('/').map((part, i) => 
-                i === 0 ? part : encodeURIComponent(part)
-              ).join('/');
-              return (
-                <Image
-                  key={index}
-                  src={encodedSrc}
-                  alt="Partner logo"
-                  width={140}
-                  height={64}
-                  className="h-12 sm:h-14 md:h-16 w-auto flex-shrink-0 object-contain opacity-80 hover:opacity-100 transition-opacity"
-                  unoptimized
-                />
-              );
-            })}
-          </div>
-
-          {/* Trusted By Heading */}
-          <h3 className="mt-12 text-center uppercase text-white font-light tracking-wide text-base md:text-lg lg:text-xl">
-            TRUSTED BY THE BEST
-          </h3>
-        </div>
-
-        {/* Trusted By Logos - Marquee (Edge to Edge, remaining 6 logos) */}
-        <div className="mt-8 overflow-hidden w-full -mx-6 lg:-mx-8">
-          <div className="marquee flex items-center gap-14">
-              {[...Array(2)].flatMap((_, loop) =>
-                [
-                  "/images/logos/Frame 1000003721.png",
-                  "/images/logos/gradient-blue-logo 1.png",
-                  "/images/logos/13103 1.png",
-                  "/images/logos/163035_normal 1.png",
-                  "/images/logos/HomeSmart-Logo_Full_WHT 1.png",
-                  "/images/logos/Real-Logo-Outline-Black 1.png",
-                ].map((src) => {
-                  // Encode the path to handle spaces and special characters
-                  const encodedSrc = src.split('/').map((part, i) => 
-                    i === 0 ? part : encodeURIComponent(part)
-                  ).join('/');
-                  return (
-                    <Image
-                      key={`${loop}-${src}`}
-                      src={encodedSrc}
-                      alt="Trusted by logo"
-                      width={140}
-                      height={64}
-                      className="h-12 md:h-14 w-auto object-contain opacity-80"
-                      unoptimized
-                    />
-                  );
-                })
-              )}
+              {/* Right spacer column (kept for composition balance) */}
+              <div className="hidden lg:block" />
+            </div>
           </div>
         </div>
       </div>
     </section>
   );
 }
-
