@@ -56,13 +56,13 @@ export default function KeynoteEventPlannersSection() {
                     <div className="flex gap-4 items-start group">
                       <div className="mt-2.5 h-3 w-3 flex-none bg-[#AADBFF] rounded-full ring-2 ring-[#AADBFF]/30 group-hover:ring-[#AADBFF]/60 transition-all" />
                       <p className="text-base sm:text-lg md:text-xl leading-relaxed text-white">
-                        <span className="font-bold text-[#AADBFF]">Clarity that leads to action</span>
+                        <span className="font-bold text-[#AADBFF]">Connection that feels personal, not performative</span>
                       </p>
                     </div>
                     <div className="flex gap-4 items-start group">
                       <div className="mt-2.5 h-3 w-3 flex-none bg-[#AADBFF] rounded-full ring-2 ring-[#AADBFF]/30 group-hover:ring-[#AADBFF]/60 transition-all" />
                       <p className="text-base sm:text-lg md:text-xl leading-relaxed text-white">
-                        <span className="font-bold text-[#AADBFF]">Connection that feels personal, not performative</span>
+                        <span className="font-bold text-[#AADBFF]">Inspiration  that leads to action</span>
                       </p>
                     </div>
                     <div className="flex gap-4 items-start group">

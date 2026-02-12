@@ -16,19 +16,19 @@ export default function KeynoteWhatSetsApartSection() {
             <div className="flex gap-4 items-start">
               <span className="mt-2 h-2.5 w-2.5 flex-none bg-[#AADBFF] rounded-full" />
               <p className="text-white text-lg md:text-xl lg:text-2xl leading-relaxed">
-                <span className="font-semibold" style={{ color: "#AADBFF" }}>Read the room in real time</span>
+                <span className="font-semibold" style={{ color: "#AADBFF" }}>Connect with every single member of the audience </span>
               </p>
             </div>
             <div className="flex gap-4 items-start">
               <span className="mt-2 h-2.5 w-2.5 flex-none bg-[#AADBFF] rounded-full" />
               <p className="text-white text-lg md:text-xl lg:text-2xl leading-relaxed">
-                <span className="font-semibold" style={{ color: "#AADBFF" }}>Connect with executives, leaders, and frontline teams simultaneously</span>
+                <span className="font-semibold" style={{ color: "#AADBFF" }}>Ignite that spark and expose the inner fire we all have</span>
               </p>
             </div>
             <div className="flex gap-4 items-start">
               <span className="mt-2 h-2.5 w-2.5 flex-none bg-[#AADBFF] rounded-full" />
               <p className="text-white text-lg md:text-xl lg:text-2xl leading-relaxed">
-                <span className="font-semibold" style={{ color: "#AADBFF" }}>Leave audiences saying, &quot;That wasn&apos;t just motivating, that hit home.&quot;</span>
+                <span className="font-semibold" style={{ color: "#AADBFF" }}>Create a lasting and emotional impact that drives change </span>
               </p>
             </div>
           </div>
@@ -50,11 +50,11 @@ export default function KeynoteWhatSetsApartSection() {
               </p>
 
               <p className="text-white text-lg md:text-xl lg:text-2xl leading-relaxed">
-                He challenges audiences to reclaim agency, rewire the patterns driving their results, and stop living and leading on default. The result? People don&apos;t just feel energized, they leave thinking differently about their work, their choices, and their potential.
+              He challenges audiences to reclaim agency, rewire the patterns driving their results, and stop living and leading on default. The result? People don’t just feel energized, they leave thinking differently about their work, their choices, and their potential.
               </p>
 
               <p className="text-white/85 text-lg md:text-xl lg:text-2xl leading-relaxed">
-                That&apos;s why Fortune 500 companies, industry leaders, brokerage firms, associations, and entrepreneurs bring him back again and again.
+              That’s why Fortune 500 companies, industry leaders, brokerage firms, associations, and entrepreneurs bring him back again and again.
               </p>
             </div>
           </div>

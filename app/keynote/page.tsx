@@ -7,7 +7,6 @@ import KeynoteInspirationSection from "@/components/keynote/KeynoteInspirationSe
 import KeynoteTransformationSection from "@/components/keynote/KeynoteTransformationSection";
 import KeynoteKeynotesWorkshopsSection from "@/components/keynote/KeynoteKeynotesWorkshopsSection";
 import KeynoteEventPlannersSection from "@/components/keynote/KeynoteEventPlannersSection";
-import KeynoteTrustSection from "@/components/keynote/KeynoteTrustSection";
 import KeynoteWhatSetsApartSection from "@/components/keynote/KeynoteWhatSetsApartSection";
 import KeynoteAudienceExperienceSection from "@/components/keynote/KeynoteAudienceExperienceSection";
 import KeynoteCredentialsSection from "@/components/keynote/KeynoteCredentialsSection";
@@ -26,17 +25,13 @@ export default function KeynotePage() {
       {/* Inspiration Section */}
       <KeynoteInspirationSection />
 
-      {/* A Story of Radical Transformation Section */}
-      <KeynoteTransformationSection />
+    
 
       {/* Signature Keynotes & Workshops Section */}
       <KeynoteKeynotesWorkshopsSection />
 
       {/* Why Event Planners Choose Brian Moses Section */}
       <KeynoteEventPlannersSection />
-
-      {/* Trust Section */}
-      <KeynoteTrustSection />
 
       {/* What People Are Saying Section */}
       <KeynoteTestimonialsSection />

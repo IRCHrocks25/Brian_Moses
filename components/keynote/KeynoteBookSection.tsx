@@ -3,8 +3,9 @@ import Image from "next/image";
 export default function KeynoteBookSection() {
   return (
     <section className="relative bg-[#0a0a0a] py-16 md:py-24 overflow-hidden">
-      <div className="mx-auto w-full max-w-7xl px-6 lg:px-12">
+      <div className="mx-auto w-full max-w-[95rem] px-6 lg:px-12">
         <div className="relative min-h-[80vh] md:min-h-[90vh] rounded-2xl md:rounded-3xl overflow-hidden border border-white/10 shadow-[0_40px_140px_rgba(0,0,0,0.85)]">
+          
           {/* Background */}
           <div className="absolute inset-0">
             <Image
@@ -26,8 +27,10 @@ export default function KeynoteBookSection() {
           {/* Content */}
           <div className="relative z-10 h-full">
             <div className="grid min-h-[80vh] md:min-h-[90vh] lg:grid-cols-12 items-center gap-12 lg:gap-16 px-8 sm:px-10 md:px-12 lg:px-16 pt-20 sm:pt-24 md:pt-28 pb-12 sm:pb-14 md:pb-16">
+              
               {/* LEFT: Content */}
               <div className="lg:col-span-7 space-y-10 md:space-y-12">
+                
                 {/* Header Section */}
                 <div>
                   <h2 className="text-white font-bold leading-[1.05] text-2xl sm:text-3xl md:text-4xl lg:text-5xl">
@@ -39,10 +42,10 @@ export default function KeynoteBookSection() {
                 {/* Quotes Section */}
                 <div className="space-y-6">
                   <p className="text-[#AADBFF] text-xl sm:text-2xl md:text-3xl leading-relaxed font-semibold italic">
-                    &quot;The people who win aren&apos;t lucky. They&apos;re relentless.&quot;
+                    &quot;The people who succeed in life aren&apos;t lucky. They have a belief in possibilities — and with that belief, the universe moves into action to conspire for them.&quot;
                   </p>
                   <p className="text-[#AADBFF] text-xl sm:text-2xl md:text-3xl leading-relaxed font-semibold italic">
-                    &quot;Success isn&apos;t about doing more. It&apos;s about doing what matters with relentless intent.&quot;
+                    &quot;Success, happiness, and fulfillment don&apos;t come from doing more. They come from decisions — and from those decisions, purposeful, conscious intention that turns into action… which turns into results.&quot;
                   </p>
                 </div>
 
@@ -58,17 +61,20 @@ export default function KeynoteBookSection() {
 
                 {/* Closing Statement */}
                 <p className="text-white/90 text-lg md:text-xl leading-relaxed max-w-2xl">
-                  When your event demands more than motivation—when it needs a mindset shift, a breakthrough moment, and a speaker who walks the talk—Brian delivers.
+                  When your event demands more than motivation — when it requires a mindset shift, a breakthrough
+                  moment, and a speaker who walks the talk — Brian delivers.
                 </p>
               </div>
 
               {/* RIGHT: CTA Card */}
               <div className="lg:col-span-5">
                 <div className="rounded-2xl border border-[#AADBFF]/40 bg-white/[0.05] backdrop-blur-xl shadow-[0_30px_100px_rgba(0,0,0,0.7)] overflow-hidden">
+                  
                   {/* Top Accent */}
                   <div className="h-px w-full bg-gradient-to-r from-transparent via-[#AADBFF]/50 to-transparent" />
                   
                   <div className="p-8 md:p-10">
+                    
                     {/* Label */}
                     <p className="text-xs tracking-[0.3em] uppercase text-white/60 mb-6">
                       Booking

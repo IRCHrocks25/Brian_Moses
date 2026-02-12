@@ -15,7 +15,8 @@ export default function KeynoteAudienceExperienceSection() {
               Measurable Results
             </h3>
             <p className="text-white/75 text-base md:text-lg leading-relaxed">
-              Strategies that translate directly to improved performance and revenue
+              Practical strategies your audience can apply immediately — creating noticeable gains in performance,
+              productivity, and revenue.
             </p>
           </div>
 
@@ -25,7 +26,8 @@ export default function KeynoteAudienceExperienceSection() {
               Deep Connection
             </h3>
             <p className="text-white/75 text-base md:text-lg leading-relaxed">
-              Authentic stories that resonate at every level of your organization
+              Authentic storytelling that meets people where they are — and resonates across every level of your
+              organization.
             </p>
           </div>
 
@@ -35,7 +37,7 @@ export default function KeynoteAudienceExperienceSection() {
               Lasting Change/Impact
             </h3>
             <p className="text-white/75 text-base md:text-lg leading-relaxed">
-              Mindset shifts that continue long after the event ends
+              A shift in mindset and standards that sticks — long after the event ends and the applause fades.
             </p>
           </div>
         </div>
@@ -43,13 +45,22 @@ export default function KeynoteAudienceExperienceSection() {
         {/* Customization Content */}
         <div className="space-y-6 md:space-y-8">
           <p className="text-white/85 text-lg md:text-xl lg:text-2xl leading-relaxed">
-            Brian customizes every presentation to your audience. Whether your attendees are CEOs, sales representatives, or entrepreneurs, they&apos;ll leave with breakthroughs that shift the trajectory of their careers and their lives.
+            Brian customizes every presentation to your audience. Whether your attendees are CEOs, sales
+            representatives, or entrepreneurs, they&apos;ll leave with clear breakthroughs — the kind that shift how
+            they think, how they lead, and what they believe is possible.
           </p>
 
           {/* Quote */}
-          <div className="relative rounded-lg md:rounded-2xl overflow-hidden border-2 p-8 md:p-10" style={{ borderColor: "#AADBFF", backgroundColor: "rgba(170, 219, 255, 0.1)" }}>
-            <p className="text-white text-xl md:text-2xl lg:text-3xl leading-relaxed font-semibold italic text-center" style={{ color: "#AADBFF" }}>
-              &quot;Small hinges swing big doors. Your organization will leave with specific breakthroughs that change everything.&quot;
+          <div
+            className="relative rounded-lg md:rounded-2xl overflow-hidden border-2 p-8 md:p-10"
+            style={{ borderColor: "#AADBFF", backgroundColor: "rgba(170, 219, 255, 0.1)" }}
+          >
+            <p
+              className="text-white text-xl md:text-2xl lg:text-3xl leading-relaxed font-semibold italic text-center"
+              style={{ color: "#AADBFF" }}
+            >
+              &quot;Small hinges swing big doors. Your organization will leave with specific breakthroughs that change
+              everything.&quot;
             </p>
           </div>
         </div>
@@ -57,4 +68,3 @@ export default function KeynoteAudienceExperienceSection() {
     </section>
   );
 }
-
