@@ -10,34 +10,32 @@ export default function KeynoteAudienceExperienceSection() {
         {/* Three Experience Items */}
         <div className="grid gap-8 md:gap-10 lg:grid-cols-3 mb-16 md:mb-20">
           {/* Measurable Results */}
-          <div className="relative rounded-xl overflow-hidden border border-white/10 bg-[#0a0a0a] p-6 md:p-8 hover:border-white/20 transition-colors">
-            <h3 className="text-white font-bold text-xl md:text-2xl lg:text-3xl mb-4" style={{ color: "#AADBFF" }}>
+          <div className="relative rounded-xl overflow-hidden border border-white/10 bg-[#0a0a0a] p-6 md:p-8 hover:border-white/20 transition-colors flex flex-col">
+            <h3 className="text-white font-bold text-lg md:text-xl lg:text-2xl mb-4" style={{ color: "#AADBFF" }}>
               Measurable Results
             </h3>
             <p className="text-white/75 text-base md:text-lg leading-relaxed">
-              Practical strategies your audience can apply immediately — creating noticeable gains in performance,
-              productivity, and revenue.
+              Strategies that translate directly to improved performance and&nbsp;revenue
             </p>
           </div>
 
           {/* Deep Connection */}
-          <div className="relative rounded-xl overflow-hidden border border-white/10 bg-[#0a0a0a] p-6 md:p-8 hover:border-white/20 transition-colors">
-            <h3 className="text-white font-bold text-xl md:text-2xl lg:text-3xl mb-4" style={{ color: "#AADBFF" }}>
+          <div className="relative rounded-xl overflow-hidden border border-white/10 bg-[#0a0a0a] p-6 md:p-8 hover:border-white/20 transition-colors flex flex-col">
+            <h3 className="text-white font-bold text-lg md:text-xl lg:text-2xl mb-4" style={{ color: "#AADBFF" }}>
               Deep Connection
             </h3>
             <p className="text-white/75 text-base md:text-lg leading-relaxed">
-              Authentic storytelling that meets people where they are — and resonates across every level of your
-              organization.
+              Authentic stories that resonate at every level of your&nbsp;organization
             </p>
           </div>
 
           {/* Lasting Change/Impact */}
-          <div className="relative rounded-xl overflow-hidden border border-white/10 bg-[#0a0a0a] p-6 md:p-8 hover:border-white/20 transition-colors">
-            <h3 className="text-white font-bold text-xl md:text-2xl lg:text-3xl mb-4" style={{ color: "#AADBFF" }}>
+          <div className="relative rounded-xl overflow-hidden border border-white/10 bg-[#0a0a0a] p-6 md:p-8 hover:border-white/20 transition-colors flex flex-col">
+            <h3 className="text-white font-bold text-lg md:text-xl lg:text-2xl mb-4" style={{ color: "#AADBFF" }}>
               Lasting Change/Impact
             </h3>
             <p className="text-white/75 text-base md:text-lg leading-relaxed">
-              A shift in mindset and standards that sticks — long after the event ends and the applause fades.
+              Mindset shifts that continue long after the event&nbsp;ends
             </p>
           </div>
         </div>
