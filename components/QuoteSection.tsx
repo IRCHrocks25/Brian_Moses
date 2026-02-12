@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function QuoteSection() {
   return (
-    <section className="relative bg-[#0a0a0a] py-16 md:py-24 overflow-hidden min-h-[400px] md:min-h-[500px]">
+    <section className="relative py-16 md:py-24 overflow-hidden min-h-[500px] md:min-h-[600px] lg:min-h-[700px]">
       {/* Background Image */}
       <div className="absolute inset-0">
         <Image
@@ -15,7 +15,7 @@ export default function QuoteSection() {
 
       {/* Content Overlay */}
       <div className="relative z-10 mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center min-h-[400px] md:min-h-[500px]">
+        <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center min-h-[500px] md:min-h-[600px] lg:min-h-[700px]">
           {/* Left: Empty space for image visibility */}
           <div className="hidden lg:block"></div>
 
