@@ -39,31 +39,12 @@ export default function KeynoteBookSection() {
                   <div className="mt-4 h-0.5 w-20 bg-[#AADBFF]" />
                 </div>
 
-                {/* Quotes Section */}
-                <div className="space-y-6">
+                {/* Quote Section */}
+                <div>
                   <p className="text-[#AADBFF] text-xl sm:text-2xl md:text-3xl leading-relaxed font-semibold italic">
                     &quot;The people who succeed in life aren&apos;t lucky. They have a belief in possibilities — and with that belief, the universe moves into action to conspire for them.&quot;
                   </p>
-                  <p className="text-[#AADBFF] text-xl sm:text-2xl md:text-3xl leading-relaxed font-semibold italic">
-                    &quot;Success, happiness, and fulfillment don&apos;t come from doing more. They come from decisions — and from those decisions, purposeful, conscious intention that turns into action… which turns into results.&quot;
-                  </p>
                 </div>
-
-                {/* Key Messages Section */}
-                <div className="space-y-3">
-                  <h3 className="text-white font-bold text-xl sm:text-2xl md:text-3xl lg:text-4xl leading-tight">
-                    Bring the Fire. Deliver the Framework.
-                  </h3>
-                  <h3 className="text-white font-bold text-xl sm:text-2xl md:text-3xl lg:text-4xl leading-tight">
-                    Ignite Growth, Mindset, and Momentum.
-                  </h3>
-                </div>
-
-                {/* Closing Statement */}
-                <p className="text-white/90 text-lg md:text-xl leading-relaxed max-w-2xl">
-                  When your event demands more than motivation — when it requires a mindset shift, a breakthrough
-                  moment, and a speaker who walks the talk — Brian delivers.
-                </p>
               </div>
 
               {/* RIGHT: CTA Card */}

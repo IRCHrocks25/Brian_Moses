@@ -1,6 +1,10 @@
 import Image from "next/image";
 
-export default function Footer() {
+interface FooterProps {
+  logoPath?: string;
+}
+
+export default function Footer({ logoPath = "/images/brian_moses_footer_logo.png" }: FooterProps) {
   return (
     <footer className="bg-white py-12 md:py-16">
       <div className="mx-auto w-full max-w-7xl px-6 lg:px-8">
@@ -9,13 +13,13 @@ export default function Footer() {
           <div>
             {/* Logo */}
             <div className="mb-6">
-              <div className="relative h-8 md:h-10 lg:h-12 w-auto">
+              <div className="relative h-12 md:h-14 lg:h-16 w-auto">
                 <Image
-                  src="/images/brian_moses_footer_logo.png"
+                  src={logoPath}
                   alt="Brian Moses"
                   width={200}
                   height={60}
-                  className="h-8 md:h-10 lg:h-12 w-auto object-contain object-left"
+                  className="h-12 md:h-14 lg:h-16 w-auto object-contain object-left"
                 />
               </div>
             </div>

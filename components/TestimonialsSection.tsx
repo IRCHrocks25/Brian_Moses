@@ -125,9 +125,7 @@ export default function TestimonialsSection() {
           <h2 className="text-black font-bold text-3xl md:text-4xl lg:text-5xl mb-4">
             Real Agents. Real Results.
           </h2>
-          <p className="text-gray-700 font-normal text-xl md:text-2xl lg:text-3xl max-w-3xl mx-auto">
-            See how Brian&apos;s system transformed their business - and their lives.
-          </p>
+          
         </div>
       </div>
 

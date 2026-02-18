@@ -35,8 +35,12 @@ export default function Home() {
                 {/* Left Content */}
                 <div className="pl-4 sm:pl-6 md:pl-12 lg:pl-16">
                   <h1 className="text-white font-bold leading-[1.05] text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl">
-                    There&apos;s a Better Way!
+                    Attract, Don&apos;t Chase.
                   </h1>
+                  
+                  <p className="mt-4 text-white/85 text-lg sm:text-xl md:text-2xl font-semibold">
+                    More of What Your Doing Won&apos;t Fix Your Business - Systems Will.
+                  </p>
 
                   <div className="mt-6 sm:mt-8 space-y-4 sm:space-y-6">
                     <p className="text-white/85 text-base sm:text-lg md:text-xl lg:text-2xl leading-relaxed">
@@ -56,8 +60,8 @@ export default function Home() {
                   </div>
 
                   <div className="mt-8 sm:mt-10">
-                    <button className="rounded-full bg-white text-black px-6 sm:px-8 py-3 sm:py-4 text-sm sm:text-base md:text-lg lg:text-xl font-medium hover:bg-gray-100 transition-colors">
-                      See the System!
+                    <button className="rounded-full bg-red-600 text-white px-6 sm:px-8 py-3 sm:py-4 text-sm sm:text-base md:text-lg lg:text-xl font-medium hover:bg-red-700 transition-colors">
+                      See the System
                     </button>
                   </div>
                 </div>
@@ -70,6 +74,9 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Testimonials Section */}
+      <TestimonialsSection />
+
       {/* ACHIEVEMENTS & SOCIAL PROOF */}
       <section className="relative py-16 md:py-20">
         <div className="absolute inset-0 bg-gradient-to-b from-[#1a1f3a] to-[#0a0a0a]"></div>
@@ -81,7 +88,7 @@ export default function Home() {
             Here&apos;s Why Agents Trust Brian&apos;s System
           </h2>
           <p className="text-center text-white font-light tracking-wide text-lg md:text-xl lg:text-2xl xl:text-3xl max-w-5xl mx-auto leading-relaxed">
-            Brian Has Inspired More Than 20,000 Real Estate Agents & Industry Professionals Across North America
+            Brian Has Inspired More Than 20,000 Real Estate Agents & Industry Professionals Across North America Including All Major Brands
           </p>
 
           {/* Achievements Grid (Keep first 2, optionally add 3rd) */}
@@ -130,15 +137,13 @@ export default function Home() {
           </div>
 
           {/* Trusted By Heading */}
-          <h3 className="mt-12 text-center uppercase text-white font-light tracking-wide text-base md:text-lg lg:text-xl">
-            TRUSTED BY THE BEST
-          </h3>
+          
         </div>
 
         {/* Trusted By Logos - Marquee (Edge to Edge, remaining 6 logos) */}
         <div className="mt-8 overflow-hidden w-full -mx-6 lg:-mx-8">
-          <div className="marquee flex items-center gap-14">
-              {[...Array(2)].flatMap((_, loop) =>
+          <div className="marquee flex items-center gap-14 will-change-transform">
+              {[...Array(4)].flatMap((_, loop) =>
                 [
                   "/images/logos/Frame 1000003721.png",
                   "/images/logos/gradient-blue-logo 1.png",
@@ -158,7 +163,7 @@ export default function Home() {
                       alt="Trusted by logo"
                       width={140}
                       height={64}
-                      className="h-12 md:h-14 w-auto object-contain opacity-80"
+                      className="h-12 md:h-14 w-auto object-contain opacity-80 flex-shrink-0"
                       unoptimized
                     />
                   );
@@ -169,8 +174,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Testimonials Section */}
-      <TestimonialsSection />
+     
 
       {/* Work with Brian Section */}
       <WorkWithBrianSection />

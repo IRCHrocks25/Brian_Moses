@@ -31,6 +31,8 @@ body {
 .marquee {
   width: max-content;
   animation: marquee 28s linear infinite;
+  animation-iteration-count: infinite;
+  animation-fill-mode: both;
 }
 
 .marquee-testimonials {

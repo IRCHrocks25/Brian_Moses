@@ -41,43 +41,10 @@ export default function KeynoteHeroSection() {
                 <div className="mt-7 sm:mt-9 space-y-5 sm:space-y-6">
                   {/* Headline */}
                   <p className="text-white/90 text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl leading-[1.08] font-semibold">
-  Your Past Doesn’t Have to Dictate Your Future.
+  You can have, do, be, accomplish, and achieve anything you want in life. 
 </p>
 
 
-                  {/* Body: make it scannable + “readable tension” */}
-                  <div className="max-w-3xl">
-                    {/* Lead-in (slightly smaller than headline, but "pulls you in") */}
-                    <p className="text-white/90 text-lg sm:text-xl md:text-2xl leading-[1.65] font-medium">
-                      What if the only thing standing between you and the life you truly want…. Is what you&apos;ve been conditioned to believe is possible?
-                    </p>
-
-                    {/* Micro-divider for rhythm */}
-                    <div className="mt-5 h-px w-16 bg-white/20" />
-
-                    {/* Bold "truth" line as a highlighted callout */}
-                    <p className="mt-5 text-white text-xl sm:text-2xl md:text-3xl leading-[1.35] font-semibold tracking-tight">
-                      The truth is simple: You can have, do, be, accomplish, and achieve anything you want in life. Thousands have proven it and you can too.
-                    </p>
-
-                    {/* "Moment" paragraph: slightly smaller, more airy, italics for texture */}
-                    <p className="mt-4 text-white/75 text-base sm:text-lg md:text-xl leading-[1.85]">
-                      Change can happen in a moment. That moment when the shift in your belief occurs about what is possible for yourself. A defining moment when you become free from what&apos;s been buried beneath fear, challenging, personal and past experiences.
-                    </p>
-
-                    {/* Second divider for pacing */}
-                    <div className="mt-6 h-px w-24 bg-white/15" />
-
-                    {/* Question as a subhead to "re-hook" */}
-                    <p className="mt-6 text-white/95 text-xl sm:text-2xl md:text-3xl leading-[1.35] font-semibold tracking-tight">
-                      How would it feel to access the resourceful states of passion, drive, energy, ambition, confidence, unstoppability and more?
-                    </p>
-
-                    {/* Final paragraph: slightly tighter, but still readable */}
-                    <p className="mt-5 text-white/80 text-base sm:text-lg md:text-xl leading-[1.85]">
-                      Spend any time in his presence and he;ll have you believing you can walk through a brick wall. A powerhouse of resilience and strategic brilliance, Brian has inspired audiences across stages around the globe. Whether you&apos;re facing obstacles that feel insurmountable, harboring dreams you&apos;re afraid to pursue, or seeking the blueprint to build wealth, health, happiness, and freedom Brian&apos;s keynote will leave a lasting impression that transforms into a newfound obsession for your life.
-                    </p>
-                  </div>
                 </div>
 
                 {/* CTA: moved up + attached to copy */}

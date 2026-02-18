@@ -33,8 +33,8 @@ const testimonials = [
     image: "/new_testimonials/Matt.jpg",
   },
   {
-    header: "One of the best, most energetic motivational speakers I've had the privilege to listen to.",
-    body: "Want to move your company forward? Call Brian.",
+    header: "One of the best, most energetic speakers I've had the privilege to listen to.",
+    body: "",
     author: "Bill Monahan",
     title: "Real Estate Sales, Berkshire Hathaway Home Services",
     image: "/new_testimonials/Bill.jpg",
@@ -69,10 +69,18 @@ function TestimonialsMarquee() {
 
               {/* Right Section - Quote */}
               <div className="flex-1 bg-white p-6 md:p-8 flex flex-col justify-center min-w-0 space-y-4">
-                <p className="text-black font-bold text-base sm:text-lg md:text-xl lg:text-2xl leading-tight">
+                <p className={`text-black font-bold leading-tight ${
+                  testimonial.author === "Ray Davis" || testimonial.author === "Rob Parsons"
+                    ? "text-base sm:text-lg md:text-xl lg:text-2xl"
+                    : "text-lg sm:text-xl md:text-2xl lg:text-3xl"
+                }`}>
                   &quot;{testimonial.header}&quot;
                 </p>
-                <p className="text-black font-normal text-sm sm:text-base md:text-lg leading-relaxed">
+                <p className={`text-black font-normal leading-relaxed ${
+                  testimonial.author === "Ray Davis" || testimonial.author === "Rob Parsons"
+                    ? "text-sm sm:text-base md:text-lg"
+                    : "text-base sm:text-lg md:text-xl"
+                }`}>
                   {testimonial.body}
                 </p>
               </div>

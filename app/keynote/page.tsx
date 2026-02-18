@@ -12,20 +12,24 @@ import KeynoteAudienceExperienceSection from "@/components/keynote/KeynoteAudien
 import KeynoteCredentialsSection from "@/components/keynote/KeynoteCredentialsSection";
 import KeynoteTestimonialsSection from "@/components/keynote/KeynoteTestimonialsSection";
 import KeynoteBookSection from "@/components/keynote/KeynoteBookSection";
+import KeynoteTruthSection from "@/components/keynote/KeynoteTruthSection";
 
 export default function KeynotePage() {
   return (
     <>
       {/* Navbar */}
-      <Navbar />
+      <Navbar logoPath="/images/speakerpage_logo/main logo-speaker-white.png" />
 
       {/* HERO SECTION */}
       <KeynoteHeroSection />
 
-      {/* Inspiration Section */}
-      <KeynoteInspirationSection />
+      {/* Truth Section */}
+      <KeynoteTruthSection />
 
-      {/* A Story of Radical Transformation Section */}
+      {/* What People Are Saying Section */}
+      <KeynoteTestimonialsSection />
+
+      {/* Sharing A Story of Radical Transformation Section */}
       <KeynoteTransformationSection />
 
       {/* Signature Keynotes & Workshops Section */}
@@ -34,8 +38,9 @@ export default function KeynotePage() {
       {/* Why Event Planners Choose Brian Moses Section */}
       <KeynoteEventPlannersSection />
 
-      {/* What People Are Saying Section */}
-      <KeynoteTestimonialsSection />
+
+      {/* Inspiration Section */}
+      <KeynoteInspirationSection />
 
       {/* What Sets Brian Apart Section */}
       <KeynoteWhatSetsApartSection />
@@ -50,7 +55,7 @@ export default function KeynotePage() {
       <KeynoteBookSection />
 
       {/* Footer */}
-      <Footer />
+      <Footer logoPath="/images/speakerpage_logo/main logo-speaker-dark.png" />
     </>
   );
 }

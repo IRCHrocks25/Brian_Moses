@@ -3,30 +3,14 @@ import Image from "next/image";
 export default function KeynoteCredentialsSection() {
   const credentials = [
     "Named one of the 125 Most Influential People in the Real Estate Industry by Success Magazine",
-    "Former Senior VP & Executive Business Consultant for Anthony Robbins and Chet Holmes",
+    "Former Senior VP Executive Business Consultant for Anthony Robbins & Chet Holmes",
     "Trainer for Robbins Research International",
-    "Consulted with industry legends including Bob Proctor, Dan Kennedy, Jay Abraham, Tony Robbins, Craig Proctor, Mike Ditka, and Marjorie Blanchard",
-    "Featured on ABC, NBC, CBS, Fox, The Late Show with David Letterman, and major networks and publications",
-    "Frequent keynote speaker across the United States, Canada, and Europe",
-    "Represented by Eagles Talent Speakers Bureau — the agency representing Mel Robbins, Jesse Itzler, Jay Shetty, and other world-class speakers",
+    "Consulted with industry legends including Daniel Burrus, Bob Proctor, Tony Robbins, Darren Hardy, Brian Tracy, Joseph McClendon III, Jay Abraham, Dan Kennedy, Mike Ditka, Marjorie Blanchard and many more.",
+    "Featured on ABC, NBC, CBS, Fox, Late Show with David Letterman, and major networks and publications",
+    "Global Keynote Speaker serving North America, South America, Europe, Australia, Asia & Africa",
+    "Represented by Eagles Talent Speakers Bureau - the agency representing Mel Robbins, Jesse Itzler, Jay Shetty, and other world-class speakers",
   ];
 
-  const trustedByLogos = [
-    "/images/trusted_by/Frame 1000007701.png",
-    "/images/trusted_by/Frame 1000007702.png",
-    "/images/trusted_by/Frame 1000007703.png",
-    "/images/trusted_by/Frame 1000007704.png",
-    "/images/trusted_by/Frame 1000007705.png",
-    "/images/trusted_by/Frame 1000007706.png",
-    "/images/trusted_by/Frame 1000007707.png",
-    "/images/trusted_by/Frame 1000007708.png",
-    "/images/trusted_by/Frame 1000007709.png",
-    "/images/trusted_by/Frame 1000007710.png",
-    "/images/trusted_by/Frame 1000007711.png",
-    "/images/trusted_by/Frame 1000007712.png",
-    "/images/trusted_by/Frame 1000007713.png",
-    "/images/trusted_by/Frame 1000007714.png",
-  ];
 
   return (
     <section className="relative bg-[#0a0a0a] py-16 md:py-24 overflow-hidden">
@@ -118,53 +102,6 @@ export default function KeynoteCredentialsSection() {
                   </div>
                 ))}
               </div>
-            </div>
-
-            {/* Trusted By — airy “logo runway” with fades (no grid boxes) */}
-            <div className="mt-16 md:mt-20">
-              <div className="flex items-end justify-between gap-6 flex-wrap">
-                <h3 className="text-white font-bold text-2xl sm:text-3xl md:text-4xl">
-                  Trusted By Leading Organizations
-                </h3>
-                <p className="text-white/60 text-sm md:text-base">
-                  Selected partners & appearances
-                </p>
-              </div>
-
-              <div className="mt-8 relative">
-                {/* Edge fades */}
-                <div className="pointer-events-none absolute left-0 top-0 bottom-0 w-16 bg-gradient-to-r from-[#0a0a0a] to-transparent z-10" />
-                <div className="pointer-events-none absolute right-0 top-0 bottom-0 w-16 bg-gradient-to-l from-[#0a0a0a] to-transparent z-10" />
-
-                {/* Logo strip */}
-                <div className="flex items-center gap-8 md:gap-10 overflow-x-auto no-scrollbar py-4">
-                  {trustedByLogos.map((src, idx) => {
-                    const encodedSrc = src
-                      .split("/")
-                      .map((part, i) => (i === 0 ? part : encodeURIComponent(part)))
-                      .join("/");
-                    return (
-                      <div key={idx} className="flex-shrink-0">
-                        <Image
-                          src={encodedSrc}
-                          alt="Trusted by logo"
-                          width={170}
-                          height={80}
-                          className="h-10 sm:h-12 md:h-14 w-auto object-contain opacity-70 hover:opacity-100 transition-opacity"
-                          unoptimized
-                        />
-                      </div>
-                    );
-                  })}
-                </div>
-
-                {/* Underline */}
-                <div className="mt-6 h-px w-full bg-gradient-to-r from-transparent via-white/14 to-transparent" />
-              </div>
-
-              <p className="mt-6 text-white/75 text-base md:text-lg lg:text-xl">
-                Plus top brokerages, associations, and entrepreneurs across North America
-              </p>
             </div>
           </div>
         </div>

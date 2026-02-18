@@ -13,7 +13,7 @@ export default function KeynoteKeynotesWorkshopsSection() {
         {/* Section Header */}
         <div className="text-center mb-12 md:mb-16">
           <h2 className="text-white font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl mb-4">
-            Signature Keynotes & Workshops
+            Signature Keynotes
           </h2>
           <p className="text-white/85 text-lg md:text-xl lg:text-2xl">
             Customizable. High-Impact. Always Actionable.
@@ -83,132 +83,6 @@ export default function KeynoteKeynotesWorkshopsSection() {
                 <p className="text-white/60 text-sm md:text-base">
                   <span className="font-semibold text-white/80">Ideal for:</span> High performers, executive retreats,
                   personal development events &amp; general audiences
-                </p>
-              </div>
-            </div>
-          </div>
-
-          {/* WORKSHOP: Attract, Don't Chase */}
-          <div className="relative rounded-xl overflow-hidden border border-white/10 shadow-[0_20px_60px_rgba(0,0,0,0.45)] backdrop-blur-sm p-6 md:p-8 hover:border-white/20 transition-colors">
-            {/* Card gradient background */}
-            <div className="absolute inset-0 bg-[#000614]" />
-            <div
-              className="absolute inset-0"
-              style={{ background: "linear-gradient(to bottom, #1568F7 0%, #000614 100%)" }}
-            />
-            <div className="absolute inset-0 bg-gradient-to-r from-[#000614] via-transparent to-[#000614]" />
-            <div className="relative z-10">
-              <div className="mb-4">
-                <span className="text-[#AADBFF] text-xs md:text-sm font-semibold uppercase tracking-wider">
-                  WORKSHOP
-                </span>
-                <h3 className="text-white font-bold text-xl md:text-2xl lg:text-3xl mt-2 leading-tight">
-                  Attract, Don&apos;t Chase, Build a Business Where Prospects Seek You Out
-                </h3>
-              </div>
-              <p className="text-white/75 text-base md:text-lg leading-relaxed mb-4">
-                Stop chasing leads. Start attracting them. Brian teaches your sales force, marketing team, and business
-                leaders how to position themselves as the undeniable first choice in any market — regardless of&nbsp;competition.
-              </p>
-              <div className="mt-6 pt-4 border-t border-white/10">
-                <p className="text-white/60 text-sm md:text-base">
-                  <span className="font-semibold text-white/80">Ideal for:</span> Sales professionals, entrepreneurs,
-                  marketing teams, service-based businesses
-                </p>
-              </div>
-            </div>
-          </div>
-
-          {/* WORKSHOP: Optimize Before You Add */}
-          <div className="relative rounded-xl overflow-hidden border border-white/10 shadow-[0_20px_60px_rgba(0,0,0,0.45)] backdrop-blur-sm p-6 md:p-8 hover:border-white/20 transition-colors">
-            {/* Card gradient background */}
-            <div className="absolute inset-0 bg-[#000614]" />
-            <div
-              className="absolute inset-0"
-              style={{ background: "linear-gradient(to bottom, #1568F7 0%, #000614 100%)" }}
-            />
-            <div className="absolute inset-0 bg-gradient-to-r from-[#000614] via-transparent to-[#000614]" />
-            <div className="relative z-10">
-              <div className="mb-4">
-                <span className="text-[#AADBFF] text-xs md:text-sm font-semibold uppercase tracking-wider">
-                  WORKSHOP
-                </span>
-                <h3 className="text-white font-bold text-xl md:text-2xl lg:text-3xl mt-2 leading-tight">
-                  Optimize Before You Add, Maximize What You&apos;re Already Doing
-                </h3>
-              </div>
-              <p className="text-white/75 text-base md:text-lg leading-relaxed mb-4">
-                Growth isn&apos;t about doing more — it&apos;s about doing what matters with precision. Brian reveals
-                how to raise your average sale price, increase purchase frequency, differentiate your brand, and command
-                premium pricing even in the most competitive&nbsp;markets.
-              </p>
-              <div className="mt-6 pt-4 border-t border-white/10">
-                <p className="text-white/60 text-sm md:text-base">
-                  <span className="font-semibold text-white/80">Ideal for:</span> Business owners, operations leaders,
-                  sales professionals
-                </p>
-              </div>
-            </div>
-          </div>
-
-          {/* WORKSHOP: Unlocking Your Sales Team's True Potential */}
-          <div className="relative rounded-xl overflow-hidden border border-white/10 shadow-[0_20px_60px_rgba(0,0,0,0.45)] backdrop-blur-sm p-6 md:p-8 hover:border-white/20 transition-colors">
-            {/* Card gradient background */}
-            <div className="absolute inset-0 bg-[#000614]" />
-            <div
-              className="absolute inset-0"
-              style={{ background: "linear-gradient(to bottom, #1568F7 0%, #000614 100%)" }}
-            />
-            <div className="absolute inset-0 bg-gradient-to-r from-[#000614] via-transparent to-[#000614]" />
-            <div className="relative z-10">
-              <div className="mb-4">
-                <span className="text-[#AADBFF] text-xs md:text-sm font-semibold uppercase tracking-wider">
-                  WORKSHOP
-                </span>
-                <h3 className="text-white font-bold text-xl md:text-2xl lg:text-3xl mt-2 leading-tight">
-                  Unlocking Your Sales Team&apos;s True&nbsp;Potential
-                </h3>
-              </div>
-              <p className="text-white/75 text-base md:text-lg leading-relaxed mb-4">
-                People don&apos;t earn what they want — they earn what they need. Brian expands your team&apos;s vision
-                of what&apos;s possible, helping them dream bigger, set audacious goals, and internalize the drive to
-                achieve more. The best salespeople are big thinkers — and Brian will transform&nbsp;yours.
-              </p>
-              <div className="mt-6 pt-4 border-t border-white/10">
-                <p className="text-white/60 text-sm md:text-base">
-                  <span className="font-semibold text-white/80">Ideal for:</span> Sales teams, sales leadership, revenue
-                  organizations
-                </p>
-              </div>
-            </div>
-          </div>
-
-          {/* WORKSHOP: Mindset Mastery */}
-          <div className="relative rounded-xl overflow-hidden border border-white/10 shadow-[0_20px_60px_rgba(0,0,0,0.45)] backdrop-blur-sm p-6 md:p-8 hover:border-white/20 transition-colors">
-            {/* Card gradient background */}
-            <div className="absolute inset-0 bg-[#000614]" />
-            <div
-              className="absolute inset-0"
-              style={{ background: "linear-gradient(to bottom, #1568F7 0%, #000614 100%)" }}
-            />
-            <div className="absolute inset-0 bg-gradient-to-r from-[#000614] via-transparent to-[#000614]" />
-            <div className="relative z-10">
-              <div className="mb-4">
-                <span className="text-[#AADBFF] text-xs md:text-sm font-semibold uppercase tracking-wider">
-                  WORKSHOP
-                </span>
-                <h3 className="text-white font-bold text-xl md:text-2xl lg:text-3xl mt-2 leading-tight">
-                  Mindset Mastery for Results-Driven Teams
-                </h3>
-              </div>
-              <p className="text-white/75 text-base md:text-lg leading-relaxed mb-4">
-                Success starts between the ears. Brian reveals how to replace overwhelm with ownership and transform
-                from victim to victor — creating lasting mindset shifts that drive measurable&nbsp;results.
-              </p>
-              <div className="mt-6 pt-4 border-t border-white/10">
-                <p className="text-white/60 text-sm md:text-base">
-                  <span className="font-semibold text-white/80">Ideal for:</span> Corporate audiences, sales kickoffs,
-                  culture transformation initiatives
                 </p>
               </div>
             </div>

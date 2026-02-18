@@ -6,9 +6,12 @@ export default function AttractDontChaseSection() {
       <div className="w-full mx-auto max-w-[92%] px-[3px] lg:px-[2px]">
         {/* Why "Attract, Don't Chase" Wins Section */}
         <div className="text-center mb-16">
-          <h2 className="text-black font-medium text-4xl md:text-5xl lg:text-6xl mb-6">
-            Why the Opposite of What You&apos;ve Been Taught Works 1,000x Better!
+          <h2 className="text-black font-medium text-4xl md:text-5xl lg:text-6xl mb-4">
+            Why The Opposite of What You&apos;ve Been Taught Works 1,000x Better!
           </h2>
+          <p className="text-black font-medium text-xl md:text-2xl lg:text-3xl mb-6 max-w-4xl mx-auto leading-relaxed">
+            Invert the Pyramid... or You&apos;ll Spend The Rest of Your Life Chasing What Should Be Chasing You.
+          </p>
           <p className="text-black text-lg md:text-xl lg:text-2xl max-w-4xl mx-auto mb-4 leading-relaxed">
             You&apos;ve been told the path to success is cold calls, door knocking, and relentless hustle. But what if the real power move is doing less of what burns you out, and more of what brings results?
           </p>
@@ -33,13 +36,18 @@ export default function AttractDontChaseSection() {
                     className="object-contain"
                   />
                 </div>
-                <h3 className="font-bold text-xl md:text-2xl" style={{ color: '#1568F7' }}>
+                <h3 className="font-bold text-2xl md:text-3xl lg:text-4xl" style={{ color: '#1568F7' }}>
                   Spend Less, Earn More
                 </h3>
               </div>
-              <p className="text-black text-base md:text-lg leading-relaxed">
-                We help you dramatically cut costs - starting with your cost per lead and cost per sale. By leveraging proven best practices, low cost and free lead sources available to you and smarter strategies, you get a higher ROI without relying on expensive 3rd party platforms or having to pay hefty referral fees. Instead of building these 3rd party&apos;s brands, you&apos;ll optimize everything you&apos;re already doing and strengthen your own brand, positioning yourself as a dominant player in your market.
-              </p>
+              <div className="space-y-4">
+                <p className="text-black text-base md:text-lg leading-relaxed">
+                  We help you dramatically cut costs - starting with your cost per lead and cost per sale. By leveraging proven best practices, low cost and free lead sources available to you and smarter strategies, you get a higher ROI without relying on expensive 3rd party platforms or having to pay hefty referral fees.
+                </p>
+                <p className="text-black text-base md:text-lg leading-relaxed">
+                  Instead of building these 3rd party&apos;s brands, you&apos;ll optimize everything you&apos;re already doing and strengthen your own brand, positioning yourself as a dominant player in your market.
+                </p>
+              </div>
             </div>
           </div>
 
@@ -57,13 +65,21 @@ export default function AttractDontChaseSection() {
                     className="object-contain"
                   />
                 </div>
-                <h3 className="font-bold text-xl md:text-2xl" style={{ color: '#1568F7' }}>
+                <h3 className="font-bold text-2xl md:text-3xl lg:text-4xl" style={{ color: '#1568F7' }}>
                   Work With People Who Are Ready to Act
                 </h3>
               </div>
-              <p className="text-black text-base md:text-lg leading-relaxed">
-                Understand there is a huge difference between people and people who are actually thinking of buying or selling... Most Realtors are trained to prospect people. That is massively time consuming! Imagine being able to only have to talk to people who are already thinking about buying or selling... Exhausting follow up goes way down, conversion goes way up! When you are talking to the right people (buyers and sellers) you can talk to far fewer and sell a ton more homes!
-              </p>
+              <div className="space-y-4">
+                <p className="text-black text-base md:text-lg leading-relaxed">
+                  Understand there is a huge difference between people and people who are actually thinking of buying or selling... Most Realtors are trained to prospect people. That is massively time consuming!
+                </p>
+                <p className="text-black text-base md:text-lg leading-relaxed">
+                  Imagine being able to only have to talk to people who are already thinking about buying or selling...
+                </p>
+                <p className="text-black text-base md:text-lg leading-relaxed">
+                  Exhausting follow up goes way down, conversion goes way up! When you are talking to the right people (buyers and sellers) you can talk to far fewer and sell a ton more homes!
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -95,7 +111,7 @@ export default function AttractDontChaseSection() {
             <div className="bg-gray-50 rounded-2xl p-6 md:p-8 border border-gray-200 shadow-sm hover:shadow-md transition-shadow flex flex-col">
               <div className="flex-grow">
                 <p className="text-black text-sm md:text-base leading-relaxed">
-                For the serious Top Producer and/or Team Leader doing $200,000+ a year, wants more but without giving up their life.  This is a 1 on 1 experience that will transform your business and life at scale.  Apply for your free business evaluation call and secure your spot today.
+                For the Top Producer and/or Team Leader doing $200,000+ a year, wants more but without giving up their life.  This is a 1 on 1 experience that will transform your business and life at scale.  Apply for your free business evaluation call and secure your spot today.
                 </p>
               </div>
               <div className="mt-auto pt-6">

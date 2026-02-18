@@ -12,7 +12,7 @@ const programs = [
   {
     program: "PROGRAM2",
     title: "1 on 1 Personalized & Customized Coaching",
-    desc: "For the serious Top Producer and/or Team Leader doing $200,000+ a year, wants more but without giving up their life. This is a 1 on 1 experience that will transform your business and life at scale. Apply for your free business evaluation call and secure your spot today.",
+    desc: "For the Top Producer and/or Team Leader doing $200,000+ a year, wants more but without giving up their life. This is a 1 on 1 experience that will transform your business and life at scale. Apply for your free business evaluation call and secure your spot today.",
     bullet: "",
     buttonText: "Apply Now",
     image: "/three_images/Ekran Resmi 2026-02-10 15.20.24 1.png",
@@ -20,7 +20,7 @@ const programs = [
   {
     program: "",
     title: "In Person Keynotes and Live Training",
-    desc: "Motivational. Inspiring. Unforgettable. For Companies, Brokerages, or Conferences ready to spark lasting change.",
+    desc: "Motivational. Inspiring. Unforgettable. And Always Authentic. For Companies, Brokerages, or Conferences that turn moments into momentum",
     bullet: "",
     buttonText: "Learn More",
     image: "/three_images/Ekran Resmi 2026-02-10 15.21.03 1.png",
@@ -64,7 +64,7 @@ export default function WorkWithBrianSection() {
                   src={p.image}
                   alt={p.title}
                   fill
-                  className="object-cover object-center"
+                  className={`object-cover ${idx === 0 ? 'object-top' : 'object-center'}`}
                   priority={idx === 0}
                 />
                 {/* top image dark overlay for readability */}

@@ -88,7 +88,7 @@ export default function TypicalOutcomesSection() {
         </div>
 
         {/* Key Achievements - Visual Cards */}
-        <div className="grid md:grid-cols-3 gap-6 mb-12 max-w-6xl mx-auto">
+        <div className="grid md:grid-cols-3 lg:grid-cols-5 gap-6 mb-12 max-w-6xl mx-auto">
           {/* Achievement Card 1 */}
           <div className="bg-gradient-to-br from-[#2aa7ff]/20 to-[#1568F7]/20 backdrop-blur-sm rounded-xl p-6 border border-[#2aa7ff]/30">
             <div className="text-center">
@@ -113,6 +113,25 @@ export default function TypicalOutcomesSection() {
               <div className="text-white text-sm md:text-base font-medium">Years Experience</div>
               <div className="text-white/80 text-xs mt-1">
                 Named one of the 125 Most Influential People in Real Estate &mdash; Success Magazine
+              </div>
+            </div>
+          </div>
+
+          {/* Achievement Card 4 */}
+          <div className="bg-gradient-to-br from-[#2aa7ff]/20 to-[#1568F7]/20 backdrop-blur-sm rounded-xl p-6 border border-[#2aa7ff]/30">
+            <div className="text-center">
+              <div className="text-4xl md:text-5xl font-bold text-[#2aa7ff] mb-2">20k+</div>
+              <div className="text-white text-sm md:text-base font-medium">Trained Industry Wide</div>
+            </div>
+          </div>
+
+          {/* Achievement Card 5 */}
+          <div className="bg-gradient-to-br from-[#2aa7ff]/20 to-[#1568F7]/20 backdrop-blur-sm rounded-xl p-6 border border-[#2aa7ff]/30">
+            <div className="text-center">
+              <div className="text-4xl md:text-5xl font-bold text-[#2aa7ff] mb-2">$1M+</div>
+              <div className="text-white text-sm md:text-base font-medium">Annual Income</div>
+              <div className="text-white/80 text-xs mt-1">
+                Brian&apos;s one-on-one coaching clients Average Over a Million Dollars in Income per Year!
               </div>
             </div>
           </div>
@@ -149,7 +168,7 @@ export default function TypicalOutcomesSection() {
           <div className="bg-white/5 rounded-xl p-6 md:p-8">
             <h4 className="text-white font-bold text-lg md:text-xl mb-4">No One-Size-Fits-All Approach</h4>
             <p className="text-white/90 text-base md:text-lg leading-relaxed">
-              There is no one size fits all approach when it comes to growing and scaling your business. Brian&apos;s customizes your coaching to the agent, their goals and is specific to their market, resulting in a sustainable system, measured results and increased profitability.
+              When it comes to growing and scaling your business. Brian&apos;s customizes your coaching to the agent, their goals and is specific to their market, resulting in a sustainable system, measured results and increased profitability.
             </p>
           </div>
 
@@ -160,7 +179,7 @@ export default function TypicalOutcomesSection() {
               Mastering Human Performance
             </h4>
             <p className="text-white text-base md:text-lg leading-relaxed">
-              Beyond production and strategy, lasting growth requires mastering the side of human performance. For more than <span className="font-bold text-[#2aa7ff]">30 years</span> Brian has worked in close alignment with <span className="font-semibold">Tony Robbins and Robbins Research International</span>, developing deep expertise in human psychology, behavior change and peak performance. This added skill and experience allows him to identify the real constraints holding agents back - often not market conditions or lead flow but unseen limiting beliefs, comfort zones and unconscious patterns that sabotage growth.
+              Beyond production and strategy, lasting growth requires mastering human performance. For more than <span className="font-bold text-[#2aa7ff]">30 years</span> Brian has worked in close alignment with <span className="font-semibold">Tony Robbins and Robbins Research International</span>, developing deep expertise in human psychology, behavior change and peak performance. This added skill and experience allows him to identify the real constraints holding agents back - often not market conditions or lead flow but unseen limiting beliefs, comfort zones and unconscious patterns that sabotage growth.
             </p>
           </div>
 
@@ -224,7 +243,7 @@ export default function TypicalOutcomesSection() {
             <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 md:p-8 border border-white/20 shadow-lg hover:shadow-xl transition-shadow flex flex-col">
               <div className="flex-grow">
                 <p className="text-white text-sm md:text-base leading-relaxed mb-4">
-                For the serious Top Producer and/or Team Leader doing $200,000+ a year, wants more but without giving up their life.  This is a 1 on 1 experience that will transform your business and life at scale.  Apply for your free business evaluation call and secure your spot today.
+                For the Top Producer and/or Team Leader doing $200,000+ a year, wants more but without giving up their life.  This is a 1 on 1 experience that will transform your business and life at scale.  Apply for your free business evaluation call and secure your spot today.
                 </p>
               </div>
               <div className="mt-auto pt-6">

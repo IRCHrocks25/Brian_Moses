@@ -23,8 +23,8 @@ export default function KeynoteTransformationSection() {
               {/* Left Content */}
               <div className="pl-4 sm:pl-6 md:pl-12 lg:pl-16">
                 
-                <h2 className="text-white font-bold leading-[1.05] text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">
-                  A Story of Radical Transformation
+                <h2 className="text-white font-bold leading-[1.05] text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl">
+                  Sharing A Story of Radical Transformation
                 </h2>
                 
                 <p className="mt-4 text-white/85 text-lg sm:text-xl md:text-2xl font-semibold">
@@ -34,12 +34,11 @@ export default function KeynoteTransformationSection() {
                 <div className="mt-6 sm:mt-8 space-y-4 sm:space-y-6">
                   
                   <p className="text-white/85 text-sm sm:text-base md:text-lg leading-relaxed">
-                    Abandoned by his biological father at three years old. Raised by a poverty-stricken German immigrant mother who barely spoke English. Welfare. Inner-city housing projects. Every statistic predicted struggle.
+                    Abandoned by his biological father at age three. Raised by his poverty stricken mom, a German immigrant who could barely speak English, living on welfare and in inner-city housing projects, odds were stacked against them.
                   </p>
 
                   <p className="text-white/85 text-sm sm:text-base md:text-lg leading-relaxed">
-                    By twenty-eight, Brian was buried in IRS debt. His wages levied. His bank accounts seized. Depression closing in. Thoughts of suicide growing louder.  
-                    He stood at a crossroads: <strong>Give up — or figure it out.</strong>
+                    By the age of twenty-eight, he was buried in debt, his wages levied and bank account seized by the IRS, deep in depression and thoughts of suicide - what do you do?
                   </p>
 
                   {/* Benefit Statement - Premium Glassmorphism */}
@@ -48,31 +47,25 @@ export default function KeynoteTransformationSection() {
                     <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,rgba(170,219,255,0.2),transparent_60%)]" />
                     <div className="absolute inset-0 ring-1 ring-inset ring-white/10" />
                     
-                    <div className="relative z-10 space-y-6">
+                    <div className="relative z-10 space-y-4">
                       <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl leading-tight font-bold text-white">
-                        You may lack resources.  
-                        You may have a million reasons to quit.
+                        You may not have the resources. You have plenty of reasons to quit.
                       </p>
                       <p
                         className="text-lg sm:text-xl md:text-2xl lg:text-3xl leading-tight font-bold"
                         style={{ color: "#AADBFF" }}
                       >
-                        Or you can reframe the narrative.  
-                        Change your story. Change your life.
+                        The Solution is Simple; Change Your Story & Change Your Life!
                       </p>
                     </div>
                   </div>
 
                   <p className="text-white/85 text-sm sm:text-base md:text-lg leading-relaxed">
-                    Brian chose to rewrite his story. Today, he is a multi-millionaire entrepreneur, accomplished businessman, devoted husband, and father. Recognized by Success Magazine as one of the 125 Most Influential People in the Real Estate Industry, he represents grit, discipline, and the power of strategic belief.
+                    Today, Brian is a multi-millionaire, accomplished businessman, devoted husband, and father. Named by Success Magazine as one of the 125 Most Influential People in the Real Estate Industry, he embodies the values, grit, determination, and perseverance that define the human spirit at its finest.
                   </p>
 
                   <p className="text-white/85 text-sm sm:text-base md:text-lg leading-relaxed">
-                    But his resilience wasn’t tested only financially. When Brian and his wife decided to start a family, a Harvard physician told them they were infertile. Ten fertility treatments. Three miscarriages. Nearly $200,000 in uncovered medical costs. On the verge of giving up — they tried once more.
-                  </p>
-
-                  <p className="text-white/85 text-sm sm:text-base md:text-lg leading-relaxed">
-                    Their son was born.
+                    The lesson -
                   </p>
 
                   <p
@@ -85,7 +78,7 @@ export default function KeynoteTransformationSection() {
                   </p>
 
                   <p className="text-white/85 text-sm sm:text-base md:text-lg leading-relaxed">
-                    Brian turned his mess into his message. His signature keynote, &quot;Never Say Can&apos;t,&quot; is more than inspiration — it is a blueprint for resilience, belief, and execution. A message that now moves audiences in boardrooms, conferences, and arenas around the world.
+                    From mess to message, Brian created &quot;Never Say Can&apos;t&quot;—a powerful keynote that transforms adversity into results. His message of grit and relentless perseverance now moves audiences worldwide to improve and transform their own lives.
                   </p>
 
                 </div>
