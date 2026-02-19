@@ -6,7 +6,7 @@ export default function WorkLessEarnMoreSection() {
       {/* Background Image */}
       <div className="absolute inset-0">
         <Image
-          src="/images/Frame 1000007794.png"
+          src="/images/cta_image_black.png"
           alt="Person walking towards the sun"
           fill
           className="object-cover object-center"

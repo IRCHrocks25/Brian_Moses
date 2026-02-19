@@ -33,13 +33,13 @@ export default function Home() {
             <div className="relative z-10 h-full mx-auto w-full px-6 lg:px-12">
               <div className="grid min-h-[70vh] sm:min-h-[80vh] md:min-h-[92vh] items-center gap-6 md:gap-10 lg:grid-cols-2 pt-16 sm:pt-20 md:pt-24 pb-8 sm:pb-10 md:pb-14">
                 {/* Left Content */}
-                <div className="pl-4 sm:pl-6 md:pl-12 lg:pl-16">
-                  <h1 className="text-white font-bold leading-[1.05] text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl">
+                <div className="pl-6 sm:pl-8 md:pl-16 lg:pl-24">
+                  <h1 className="text-white font-bold leading-[1.05] text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">
                     Attract, Don&apos;t Chase.
                   </h1>
                   
                   <p className="mt-4 text-white/85 text-lg sm:text-xl md:text-2xl font-semibold">
-                    More of What Your Doing Won&apos;t Fix Your Business - Systems Will.
+                    More of What Your Doing Won&apos;t Fix Your&nbsp;Business - Systems&nbsp;Will.
                   </p>
 
                   <div className="mt-6 sm:mt-8 space-y-4 sm:space-y-6">
@@ -48,7 +48,7 @@ export default function Home() {
                     </p>
 
                     <p className="text-base sm:text-lg md:text-xl lg:text-2xl leading-relaxed">
-                      Brian Moses opens his entire playbook - built from selling over 3,500 homes - and walks you step-by-step through exactly what to do. Follow the system, and the results take care of themselves.
+                      Brian Moses opens his entire playbook - built from selling over 3,500&nbsp;homes - and walks you step-by-step through exactly what to&nbsp;do. Follow the&nbsp;system, and the&nbsp;results take&nbsp;care of&nbsp;themselves.
                     </p>
 
                     <p
@@ -90,7 +90,41 @@ export default function Home() {
           <p className="text-center text-white font-light tracking-wide text-lg md:text-xl lg:text-2xl xl:text-3xl max-w-5xl mx-auto leading-relaxed">
             Brian Has Inspired More Than 20,000 Real Estate Agents & Industry Professionals Across North America Including All Major Brands
           </p>
+        </div>
 
+        {/* Trusted By Logos - Marquee (Edge to Edge, remaining 6 logos) */}
+        <div className="mt-12 md:mt-16 overflow-hidden w-full">
+          <div className="marquee flex items-center gap-14 will-change-transform">
+              {[...Array(4)].flatMap((_, loop) =>
+                [
+                  "/images/logos/Frame 1000003721.png",
+                  "/images/logos/gradient-blue-logo 1.png",
+                  "/images/logos/13103 1.png",
+                  "/images/logos/163035_normal 1.png",
+                  "/images/logos/HomeSmart-Logo_Full_WHT 1.png",
+                  "/images/logos/Real-Logo-Outline-Black 1.png",
+                ].map((src) => {
+                  // Encode the path to handle spaces and special characters
+                  const encodedSrc = src.split('/').map((part, i) => 
+                    i === 0 ? part : encodeURIComponent(part)
+                  ).join('/');
+                  return (
+                    <Image
+                      key={`${loop}-${src}`}
+                      src={encodedSrc}
+                      alt="Trusted by logo"
+                      width={140}
+                      height={64}
+                      className="h-12 md:h-14 w-auto object-contain opacity-80 flex-shrink-0"
+                      unoptimized
+                    />
+                  );
+                })
+              )}
+          </div>
+        </div>
+
+        <div className="mx-auto w-full max-w-7xl px-6 lg:px-8">
           {/* Achievements Grid (Keep first 2, optionally add 3rd) */}
           <div className="mt-12 grid gap-8 md:grid-cols-3">
             {[
@@ -140,37 +174,7 @@ export default function Home() {
           
         </div>
 
-        {/* Trusted By Logos - Marquee (Edge to Edge, remaining 6 logos) */}
-        <div className="mt-8 overflow-hidden w-full -mx-6 lg:-mx-8">
-          <div className="marquee flex items-center gap-14 will-change-transform">
-              {[...Array(4)].flatMap((_, loop) =>
-                [
-                  "/images/logos/Frame 1000003721.png",
-                  "/images/logos/gradient-blue-logo 1.png",
-                  "/images/logos/13103 1.png",
-                  "/images/logos/163035_normal 1.png",
-                  "/images/logos/HomeSmart-Logo_Full_WHT 1.png",
-                  "/images/logos/Real-Logo-Outline-Black 1.png",
-                ].map((src) => {
-                  // Encode the path to handle spaces and special characters
-                  const encodedSrc = src.split('/').map((part, i) => 
-                    i === 0 ? part : encodeURIComponent(part)
-                  ).join('/');
-                  return (
-                    <Image
-                      key={`${loop}-${src}`}
-                      src={encodedSrc}
-                      alt="Trusted by logo"
-                      width={140}
-                      height={64}
-                      className="h-12 md:h-14 w-auto object-contain opacity-80 flex-shrink-0"
-                      unoptimized
-                    />
-                  );
-                })
-              )}
-          </div>
-        </div>
+        
         </div>
       </section>
 

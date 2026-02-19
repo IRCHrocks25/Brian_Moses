@@ -21,9 +21,10 @@ export default function AttractDontChaseSection() {
         </div>
 
         {/* Proof/Benefits Section */}
-        <div className="grid md:grid-cols-2 gap-8 mb-16">
-          {/* Left Box: Spend Less, Earn More */}
-          <div className="relative rounded-lg p-8 md:p-10 overflow-hidden">
+        <div className="max-w-5xl mx-auto mb-16">
+          <div className="grid md:grid-cols-2 gap-8">
+            {/* Left Box: Spend Less, Earn More */}
+            <div className="relative rounded-lg p-8 md:p-10 overflow-hidden">
             {/* Gradient Background */}
             <div className="absolute inset-0 bg-gradient-to-b from-blue-100 via-blue-50 to-white"></div>
             <div className="relative z-10">
@@ -36,7 +37,7 @@ export default function AttractDontChaseSection() {
                     className="object-contain"
                   />
                 </div>
-                <h3 className="font-bold text-2xl md:text-3xl lg:text-4xl" style={{ color: '#1568F7' }}>
+                <h3 className="font-bold text-xl md:text-2xl lg:text-3xl" style={{ color: '#1568F7' }}>
                   Spend Less, Earn More
                 </h3>
               </div>
@@ -65,7 +66,7 @@ export default function AttractDontChaseSection() {
                     className="object-contain"
                   />
                 </div>
-                <h3 className="font-bold text-2xl md:text-3xl lg:text-4xl" style={{ color: '#1568F7' }}>
+                <h3 className="font-bold text-xl md:text-2xl lg:text-3xl" style={{ color: '#1568F7' }}>
                   Work With People Who Are Ready to Act
                 </h3>
               </div>
@@ -81,6 +82,7 @@ export default function AttractDontChaseSection() {
                 </p>
               </div>
             </div>
+          </div>
           </div>
         </div>
 

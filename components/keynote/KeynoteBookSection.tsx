@@ -40,9 +40,12 @@ export default function KeynoteBookSection() {
                 </div>
 
                 {/* Quote Section */}
-                <div>
+                <div className="space-y-6">
                   <p className="text-[#AADBFF] text-xl sm:text-2xl md:text-3xl leading-relaxed font-semibold italic">
                     &quot;The people who succeed in life aren&apos;t lucky. They have a belief in possibilities — and with that belief, the universe moves into action to conspire for them.&quot;
+                  </p>
+                  <p className="text-white text-lg sm:text-xl md:text-2xl leading-relaxed">
+                    When your event demands more than motivation — when it requires a mindset shift, a breakthrough moment, and a speaker who walks the talk — Brian delivers.
                   </p>
                 </div>
               </div>

@@ -9,7 +9,7 @@ export default function KeynoteHeroSection() {
           {/* BACKGROUND */}
           <div className="absolute inset-0">
             <Image
-              src="/images/Frame 8 (1).png"
+              src="/Section 1000007793.png"
               alt="Hero background"
               fill
               priority
@@ -26,10 +26,13 @@ export default function KeynoteHeroSection() {
 
           {/* CONTENT */}
           <div className="relative z-10 px-6 sm:px-8 md:px-12 lg:px-16">
-            {/* Use a column layout so CTA stays attached to the copy,
-                not floating near the bottom */}
-            <div className="min-h-[78vh] sm:min-h-[84vh] md:min-h-[92vh] flex flex-col justify-center py-14 sm:py-16 md:py-20">
-              <div className="w-full max-w-6xl text-left">
+            {/* Grid layout with content on the right */}
+            <div className="min-h-[78vh] sm:min-h-[84vh] md:min-h-[92vh] grid grid-cols-1 lg:grid-cols-2 items-center py-14 sm:py-16 md:py-20">
+              {/* Left column - empty */}
+              <div className="hidden lg:block" />
+              
+              {/* Right column - content */}
+              <div className="w-full text-left">
                 {/* Eyebrow */}
                 <div className="flex items-center gap-3 text-xs tracking-[0.28em] uppercase text-white/70">
                   <span>Keynote Speaker</span>
@@ -40,8 +43,8 @@ export default function KeynoteHeroSection() {
                 {/* Copy block */}
                 <div className="mt-7 sm:mt-9 space-y-5 sm:space-y-6">
                   {/* Headline */}
-                  <p className="text-white/90 text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl leading-[1.08] font-semibold">
-  You can have, do, be, accomplish, and achieve anything you want in life. 
+                  <p className="text-white/90 text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl leading-[1.08] font-normal">
+  You can have, do, be, accomplish, and <span className="italic font-serif">achieve anything</span> you&nbsp;want in&nbsp;life. 
 </p>
 
 

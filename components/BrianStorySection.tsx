@@ -56,36 +56,36 @@ export default function BrianStorySection() {
             <div className="relative grid min-h-[800px] md:min-h-[900px] lg:min-h-[950px] grid-cols-1 lg:grid-cols-[1.5fr_0.5fr]">
               {/* Left text block */}
               <div className="pl-4 pr-4 py-8 sm:pl-8 sm:pr-6 md:pl-20 md:pr-14 md:py-16 lg:py-20 text-white">
-                <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold leading-tight max-w-[1000px]">
-                  From just $18,000 a year in Income,
+                <h2 className="text-3xl md:text-4xl lg:text-5xl font-semibold leading-tight max-w-[1000px]">
+                  From just $18K a year,
                   <br />
                   deep in debt & at Rock Bottom to #2 in the World!
                 </h2>
 
-                <p className="mt-4 text-white/85 text-lg md:text-xl lg:text-2xl font-semibold max-w-[1000px]">
+                <p className="mt-4 text-white/85 text-xl md:text-2xl lg:text-3xl font-semibold max-w-[1000px]">
                   Brian&apos;s Struggle is Your Shortcut
                 </p>
 
-                <p className="mt-6 text-white/75 text-lg md:text-xl leading-relaxed max-w-[600px]">
+                <p className="mt-6 text-white/75 text-xl md:text-2xl leading-relaxed max-w-[600px]">
                   Before Brian Moses became one of the world&apos;s top real estate coaches, he was on the verge of quitting.
                   Earning just $18,000 his first year and struggling for five more, he hit the same walls you have. He experienced
                   the hustle, the doubt, and the burnout.
                 </p>
 
-                <p className="mt-6 font-semibold text-xl md:text-2xl lg:text-3xl max-w-[600px]" style={{ color: "#168EE4" }}>
+                <p className="mt-6 font-semibold text-2xl md:text-3xl lg:text-4xl max-w-[600px]" style={{ color: "#168EE4" }}>
                   Then, everything changed.
                 </p>
 
-                <p className="mt-4 text-white/75 text-lg md:text-xl leading-relaxed max-w-[600px]">
+                <p className="mt-4 text-white/75 text-xl md:text-2xl leading-relaxed max-w-[600px]">
                   He stopped chasing leads and started building a system. Guided by mentors like Tony Robbins, Bob Proctor and the most successful agents across North America, he transformed his mindset and his business, scaling to $3M+ per year in commissions and selling over 3,500 homes.
                 </p>
 
                 {/* Quote */}
                 <div className="mt-4">
-                  <p className="text-2xl md:text-3xl lg:text-4xl font-semibold leading-snug">
+                  <p className="text-3xl md:text-4xl lg:text-5xl font-semibold leading-snug">
                     Prospecting Sucks!
                   </p>
-                  <p className="mt-4 text-2xl md:text-3xl lg:text-4xl font-semibold leading-snug">
+                  <p className="mt-4 text-3xl md:text-4xl lg:text-5xl font-semibold leading-snug">
                     Don&apos;t hunt & chase business,
                     <br />
                     become the one your market can&apos;t ignore.
@@ -107,11 +107,11 @@ export default function BrianStorySection() {
       {/* BOTTOM: Principles (match screenshot layout + sizing) */}
       <section className="bg-white pb-20 md:pb-24">
         <div className="mx-auto w-full px-4 sm:px-6 md:px-12 lg:px-48">
-          <p className="text-center text-black/60 text-base md:text-lg max-w-4xl mx-auto">
+          <p className="text-center text-black/60 text-lg md:text-xl max-w-4xl mx-auto">
             He&apos;s offering you the exact playbook he built from the ground up, so you don&apos;t have to learn the hard way.
           </p>
 
-          <p className="mt-4 text-center text-lg md:text-xl font-semibold" style={{ color: '#1568F7' }}>
+          <p className="mt-4 text-center text-xl md:text-2xl font-semibold" style={{ color: '#1568F7' }}>
             This philosophy is built on three core principles:
           </p>
 
@@ -121,11 +121,11 @@ export default function BrianStorySection() {
                 {/* Dots patterns like screenshot */}
                 <Dots active={idx + 1} />
 
-                <h3 className="text-black font-semibold text-base md:text-lg border-b border-[#1568F7] pb-2">
+                <h3 className="text-black font-semibold text-lg md:text-xl border-b border-[#1568F7] pb-2">
                   {p.title}
                 </h3>
 
-                <p className="mt-4 text-black/60 text-sm md:text-base leading-relaxed">
+                <p className="mt-4 text-black/60 text-base md:text-lg leading-relaxed">
                   {p.description}
                 </p>
               </div>
