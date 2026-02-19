@@ -112,18 +112,18 @@ export default function Footer({ logoPath = "/images/brian_moses_footer_logo.png
               <ul className="space-y-3">
                 <li>
                   <a
-                    href="tel:+19998887654"
+                    href="mailto:Brian@BrianMoses.com"
                     className="text-gray-600 hover:text-black transition-colors text-sm md:text-base"
                   >
-                    +1 999 888-76-54
+                    Brian@BrianMoses.com
                   </a>
                 </li>
                 <li>
                   <a
-                    href="mailto:hello@logoipsum.com"
+                    href="tel:+16038601104"
                     className="text-gray-600 hover:text-black transition-colors text-sm md:text-base"
                   >
-                    hello@logoipsum.com
+                    603-860-1104
                   </a>
                 </li>
               </ul>
