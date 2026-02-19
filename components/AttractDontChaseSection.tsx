@@ -111,7 +111,7 @@ export default function AttractDontChaseSection() {
             <div className="bg-gray-50 rounded-2xl p-6 md:p-8 border border-gray-200 shadow-sm hover:shadow-md transition-shadow flex flex-col">
               <div className="flex-grow">
                 <p className="text-black text-sm md:text-base leading-relaxed">
-                For the Top Producer and/or Team Leader doing $200,000+ a year, wants more but without giving up their life.  This is a 1 on 1 experience that will transform your business and life at scale.  Apply for your free business evaluation call and secure your spot today.
+                For the Producer and/or Team Leader doing $200,000+ a year, wants more but without giving up their life.  This is a 1 on 1 experience that will transform your business and life at scale.  Apply for your free business evaluation call and secure your spot today.
                 </p>
               </div>
               <div className="mt-auto pt-6">

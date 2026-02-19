@@ -60,9 +60,11 @@ export default function BrianStorySection() {
                   From just $18,000 a year in Income,
                   <br />
                   deep in debt & at Rock Bottom to #2 in the World!
-                  <br />
-                  Brian&apos;s Struggle is Your Shortcut
                 </h2>
+
+                <p className="mt-4 text-white/85 text-lg md:text-xl lg:text-2xl font-semibold max-w-[1000px]">
+                  Brian&apos;s Struggle is Your Shortcut
+                </p>
 
                 <p className="mt-6 text-white/75 text-lg md:text-xl leading-relaxed max-w-[600px]">
                   Before Brian Moses became one of the world&apos;s top real estate coaches, he was on the verge of quitting.
@@ -79,13 +81,16 @@ export default function BrianStorySection() {
                 </p>
 
                 {/* Quote */}
-                <p className="mt-4 text-2xl md:text-3xl lg:text-4xl font-semibold leading-snug">
-                  Prospecting Sucks!
-                  <br />
-                  Don&apos;t hunt & chase business,
-                  <br />
-                  become the one your market can&apos;t ignore.
-                </p>
+                <div className="mt-4">
+                  <p className="text-2xl md:text-3xl lg:text-4xl font-semibold leading-snug">
+                    Prospecting Sucks!
+                  </p>
+                  <p className="mt-4 text-2xl md:text-3xl lg:text-4xl font-semibold leading-snug">
+                    Don&apos;t hunt & chase business,
+                    <br />
+                    become the one your market can&apos;t ignore.
+                  </p>
+                </div>
               </div>
 
               {/* Right side is just image space (kept empty) */}

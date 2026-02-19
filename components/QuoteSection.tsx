@@ -24,7 +24,7 @@ export default function QuoteSection() {
             {/* Quote */}
             <blockquote className="text-2xl md:text-3xl lg:text-4xl font-semibold leading-tight mb-3">
               <span className="bg-gradient-to-r from-[#1568F7] to-[#2aa7ff] bg-clip-text text-transparent">
-                Success isn&apos;t just about what
+                &quot;Success isn&apos;t just about what
                 <br />
                 you earn.{" "}
               </span>
@@ -33,7 +33,7 @@ export default function QuoteSection() {
                 <br />
                 get to experience because of
                 <br />
-                what you earn.
+                what you earn.&quot;
               </span>
             </blockquote>
 

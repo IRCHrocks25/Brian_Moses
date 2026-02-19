@@ -12,7 +12,7 @@ const programs = [
   {
     program: "PROGRAM2",
     title: "1 on 1 Personalized & Customized Coaching",
-    desc: "For the Top Producer and/or Team Leader doing $200,000+ a year, wants more but without giving up their life. This is a 1 on 1 experience that will transform your business and life at scale. Apply for your free business evaluation call and secure your spot today.",
+    desc: "For the Producer and/or Team Leader doing $200,000+ a year, wants more but without giving up their life. This is a 1 on 1 experience that will transform your business and life at scale. Apply for your free business evaluation call and secure your spot today.",
     bullet: "",
     buttonText: "Apply Now",
     image: "/three_images/Ekran Resmi 2026-02-10 15.20.24 1.png",

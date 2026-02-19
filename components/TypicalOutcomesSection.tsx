@@ -6,7 +6,7 @@ import { useState } from "react";
 const outcomes = [
   {
     icon: "filled",
-    title: "Immediately Increase Your Sales & Income",
+    title: "Immediately Increase Your Sales",
     description:
       "Learn strategies to 'reduce your wasteful expenses and increase your sales and income immediately'",
   },
@@ -18,7 +18,7 @@ const outcomes = [
   },
   {
     icon: "outline",
-    title: "Build a Predictable Business, Not Just a Job",
+    title: "Build a Predictable Business",
     description:
       "Create a real estate business that offers 'predictability' and allows you to 'take time off,' freeing you from being constantly on call.",
   },
@@ -30,7 +30,7 @@ const outcomes = [
   },
   {
     icon: "outline",
-    title: "Generate a Consistent Flow of Quality Leads",
+    title: "Attract Lots of Qualified Leads",
     description:
       "Implement 'strategies, principals and quality lead generation best practices that will accelerate your income and transform your life!'. Ensure a 'consistent flow, a steady stream of highly motivated leads' right to you.",
   },
@@ -243,7 +243,7 @@ export default function TypicalOutcomesSection() {
             <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 md:p-8 border border-white/20 shadow-lg hover:shadow-xl transition-shadow flex flex-col">
               <div className="flex-grow">
                 <p className="text-white text-sm md:text-base leading-relaxed mb-4">
-                For the Top Producer and/or Team Leader doing $200,000+ a year, wants more but without giving up their life.  This is a 1 on 1 experience that will transform your business and life at scale.  Apply for your free business evaluation call and secure your spot today.
+                For the Producer and/or Team Leader doing $200,000+ a year, wants more but without giving up their life.  This is a 1 on 1 experience that will transform your business and life at scale.  Apply for your free business evaluation call and secure your spot today.
                 </p>
               </div>
               <div className="mt-auto pt-6">

@@ -5,23 +5,34 @@ import { useState } from "react";
 const learnItems = [
   {
     title: "Strategic Thinking Over Brute Force",
-    description:
-      "Transition from sales person to order taker. No one likes a sales person. No one likes to be pitched. STOP the old school pitching, closing techniques and learn the skills to stating your value propositions that are unique, compelling, different and irresistible. You don't need to close clients, they will choose you.",
+    description: [
+      "Transition from sales person to order taker. No one likes a sales person. No one likes to be pitched.",
+      "STOP the old school pitching, closing techniques and learn the skills to stating your value propositions that are unique, compelling, different and irresistible.",
+      "You don't need to close clients, they will choose you.",
+    ],
   },
   {
     title: "Embrace Change, Don't Resist It",
-    description:
-      "Every market shift creates winners and losers. Brian shows you how to adjust your strategy, messaging, and offers that will stand the test of time and when the market dips, you actually do better because you have a proven process and system that is recession proof.",
+    description: [
+      "Every market shift creates winners and losers.",
+      "Brian shows you how to adjust your strategy, messaging, and offers that will stand the test of time.",
+      "When the market dips, you actually do better because you have a proven process and system that is recession proof.",
+    ],
   },
   {
     title: "Relax Your Ego, Add Value",
-    description:
-      "The fastest way to lose trust is to make it about you. Brian teaches you how to shift from proving yourself to serving your market—so clients feel understood, supported, and confident choosing you without feeling pressure, pitched or sold.",
+    description: [
+      "The fastest way to lose trust is to make it about you.",
+      "Brian teaches you how to shift from proving yourself to serving your market—so clients feel understood, supported, and confident choosing you without feeling pressure, pitched or sold.",
+    ],
   },
   {
     title: "Learn from Proven Success",
-    description:
-      "Every strategy Brian teaches has been pressure-tested in competitive markets and all with proven results and success stories. You'll learn exactly what works, why it works, and how to apply it immediately without wasting time on tactics that don't move the needle.",
+    description: [
+      "Every strategy Brian teaches has been pressure-tested in competitive markets and all with proven results and success stories.",
+      "You'll learn exactly what works, why it works, and how to apply it immediately.",
+      "No wasting time on tactics that don't move the needle.",
+    ],
   },
 ];
 
@@ -78,9 +89,13 @@ export default function WhatYouWillLearnSection() {
                           isExpanded ? "max-h-[500px] opacity-100" : "max-h-0 opacity-0"
                         }`}
                       >
-                        <p className="text-black/80 text-sm md:text-base leading-relaxed pt-2">
-                          {item.description}
-                        </p>
+                        <div className="space-y-3 pt-2">
+                          {item.description.map((paragraph, pIndex) => (
+                            <p key={pIndex} className="text-black/80 text-sm md:text-base leading-relaxed">
+                              {paragraph}
+                            </p>
+                          ))}
+                        </div>
                       </div>
                     </div>
 
