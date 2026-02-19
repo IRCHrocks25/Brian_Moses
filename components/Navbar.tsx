@@ -5,7 +5,7 @@ interface NavbarProps {
   logoPath?: string;
 }
 
-export default function Navbar({ logoPath = "/images/light.png" }: NavbarProps) {
+export default function Navbar({ logoPath = "/images/main logo-coaching-white.png" }: NavbarProps) {
   return (
     <header className="sticky top-0 z-50 w-full bg-[#0a0a0a] border-b border-white/10">
       <div className="mx-auto w-full max-w-7xl px-6 lg:px-8">
