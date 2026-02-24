@@ -2,11 +2,11 @@ import Image from "next/image";
 
 export default function WorkLessEarnMoreSection() {
   return (
-    <section className="relative bg-[#0a0a0a] py-12 sm:py-16 md:py-24 overflow-hidden min-h-[400px] sm:min-h-[500px] md:min-h-[700px] flex items-center">
+    <section className="relative bg-[#0a0a0a] py-12 sm:py-16 md:py-24 overflow-hidden min-h-[500px] sm:min-h-[600px] md:min-h-[800px] lg:min-h-[900px] flex items-center">
       {/* Background Image */}
       <div className="absolute inset-0">
         <Image
-          src="/images/cta_image_black.png"
+          src="/images/image (32) 1.png"
           alt="Person walking towards the sun"
           fill
           className="object-cover object-center"

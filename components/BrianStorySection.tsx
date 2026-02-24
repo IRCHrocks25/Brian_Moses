@@ -56,10 +56,14 @@ export default function BrianStorySection() {
             <div className="relative grid min-h-[800px] md:min-h-[900px] lg:min-h-[950px] grid-cols-1 lg:grid-cols-[1.5fr_0.5fr]">
               {/* Left text block */}
               <div className="pl-4 pr-4 py-8 sm:pl-8 sm:pr-6 md:pl-20 md:pr-14 md:py-16 lg:py-20 text-white">
-                <h2 className="text-3xl md:text-4xl lg:text-5xl font-semibold leading-tight max-w-[1000px]">
-                  From just $18K a year,
+                <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-[1.1] max-w-[1000px]">
+                  From just{" "}
+                  <span className="text-[#168EE4] font-extrabold">$18K a year</span>
+                  <br className="hidden sm:block" />
+                  <span className="text-white/90">deep in debt & at Rock Bottom</span>
                   <br />
-                  deep in debt & at Rock Bottom to #2 in the World!
+                  to{" "}
+                  <span className="text-[#168EE4] font-extrabold text-4xl md:text-5xl lg:text-6xl">#2 in the World!</span>
                 </h2>
 
                 <p className="mt-4 text-white/85 text-xl md:text-2xl lg:text-3xl font-semibold max-w-[1000px]">

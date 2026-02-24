@@ -119,9 +119,7 @@ export default function TestimonialsSection() {
       <div className="relative z-10 mx-auto w-full max-w-7xl px-6 lg:px-12 mb-12">
         {/* Section Header */}
         <div className="text-center mb-12 md:mb-16">
-          <div className="inline-block mb-4">
-            <span className="text-[#1568F7] font-semibold text-sm uppercase tracking-wider">Testimonials</span>
-          </div>
+          
           
           
         </div>

@@ -115,7 +115,7 @@ export default function Home() {
                       alt="Trusted by logo"
                       width={140}
                       height={64}
-                      className="h-12 md:h-14 w-auto object-contain opacity-80 flex-shrink-0"
+                      className="h-10 md:h-12 w-auto object-contain opacity-80 flex-shrink-0"
                       unoptimized
                     />
                   );
@@ -134,7 +134,7 @@ export default function Home() {
             ].map((t, i) => (
               <div key={i} className="flex gap-3">
                 <span className="mt-2 h-2.5 w-2.5 flex-none bg-[#AADBFF]" />
-                <p className="text-white/85 text-sm md:text-base leading-snug">{t}</p>
+                <p className="text-white/85 text-base md:text-lg lg:text-xl leading-snug">{t}</p>
               </div>
             ))}
           </div>
@@ -163,7 +163,7 @@ export default function Home() {
                   alt="Partner logo"
                   width={140}
                   height={64}
-                  className="h-12 sm:h-14 md:h-16 w-auto flex-shrink-0 object-contain opacity-80 hover:opacity-100 transition-opacity"
+                  className="h-10 sm:h-12 md:h-14 w-auto flex-shrink-0 object-contain opacity-80 hover:opacity-100 transition-opacity"
                   unoptimized
                 />
               );

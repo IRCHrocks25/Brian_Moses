@@ -39,9 +39,6 @@ export default function KeynotePage() {
       <KeynoteEventPlannersSection />
 
 
-      {/* Inspiration Section */}
-      <KeynoteInspirationSection />
-
       {/* What Sets Brian Apart Section */}
       <KeynoteWhatSetsApartSection />
 
