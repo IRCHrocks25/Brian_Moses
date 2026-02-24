@@ -98,9 +98,7 @@ export default function KeynoteTestimonialsSection() {
       <div className="relative z-10 mx-auto w-full max-w-7xl px-6 lg:px-12 mb-12">
         {/* Section Header */}
         <div className="text-center mb-12 md:mb-16">
-          <h2 className="text-black font-bold text-3xl md:text-4xl lg:text-5xl xl:text-6xl mb-4">
-            Real Agents. Real Results.
-          </h2>
+          
           <p className="text-black font-normal text-xl md:text-2xl lg:text-3xl xl:text-4xl">
             What Others Are Saying About Brian&apos;s Performance
           </p>

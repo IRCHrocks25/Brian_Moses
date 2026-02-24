@@ -7,7 +7,7 @@ export default function KeynoteEventPlannersSection() {
         {/* Background Image Section with Enhanced Styling */}
         <div className="relative min-h-[75vh] md:min-h-[85vh] rounded-2xl md:rounded-3xl overflow-hidden border border-white/10 shadow-[0_40px_140px_rgba(0,0,0,0.85)]">
           <Image
-            src="/images/HS Biz Planning 014 1.png"
+            src="/three_images/Ekran Resmi 2026-02-10 15.21.03 1.png"
             alt="Brian Moses speaking"
             fill
             className="object-cover object-top"

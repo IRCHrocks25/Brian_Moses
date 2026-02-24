@@ -73,6 +73,23 @@ export default function KeynoteCredentialsSection() {
                   <p className="mt-2 text-white/80 text-sm md:text-base">
                     Success Magazine — 125 Most Influential
                   </p>
+                  
+                  {/* Logos grid */}
+                  <div className="mt-6 grid grid-cols-2 sm:grid-cols-3 gap-4">
+                    {Array.from({ length: 31 }, (_, i) => i + 1).map((num) => (
+                      <div
+                        key={num}
+                        className="relative aspect-[2/1] bg-white/5 rounded-lg p-3 flex items-center justify-center border border-white/10 hover:border-white/20 transition-colors"
+                      >
+                        <Image
+                          src={`/images/final_logos/logo2 - ${num}.png`}
+                          alt={`Logo ${num}`}
+                          fill
+                          className="object-contain p-2"
+                        />
+                      </div>
+                    ))}
+                  </div>
                 </div>
               </div>
             </div>

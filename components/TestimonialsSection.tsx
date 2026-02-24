@@ -122,9 +122,7 @@ export default function TestimonialsSection() {
           <div className="inline-block mb-4">
             <span className="text-[#1568F7] font-semibold text-sm uppercase tracking-wider">Testimonials</span>
           </div>
-          <h2 className="text-black font-bold text-3xl md:text-4xl lg:text-5xl mb-4">
-            Real Agents. Real Results.
-          </h2>
+          
           
         </div>
       </div>

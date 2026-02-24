@@ -23,7 +23,7 @@ const programs = [
     desc: "Motivational. Inspiring. Unforgettable. And Always Authentic. For Companies, Brokerages, or Conferences that turn moments into momentum",
     bullet: "",
     buttonText: "Learn More",
-    image: "/three_images/Ekran Resmi 2026-02-10 15.21.03 1.png",
+    image: "/images/HS Biz Planning 014 1.png",
   },
 ];
 
