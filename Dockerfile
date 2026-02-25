@@ -18,7 +18,14 @@ COPY . .
 
 # Build with verbose output
 ENV NEXT_TELEMETRY_DISABLED 1
-RUN npm run build 2>&1 || (echo "Build failed with exit code $?" && exit 1)
+RUN echo "Starting build..." && \
+    npm run build && \
+    echo "Build completed successfully" || \
+    (echo "=== BUILD FAILED ===" && \
+     echo "Exit code: $?" && \
+     cat package.json && \
+     ls -la && \
+     exit 1)
 
 # Production image, copy all the files and run next
 FROM base AS runner

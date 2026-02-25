@@ -2,7 +2,7 @@
 const nextConfig = {
   // Enable image optimization
   images: {
-    unoptimized: false,
+    unoptimized: true, // Temporarily disabled to debug Railway build
     // Allow images from Railway domain
     remotePatterns: [
       {
