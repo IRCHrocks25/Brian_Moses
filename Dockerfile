@@ -3,7 +3,7 @@ FROM node:18.17.0-alpine AS base
 
 # Install dependencies only when needed
 FROM base AS deps
-RUN apk add --no-cache libc6-compat
+RUN apk add --no-cache libc6-compat vips-dev
 WORKDIR /app
 
 # Copy package files
@@ -23,6 +23,9 @@ RUN npm run build 2>&1 || (echo "Build failed with exit code $?" && exit 1)
 # Production image, copy all the files and run next
 FROM base AS runner
 WORKDIR /app
+
+# Install sharp dependencies for production
+RUN apk add --no-cache vips
 
 ENV NODE_ENV production
 ENV NEXT_TELEMETRY_DISABLED 1
