@@ -44,7 +44,7 @@ export default function TypicalOutcomesSection() {
       {/* Background Image */}
       <div className="absolute inset-0">
         <Image
-          src="/images/background2.png"
+          src="/background.png"
           alt="Background"
           fill
           className="object-cover object-center"

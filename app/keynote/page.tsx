@@ -26,6 +26,37 @@ export default function KeynotePage() {
       {/* Truth Section */}
       <KeynoteTruthSection />
 
+      {/* News / Logos Section */}
+      <section className="bg-black py-10">
+        <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+          <p className="text-center text-xs font-semibold tracking-[0.3em] text-slate-400 uppercase">
+            As Seen In
+          </p>
+          <div className="mt-6 flex flex-wrap items-center justify-center gap-x-10 gap-y-6">
+            <img
+              src="/news_logos/logo2 - 32.png"
+              alt="News logo 1"
+              className="h-12 w-auto object-contain opacity-80 grayscale hover:opacity-100 hover:grayscale-0 transition"
+            />
+            <img
+              src="/news_logos/logo2 - 33.png"
+              alt="News logo 2"
+              className="h-12 w-auto object-contain opacity-80 grayscale hover:opacity-100 hover:grayscale-0 transition"
+            />
+            <img
+              src="/news_logos/logo2 - 34.png"
+              alt="News logo 3"
+              className="h-12 w-auto object-contain opacity-80 grayscale hover:opacity-100 hover:grayscale-0 transition"
+            />
+            <img
+              src="/news_logos/logo2 - 35.png"
+              alt="News logo 4"
+              className="h-12 w-auto object-contain opacity-80 grayscale hover:opacity-100 hover:grayscale-0 transition"
+            />
+          </div>
+        </div>
+      </section>
+
       {/* What People Are Saying Section */}
       <KeynoteTestimonialsSection />
 

@@ -43,22 +43,22 @@ export default function KeynoteTransformationSection() {
 
                   {/* Benefit Statement - Premium Glassmorphism */}
                   <div className="mt-8 p-8 md:p-10 lg:p-12 rounded-2xl border border-[#AADBFF]/40 backdrop-blur-xl shadow-[0_20px_60px_rgba(0,0,0,0.5),0_0_0_1px_rgba(170,219,255,0.2),inset_0_1px_0_rgba(255,255,255,0.1)] relative overflow-hidden">
-                    <div className="absolute inset-0 bg-gradient-to-br from-[#AADBFF]/15 via-[#AADBFF]/10 to-transparent" />
-                    <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,rgba(170,219,255,0.2),transparent_60%)]" />
-                    <div className="absolute inset-0 ring-1 ring-inset ring-white/10" />
-                    
-                    <div className="relative z-10 space-y-4">
-                      <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl leading-tight font-bold text-white">
-                        You may not have the resources. You have plenty of reasons to quit.
-                      </p>
-                      <p
-                        className="text-lg sm:text-xl md:text-2xl lg:text-3xl leading-tight font-bold"
-                        style={{ color: "#AADBFF" }}
-                      >
-                        The Solution is Simple; Change Your Story & Change Your Life!
-                      </p>
-                    </div>
-                  </div>
+  <div className="absolute inset-0 bg-gradient-to-br from-[#AADBFF]/15 via-[#AADBFF]/10 to-transparent" />
+  <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,rgba(170,219,255,0.2),transparent_60%)]" />
+  <div className="absolute inset-0 ring-1 ring-inset ring-white/10" />
+
+  <div className="relative z-10 space-y-3">
+    <p className="text-sm sm:text-base md:text-lg leading-relaxed font-medium text-white/60 uppercase tracking-widest">
+      You may not have the resources. You have plenty of reasons to quit.
+    </p>
+    <p
+      className="text-xl sm:text-2xl md:text-3xl lg:text-4xl leading-snug font-extrabold tracking-tight"
+      style={{ color: "#AADBFF" }}
+    >
+      The Solution is Simple; Change Your Story & Change Your Life!
+    </p>
+  </div>
+</div>
 
                   <p className="text-white/85 text-sm sm:text-base md:text-lg leading-relaxed">
                     Today, Brian is a multi-millionaire, accomplished businessman, devoted husband, and father. Named by Success Magazine as one of the 125 Most Influential People in the Real Estate Industry, he embodies the values, grit, determination, and perseverance that define the human spirit at its finest.

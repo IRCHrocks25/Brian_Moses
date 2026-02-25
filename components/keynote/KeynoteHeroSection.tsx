@@ -9,7 +9,7 @@ export default function KeynoteHeroSection() {
           {/* BACKGROUND */}
           <div className="absolute inset-0">
             <Image
-              src="/Section 1000007793.png"
+              src="/hero_section1.png"
               alt="Hero background"
               fill
               priority
