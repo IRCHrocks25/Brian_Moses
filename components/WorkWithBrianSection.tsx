@@ -64,6 +64,7 @@ export default function WorkWithBrianSection() {
                   src={p.image}
                   alt={p.title}
                   fill
+                  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 33vw, 400px"
                   className={`object-cover ${idx === 0 ? 'object-top' : 'object-center'}`}
                   priority={idx === 0}
                 />

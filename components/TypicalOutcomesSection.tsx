@@ -47,6 +47,7 @@ export default function TypicalOutcomesSection() {
           src="/background.png"
           alt="Background"
           fill
+          sizes="100vw"
           className="object-cover object-center"
         />
         {/* Dark overlay for text readability */}
@@ -192,6 +193,7 @@ export default function TypicalOutcomesSection() {
                   src="/images/brian18.png"
                   alt="Brian Moses"
                   fill
+                  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 600px"
                   className="object-cover"
                   style={{ objectPosition: 'center center' }}
                   priority
