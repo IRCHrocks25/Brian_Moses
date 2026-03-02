@@ -5,13 +5,18 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "build:verbose": "NODE_OPTIONS='--trace-warnings' next build 2>&1 | tee build.log",
     "start": "next start",
     "lint": "next lint"
+  },
+  "engines": {
+    "node": ">=18.17.0"
   },
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "next": "^14.2.5"
+    "next": "^14.2.5",
+    "sharp": "^0.33.0"
   },
   "devDependencies": {
     "@types/node": "^20.14.10",

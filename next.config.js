@@ -1,9 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'standalone',
   // Enable image optimization
   images: {
-    unoptimized: false,
+    unoptimized: true, // Temporarily disabled to debug Railway build
     // Allow images from Railway domain
     remotePatterns: [
       {

@@ -35,6 +35,7 @@ export default function AttractDontChaseSection() {
                     src="/images/plus_icon.png"
                     alt="Plus icon"
                     fill
+                    sizes="48px"
                     className="object-contain"
                   />
                 </div>
@@ -64,6 +65,7 @@ export default function AttractDontChaseSection() {
                     src="/images/people_icon.png"
                     alt="People icon"
                     fill
+                    sizes="48px"
                     className="object-contain"
                   />
                 </div>

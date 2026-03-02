@@ -11,8 +11,16 @@ export default function KeynoteWhatSetsApartSection() {
           <div className="absolute inset-0 bg-gradient-to-br from-[#0a0a0a] via-[#0f1a2e] to-[#0a0a0a]" />
           
           <div className="relative z-10">
-            <h2 className="text-white font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl mb-6 md:mb-8">
-              Brian&apos;s message isn&apos;t hype. It&apos;s a wake-up call.
+            <h2 className="text-white font-semibold tracking-tight text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-tight md:leading-[1.05] mb-6 md:mb-8 max-w-3xl">
+              <span className="block text-white/70 text-xs md:text-sm font-medium tracking-[0.25em] uppercase mb-3">
+                What Sets Brian Apart
+              </span>
+              <span className="block">
+                Brian&apos;s message isn&apos;t <span className="text-blue-300">hype</span>.
+              </span>
+              <span className="block text-blue-100">
+                It&apos;s a wake-up call.
+              </span>
             </h2>
             
             <div className="space-y-6 md:space-y-8">

@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "./globals.css";
-
-const inter = Inter({ subsets: ["latin"] });
+import FontLoader from "@/components/FontLoader";
 
 export const metadata: Metadata = {
   title: "Brian Moses - Landing Page",
@@ -16,7 +14,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="dark">
-      <body className={inter.className}>
+      <body className="font-inter">
+        <FontLoader />
         <div className="flex min-h-screen flex-col bg-[#0a0a0a]">
           <main className="flex-1">{children}</main>
         </div>

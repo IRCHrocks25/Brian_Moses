@@ -45,9 +45,10 @@ export default function TypicalOutcomesSection() {
       {/* Background Image */}
       <div className="absolute inset-0">
         <Image
-          src="/images/background2.png"
+          src="/background.png"
           alt="Background"
           fill
+          sizes="100vw"
           className="object-cover object-center"
         />
         {/* Dark overlay for text readability */}
