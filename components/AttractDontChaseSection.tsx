@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function AttractDontChaseSection() {
   return (
@@ -103,9 +104,12 @@ export default function AttractDontChaseSection() {
                 </p>
               </div>
               <div className="mt-auto pt-6">
-                <button className="w-full rounded-full bg-black text-white px-6 py-4 text-base md:text-lg font-semibold hover:bg-gray-900 transition-colors">
+                <Link 
+                  href="https://brianmoses.com/how-to-get-3-new-listings-fast-new"
+                  className="block w-full rounded-full bg-black text-white px-6 py-4 text-base md:text-lg font-semibold hover:bg-gray-900 transition-colors text-center"
+                >
                   Inner Circle Group Coaching
-                </button>
+                </Link>
               </div>
             </div>
             
@@ -117,9 +121,12 @@ export default function AttractDontChaseSection() {
                 </p>
               </div>
               <div className="mt-auto pt-6">
-                <button className="w-full rounded-full bg-black text-white px-6 py-4 text-base md:text-lg font-semibold hover:bg-gray-900 transition-colors">
+                <Link 
+                  href="https://calendly.com/coachbrianmoses/30-minute-business-assessment-clone"
+                  className="block w-full rounded-full bg-black text-white px-6 py-4 text-base md:text-lg font-semibold hover:bg-gray-900 transition-colors text-center"
+                >
                   Apply Now
-                </button>
+                </Link>
               </div>
             </div>
           </div>

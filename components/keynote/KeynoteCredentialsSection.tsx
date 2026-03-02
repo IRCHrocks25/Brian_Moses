@@ -73,23 +73,6 @@ export default function KeynoteCredentialsSection() {
                   <p className="mt-2 text-white/80 text-sm md:text-base">
                     Success Magazine — 125 Most Influential
                   </p>
-                  
-                  {/* Logos grid */}
-                  <div className="mt-6 grid grid-cols-2 sm:grid-cols-3 gap-4">
-                    {Array.from({ length: 31 }, (_, i) => i + 1).map((num) => (
-                      <div
-                        key={num}
-                        className="relative aspect-[2/1] bg-white/5 rounded-lg p-3 flex items-center justify-center border border-white/10 hover:border-white/20 transition-colors"
-                      >
-                        <Image
-                          src={`/images/final_logos/logo2 - ${num}.png`}
-                          alt={`Logo ${num}`}
-                          fill
-                          className="object-contain p-2"
-                        />
-                      </div>
-                    ))}
-                  </div>
                 </div>
               </div>
             </div>
@@ -124,6 +107,29 @@ export default function KeynoteCredentialsSection() {
         </div>
       </div>
 
+      {/* Logos marquee - full width */}
+      <div className="relative mt-12">
+        <div className="w-full -mx-6 lg:-mx-12 overflow-hidden">
+          <div className="logos-marquee flex items-center gap-12 py-7">
+            {[...Array(2)].flatMap((_, loop) =>
+              Array.from({ length: 31 }, (_, i) => i + 1).map((num) => (
+                <div
+                  key={`${loop}-${num}`}
+                  className="relative h-14 sm:h-20 md:h-24 flex items-center justify-center px-10 sm:px-12 md:px-14"
+                >
+                  <Image
+                    src={`/images/final_logos/logo2 - ${num}.png`}
+                    alt={`Logo ${num}`}
+                    fill
+                    className="object-contain"
+                  />
+                </div>
+              ))
+            )}
+          </div>
+        </div>
+      </div>
+
       {/* Optional: hide scrollbar nicely (utility) */}
       <style jsx>{`
         .no-scrollbar::-webkit-scrollbar {
@@ -132,6 +138,19 @@ export default function KeynoteCredentialsSection() {
         .no-scrollbar {
           -ms-overflow-style: none;
           scrollbar-width: none;
+        }
+        .logos-marquee {
+          animation: logos-marquee 40s linear infinite;
+          width: max-content;
+          will-change: transform;
+        }
+        @keyframes logos-marquee {
+          0% {
+            transform: translateX(0);
+          }
+          100% {
+            transform: translateX(-50%);
+          }
         }
       `}</style>
     </section>

@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Link from "next/link"
 
 export default function KeynoteHeroSection() {
   return (
@@ -54,13 +55,18 @@ export default function KeynoteHeroSection() {
 
                 {/* CTA: moved up + attached to copy */}
                 <div className="mt-7 sm:mt-8 md:mt-10 flex flex-col sm:flex-row items-start gap-4">
-                <button className="inline-flex items-center justify-center rounded-xl px-8 py-4 text-base sm:text-lg font-semibold text-white border border-white/25 bg-transparent hover:bg-white/5 transition hover:border-white/35 duration-300">
+                  <Link
+                    href="https://calendly.com/coachbrianmoses/discuss-booking-brian-for-your-event-clone"
+                    className="inline-flex items-center justify-center rounded-xl px-8 py-4 text-base sm:text-lg font-semibold text-white border border-white/25 bg-transparent hover:bg-white/5 transition hover:border-white/35 duration-300"
+                  >
                     View Video Clips
-                  </button>
-                  <button className="inline-flex items-center justify-center rounded-xl px-8 py-4 text-base sm:text-lg font-semibold text-black bg-white hover:bg-white/95 transition shadow-[0_18px_50px_rgba(0,0,0,0.35)] hover:shadow-[0_25px_70px_rgba(0,0,0,0.45)] hover:scale-105 duration-300">
+                  </Link>
+                  <Link
+                    href="https://calendly.com/coachbrianmoses/discuss-booking-brian-for-your-event-clone"
+                    className="inline-flex items-center justify-center rounded-xl px-8 py-4 text-base sm:text-lg font-semibold text-black bg-white hover:bg-white/95 transition shadow-[0_18px_50px_rgba(0,0,0,0.35)] hover:shadow-[0_25px_70px_rgba(0,0,0,0.45)] hover:scale-105 duration-300"
+                  >
                     Book Brian for your Next Event
-                  </button>
-                  
+                  </Link>
                 </div>
               </div>
             </div>

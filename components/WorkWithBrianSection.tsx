@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const programs = [
   {
@@ -107,9 +108,25 @@ export default function WorkWithBrianSection() {
 
                 {/* Button */}
                 <div className="mt-auto pt-7">
-                  <button className="inline-flex items-center justify-center rounded-full border border-white/35 px-5 py-2.5 text-sm text-white/90 hover:text-white hover:border-white/60 transition">
-                    {p.buttonText || "Learn More"}
-                  </button>
+                  {idx === 0 ? (
+                    <Link 
+                      href="https://brianmoses.com/how-to-get-3-new-listings-fast-new"
+                      className="inline-flex items-center justify-center rounded-full border border-white/35 px-5 py-2.5 text-sm text-white/90 hover:text-white hover:border-white/60 transition"
+                    >
+                      {p.buttonText || "Learn More"}
+                    </Link>
+                  ) : idx === 1 ? (
+                    <Link 
+                      href="https://calendly.com/coachbrianmoses/30-minute-business-assessment-clone"
+                      className="inline-flex items-center justify-center rounded-full border border-white/35 px-5 py-2.5 text-sm text-white/90 hover:text-white hover:border-white/60 transition"
+                    >
+                      {p.buttonText || "Learn More"}
+                    </Link>
+                  ) : (
+                    <button className="inline-flex items-center justify-center rounded-full border border-white/35 px-5 py-2.5 text-sm text-white/90 hover:text-white hover:border-white/60 transition">
+                      {p.buttonText || "Learn More"}
+                    </button>
+                  )}
                 </div>
               </div>
             </div>

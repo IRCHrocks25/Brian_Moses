@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function KeynoteBookSection() {
   return (
@@ -91,9 +92,12 @@ export default function KeynoteBookSection() {
                     </p>
 
                     {/* CTA Button */}
-                    <button className="w-full rounded-xl px-6 py-4 text-base sm:text-lg font-semibold text-black bg-white hover:bg-white/95 transition shadow-[0_20px_60px_rgba(255,255,255,0.15)]">
+                    <Link
+                      href="https://calendly.com/coachbrianmoses/discuss-booking-brian-for-your-event-clone"
+                      className="w-full inline-flex items-center justify-center rounded-xl px-6 py-4 text-base sm:text-lg font-semibold text-black bg-white hover:bg-white/95 transition shadow-[0_20px_60px_rgba(255,255,255,0.15)]"
+                    >
                       Request Availability
-                    </button>
+                    </Link>
 
                     {/* Response Time */}
                     <p className="mt-4 text-white/50 text-xs text-center">

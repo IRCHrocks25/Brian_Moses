@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { useState } from "react";
 
 const outcomes = [
@@ -8,31 +9,31 @@ const outcomes = [
     icon: "filled",
     title: "Immediately Increase Your Sales",
     description:
-      "Learn strategies to 'reduce your wasteful expenses and increase your sales and income immediately'",
+      "Learn strategies to reduce your wasteful expenses and increase your sales and income immediately.",
   },
   {
     icon: "outline",
     title: "Dominate Your Local Market",
     description:
-      "Discover how to 'attract buyers and sellers, differentiate yourself from your competitors, increase your average sales price, and become the dominant agent in your market!'",
+      "Discover how to attract buyers and sellers, differentiate yourself from your competitors, increase your average sales price, and become the dominant agent in your market.",
   },
   {
     icon: "outline",
     title: "Build a Predictable Business",
     description:
-      "Create a real estate business that offers 'predictability' and allows you to 'take time off,' freeing you from being constantly on call.",
+      "Create a real estate business that offers predictability and allows you to take time off, freeing you from being constantly on call.",
   },
   {
     icon: "outline",
     title: "Create the Life You Desire",
     description:
-      "Design 'the business and life you desire', achieving financial freedom that serves your overall happiness.",
+      "Design the business and life you desire, achieving financial freedom that serves your overall happiness.",
   },
   {
     icon: "outline",
     title: "Attract Lots of Qualified Leads",
     description:
-      "Implement 'strategies, principals and quality lead generation best practices that will accelerate your income and transform your life!'. Ensure a 'consistent flow, a steady stream of highly motivated leads' right to you.",
+      "Implement strategies, principles, and quality lead generation best practices that will accelerate your income and transform your life. Ensure a consistent flow, a steady stream of highly motivated leads right to you.",
   },
 ];
 
@@ -186,18 +187,31 @@ export default function TypicalOutcomesSection() {
                 </p>
               </div>
               
-              {/* Image */}
-              <div className="relative w-full h-[300px] md:h-[350px] lg:h-[400px] rounded-xl overflow-hidden border-2 border-[#2aa7ff]/30 shadow-[0_20px_60px_rgba(42,167,255,0.3)] flex-shrink-0">
-                <Image
-                  src="/images/brian18.png"
-                  alt="Brian Moses"
-                  fill
-                  className="object-cover"
-                  style={{ objectPosition: 'center center' }}
-                  priority
-                />
-                {/* Subtle gradient overlay for depth */}
-                <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent"></div>
+              {/* Images */}
+              <div className="flex flex-col gap-4 flex-shrink-0">
+                <div className="relative w-full h-[260px] md:h-[300px] rounded-xl overflow-hidden border-2 border-[#2aa7ff]/30 shadow-[0_16px_40px_rgba(42,167,255,0.25)]">
+                  <Image
+                    src="/images/brian18.png"
+                    alt="Brian Moses speaking"
+                    fill
+                    className="object-cover"
+                    style={{ objectPosition: "center center" }}
+                    priority
+                  />
+                  {/* Subtle gradient overlay for depth */}
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/25 via-transparent to-transparent" />
+                </div>
+
+                <div className="relative w-full h-[260px] md:h-[300px] rounded-xl overflow-hidden border-2 border-[#2aa7ff]/30 shadow-[0_16px_40px_rgba(42,167,255,0.25)]">
+                  <Image
+                    src="/images/TonyRobbinsBrianCelts (1).png"
+                    alt="Brian Moses with Tony Robbins"
+                    fill
+                    className="object-cover"
+                    style={{ objectPosition: "center center" }}
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/25 via-transparent to-transparent" />
+                </div>
               </div>
             </div>
           </div>
@@ -205,7 +219,7 @@ export default function TypicalOutcomesSection() {
           {/* Closing Statement */}
           <div className="text-center bg-[#2aa7ff]/10 rounded-xl p-6 md:p-8 border-2 border-[#2aa7ff]/30">
             <p className="text-white text-lg md:text-xl lg:text-2xl font-semibold">
-              His Strategies have been proven repeatedly through the success of the <span className="text-[#2aa7ff] font-bold">thousands</span> he has impacted over the years.
+              Brian's Strategies have been proven repeatedly through the success of the <span className="text-[#2aa7ff] font-bold">thousands</span> he has impacted over the years.
             </p>
           </div>
         </div>
@@ -252,9 +266,12 @@ export default function TypicalOutcomesSection() {
                 </p>
               </div>
               <div className="mt-auto pt-6">
-                <button className="w-full rounded-full bg-white text-black px-6 py-4 text-base md:text-lg font-semibold hover:bg-gray-100 transition-colors">
+                <Link 
+                  href="https://brianmoses.com/how-to-get-3-new-listings-fast-new"
+                  className="block w-full rounded-full bg-white text-black px-6 py-4 text-base md:text-lg font-semibold hover:bg-gray-100 transition-colors text-center"
+                >
                   Inner Circle Group Coaching
-                </button>
+                </Link>
               </div>
             </div>
             
@@ -266,9 +283,12 @@ export default function TypicalOutcomesSection() {
                 </p>
               </div>
               <div className="mt-auto pt-6">
-                <button className="w-full rounded-full bg-white text-black px-6 py-4 text-base md:text-lg font-semibold hover:bg-gray-100 transition-colors">
+                <Link 
+                  href="https://calendly.com/coachbrianmoses/30-minute-business-assessment-clone"
+                  className="block w-full rounded-full bg-white text-black px-6 py-4 text-base md:text-lg font-semibold hover:bg-gray-100 transition-colors text-center"
+                >
                   Apply Now
-                </button>
+                </Link>
               </div>
             </div>
           </div>
