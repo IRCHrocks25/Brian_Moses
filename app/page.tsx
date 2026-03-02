@@ -92,17 +92,33 @@ export default function Home() {
           </p>
         </div>
 
-        {/* Trusted By Logos - Marquee (Edge to Edge, remaining 6 logos) */}
+        {/* Trusted By Logos - Marquee (Edge to Edge, colored logos) */}
         <div className="mt-12 md:mt-16 overflow-hidden w-full">
           <div className="marquee flex items-center gap-14 will-change-transform">
-              {[...Array(4)].flatMap((_, loop) =>
+              {[...Array(3)].flatMap((_, loop) =>
                 [
-                  "/images/logos/Frame 1000003721.png",
-                  "/images/logos/gradient-blue-logo 1.png",
-                  "/images/logos/13103 1.png",
-                  "/images/logos/163035_normal 1.png",
-                  "/images/logos/HomeSmart-Logo_Full_WHT 1.png",
-                  "/images/logos/Real-Logo-Outline-Black 1.png",
+                  "/colored_logos/Frame 1000007701.png",
+                  "/colored_logos/Frame 1000007702.png",
+                  "/colored_logos/Frame 1000007703.png",
+                  "/colored_logos/Frame 1000007704.png",
+                  "/colored_logos/Frame 1000007705.png",
+                  "/colored_logos/Frame 1000007706.png",
+                  "/colored_logos/Frame 1000007707.png",
+                  "/colored_logos/Frame 1000007708.png",
+                  "/colored_logos/Frame 1000007709.png",
+                  "/colored_logos/Frame 1000007710.png",
+                  "/colored_logos/Frame 1000007711.png",
+                  "/colored_logos/Frame 1000007712.png",
+                  "/colored_logos/Frame 1000007713.png",
+                  "/colored_logos/Frame 1000007714.png",
+                  "/colored_logos/Guaranteed_Rate_Logo 1.png",
+                  "/colored_logos/Hyatt-Hotels-Emblem 1.png",
+                  "/colored_logos/mercedes-logo-mercedes-benz-logo-png-meaning-information-11 1.png",
+                  "/colored_logos/National_Football_League_logo.svg 1.png",
+                  "/colored_logos/Rotary-Logo-azure-6786 1.png",
+                  "/colored_logos/salesforce-logo 1.png",
+                  "/colored_logos/SUCCESS_MAGAZINE-1 1.png",
+                  "/colored_logos/Verizon_2015_logo_-vector.svg 1.png",
                 ].map((src) => {
                   // Encode the path to handle spaces and special characters
                   const encodedSrc = src.split('/').map((part, i) => 

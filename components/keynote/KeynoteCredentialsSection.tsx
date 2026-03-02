@@ -112,14 +112,37 @@ export default function KeynoteCredentialsSection() {
         <div className="w-full -mx-6 lg:-mx-12 overflow-hidden">
           <div className="logos-marquee flex items-center gap-12 py-7">
             {[...Array(2)].flatMap((_, loop) =>
-              Array.from({ length: 31 }, (_, i) => i + 1).map((num) => (
+              [
+                "/colored_logos/Frame 1000007701.png",
+                "/colored_logos/Frame 1000007702.png",
+                "/colored_logos/Frame 1000007703.png",
+                "/colored_logos/Frame 1000007704.png",
+                "/colored_logos/Frame 1000007705.png",
+                "/colored_logos/Frame 1000007706.png",
+                "/colored_logos/Frame 1000007707.png",
+                "/colored_logos/Frame 1000007708.png",
+                "/colored_logos/Frame 1000007709.png",
+                "/colored_logos/Frame 1000007710.png",
+                "/colored_logos/Frame 1000007711.png",
+                "/colored_logos/Frame 1000007712.png",
+                "/colored_logos/Frame 1000007713.png",
+                "/colored_logos/Frame 1000007714.png",
+                "/colored_logos/Guaranteed_Rate_Logo 1.png",
+                "/colored_logos/Hyatt-Hotels-Emblem 1.png",
+                "/colored_logos/mercedes-logo-mercedes-benz-logo-png-meaning-information-11 1.png",
+                "/colored_logos/National_Football_League_logo.svg 1.png",
+                "/colored_logos/Rotary-Logo-azure-6786 1.png",
+                "/colored_logos/salesforce-logo 1.png",
+                "/colored_logos/SUCCESS_MAGAZINE-1 1.png",
+                "/colored_logos/Verizon_2015_logo_-vector.svg 1.png",
+              ].map((src, index) => (
                 <div
-                  key={`${loop}-${num}`}
+                  key={`${loop}-${index}`}
                   className="relative h-14 sm:h-20 md:h-24 flex items-center justify-center px-10 sm:px-12 md:px-14"
                 >
                   <Image
-                    src={`/images/final_logos/logo2 - ${num}.png`}
-                    alt={`Logo ${num}`}
+                    src={src}
+                    alt="Logo"
                     fill
                     className="object-contain"
                   />
